@@ -1,0 +1,21 @@
+<apex:page sidebar="false" showHeader="false" StandardController="UniqueMail__c" extensions="OptOutController">
+<script>
+debugger;
+console.log('{!logs}');
+</script>
+    <apex:form >
+        <apex:pageMessages />
+        <apex:pageBlock title="オプトアウト サンプル">
+            <apex:pageBlockButtons location="bottom">
+                <apex:commandButton action="{!save}" value="保存" />
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection columns="1">
+            <apex:outputField value="{!um.Email__c}"/>
+            <apex:inputField value="{!um.WishSeminarEvent__c}"/>
+            <apex:inputField value="{!um.WishExam__c}"/>
+            <apex:inputField value="{!um.WishAccounts__c}"/>
+            <apex:inputField value="{!um.WishWEBContents__c}"/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

@@ -1,0 +1,10 @@
+<apex:page standardController="Account" sidebar="true">
+    <apex:panelGrid columns="2">
+        <apex:panelGrid columns="1" width="320px">
+            <apex:detail subject="{!account.OwnerId}" relatedList="true" title="false"/> 
+        </apex:panelGrid>
+        <apex:panelGrid columns="1" width="320px">
+            <apex:detail subject="{!account.Id}" relatedList="true" title="false"/> 
+        </apex:panelGrid>
+    </apex:panelGrid>
+</apex:page>
