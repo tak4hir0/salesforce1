@@ -4312,6 +4312,10 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
+        <apexPage>OpinionChartPie</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>PayApiTest</apexPage>
         <enabled>false</enabled>
     </pageAccesses>

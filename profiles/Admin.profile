@@ -4307,6 +4307,10 @@
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
+        <apexPage>OpinionChartPie</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>PayApiTest</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
@@ -4529,6 +4533,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>OAuth_API_Tester</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Opinion__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

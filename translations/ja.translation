@@ -4169,6 +4169,15 @@
         </sections>
     </reportTypes>
     <reportTypes>
+        <description><!-- 意識調査質問回答 --></description>
+        <label><!-- 意識調査質問回答 --></label>
+        <name>Opinion_Question_Answers2</name>
+        <sections>
+            <label><!-- 意識調査質問回答 --></label>
+            <name>意識調査質問回答</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
         <description><!-- クイックテキスト --></description>
         <label><!-- クイックテキスト --></label>
         <name>QuickText</name>
