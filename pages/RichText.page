@@ -1,0 +1,17 @@
+<apex:page standardController="Log__c">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function(){
+        debugger;
+        var iframes= document.getElementsByTagName('iframe');
+        console.log(iframes);
+        for (var frame in document.getElementsByTagName('iframe')){
+            console.log(iframes[frame].src);
+            iframes[frame].src = iframes[frame].src.replace('&Toolbar=SalesforceBasic','');
+        }
+    });
+</script>
+<apex:form >
+<apex:inputField value="{!Log__c.Field2__c}"/>
+</apex:form>
+</apex:page>

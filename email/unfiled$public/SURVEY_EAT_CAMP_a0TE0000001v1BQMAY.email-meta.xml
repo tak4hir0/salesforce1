@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>アンケートへの招待メール通知テンプレートの初期設定はこちらです。: チャットサポートについてのアンケート</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>[ワークフローのキャンペーンメンバーを使用して送信] チャットサポートについてのアンケート</name>
+    <style>none</style>
+    <subject>このアンケートに答えてください： チャットサポートについてのアンケート</subject>
+    <textOnly>このアンケートに答えてください：&lt;br/&gt;{!IF(CampaignMember.ContactId != null,&apos;https://timbasurveys.na9.visual.force.com/apex/timbasurveys__survey?id=a0TE0000001v1BQMAY&amp;cId=&apos;+CampaignMember.ContactId+&apos;&amp;wf=yes&apos;,&apos;https://timbasurveys.na9.visual.force.com/apex/timbasurveys__survey?id=a0TE0000001v1BQMAY&amp;lId=&apos;+CampaignMember.LeadId+&apos;&amp;wf=yes&apos;)}</textOnly>
+    <type>custom</type>
+</EmailTemplate>

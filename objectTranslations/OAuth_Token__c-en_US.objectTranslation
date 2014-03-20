@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OAuth Token</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OAuth Tokens</value>
+    </caseValues>
+    <fields>
+        <label><!-- OAuth Service --></label>
+        <name>OAuth_Service__c</name>
+        <relationshipLabel><!-- OAuth Tokens --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- OAuth Token Secret --></label>
+        <name>OAuth_Token_Secret__c</name>
+    </fields>
+    <fields>
+        <label><!-- OAuth Token --></label>
+        <name>OAuth_Token__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner --></label>
+        <name>Owner__c</name>
+        <relationshipLabel><!-- OAuth Tokens --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- isAccess --></label>
+        <name>isAccess__c</name>
+    </fields>
+    <layouts>
+        <layout>OAuth Token Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -32,7 +32,7 @@
          <apex:inputField value="{!u.username}"/>
       </apex:column>
 
-      <apex:column headerValue="従業員番号">
+      <!--apex:column headerValue="従業員番号">
          <apex:inputField value="{!u.EmployeeNumber}"/>
       </apex:column>
       
@@ -42,14 +42,15 @@
 
       <apex:column headerValue="部・課">
          <apex:inputField value="{!u.Department}"/>
-      </apex:column>            
+      </apex:column-->
+             
       <apex:column headerValue="電子メール">
          <apex:inputField value="{!u.email}"/>
       </apex:column>
 
-      <apex:column headerValue="携帯">
+      <!--apex:column headerValue="携帯">
          <apex:inputField value="{!u.mobilephone}"/>
-      </apex:column>DelegatedApprover
+      </apex:column-->
    
       <apex:column headerValue="ロール">
          <apex:inputField value="{!u.UserRoleId}"/>
@@ -59,9 +60,9 @@
          <apex:inputField value="{!u.Profileid}"/>
       </apex:column>
 
-      <apex:column headerValue="代理承認者">
+      <!--apex:column headerValue="代理承認者">
          <apex:inputField value="{!u.DelegatedApproverid}"/>
-      </apex:column> 
+      </apex:column--> 
 
       </apex:dataTable>
     </apex:pageBlockSection>  

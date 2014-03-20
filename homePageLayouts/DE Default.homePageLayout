@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <narrowComponents>standard-CreateNew</narrowComponents>
+    <narrowComponents>standard-Tags</narrowComponents>
+    <narrowComponents>standard-RecentItems</narrowComponents>
+    <narrowComponents>standard-MessagesAndAlerts</narrowComponents>
+    <narrowComponents>standard-PortalWelcome</narrowComponents>
+    <narrowComponents>standard-UsefulLinks</narrowComponents>
+    <narrowComponents>Full Editor 2</narrowComponents>
+    <wideComponents>SetupManager</wideComponents>
+</HomePageLayout>

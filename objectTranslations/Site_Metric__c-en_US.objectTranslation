@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Site Metric</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Site Metrics</value>
+    </caseValues>
+    <fields>
+        <label><!-- Display Value --></label>
+        <name>Display_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Metric --></label>
+        <name>Metric__c</name>
+        <picklistValues>
+            <masterLabel>ga:avgTimeOnSite</masterLabel>
+            <translation><!-- ga:avgTimeOnSite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ga:pageviewsPerVisit</masterLabel>
+            <translation><!-- ga:pageviewsPerVisit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ga:percentNewVisits</masterLabel>
+            <translation><!-- ga:percentNewVisits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ga:visitBounceRate</masterLabel>
+            <translation><!-- ga:visitBounceRate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ga:visitLength</masterLabel>
+            <translation><!-- ga:visitLength --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ga:visitors</masterLabel>
+            <translation><!-- ga:visitors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>mediaCodeConversion</masterLabel>
+            <translation><!-- mediaCodeConversion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>medicalInquirySource</masterLabel>
+            <translation><!-- medicalInquirySource --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>sampleRequestPDF</masterLabel>
+            <translation><!-- sampleRequestPDF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>sampleRequestSource</masterLabel>
+            <translation><!-- sampleRequestSource --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>savingsRequestSource</masterLabel>
+            <translation><!-- savingsRequestSource --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Site Metric Date --></label>
+        <name>Site_Metric_Date__c</name>
+        <relationshipLabel><!-- Site Metrics --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Time value of metric in minutes:seconds --></help>
+        <label><!-- Time --></label>
+        <name>Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>Value__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Time must be in format mm:ss --></errorMessage>
+        <name>Time_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

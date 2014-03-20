@@ -1,0 +1,14 @@
+<apex:page controller="ChartController">
+<apex:chart data="{!data}" height="512" width="768">
+    <apex:legend position="right" font="bold 14px Helvetica"/>
+    <apex:axis type="Numeric" position="left" title="Closed Won" grid="true"
+        fields="data1,data2,data3" minimum="0" maximum="225" steps="8" dashSize="2">
+    </apex:axis>
+    <apex:axis type="Category" position="bottom" fields="name" title="2012">
+        <apex:chartLabel rotate="315"/>
+    </apex:axis>
+    <apex:barSeries orientation="vertical" axis="left" xField="name" yField="data1,data2,data3" stacked="true">
+        <apex:chartLabel display="insideEnd"/>
+    </apex:barSeries>
+</apex:chart>
+</apex:page>

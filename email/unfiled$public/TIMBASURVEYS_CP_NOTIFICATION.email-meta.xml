@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification for Customer Portal Published Surveys</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>[TIMBASURVEYS][ Common Customer Portal Notification Template ]</name>
+    <style>none</style>
+    <subject>New Survey Notification</subject>
+    <type>text</type>
+</EmailTemplate>

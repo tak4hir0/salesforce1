@@ -4,10 +4,12 @@
     <c:SiteHeader />
     <hr/>
   </apex:insert>
-  <apex:insert name="body"/>
+  <apex:insert name="body">
+    Hello
+  </apex:insert>
   <apex:insert name="footer">
     <hr/>
     <c:SiteFooter />
-    <site:googleAnalyticsTracking />
+    <!--site:googleAnalyticsTracking /-->
   </apex:insert>
 </apex:page>

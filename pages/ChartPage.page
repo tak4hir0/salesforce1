@@ -1,0 +1,187 @@
+<apex:page controller="ChartController2" title="All The Charts!" sidebar="false" showHeader="true" >
+    <apex:pageBlock >
+        <apex:pageBlockSection columns="1" collapsible="true" showHeader="true" title="Items to Consider">
+            <apex:outputPanel >
+                <apex:pageMessage strength="3" summary="Visualforce charts only render in browsers which support scalable vector graphics (SVG). For more information, see WC3 SVG Working Group." severity="info"/>
+                <apex:pageMessage strength="3" summary="Visualforce charting uses JavaScript to draw the charts. Visualforce charts won’t display in pages rendered as PDFs." severity="info"/>
+                <apex:pageMessage strength="3" summary="Email clients do not usually support JavaScript execution in messages. Don’t use Visualforce charting in email messages or email templates." severity="info"/>
+                <apex:pageMessage strength="3" summary="Visualforce charting sends errors and messages to the JavaScript console. Keep a JavaScript debugging tool, such as Firebug, active during development." severity="info"/>
+                <apex:pageMessage strength="3" summary="Dynamic (Apex-generated) charting components are not supported at this time." severity="info"/>
+            </apex:outputPanel>
+        </apex:pageBlockSection>
+        <apex:pageBlockSection columns="3" collapsible="true" showHeader="true" title="Pies Charts!!!!">
+            <apex:chart height="350" width="350" data="{!pieData}">
+                <apex:pieSeries dataField="data" labelField="name"/>
+                <apex:legend position="right"/>
+            </apex:chart>
+            <apex:chart data="{!pieData}" height="350" width="350">
+                <apex:legend position="left"/>
+                <apex:pieSeries labelField="name" dataField="data"
+                    colorSet="#37241E,#94B3C8,#4D4E24,#BD8025,#816A4A,#F0E68C"/>
+            </apex:chart>
+            <apex:chart data="{!pieData}" height="350" width="400" background="#F5F5F5">
+                <apex:legend position="left"/>
+                <apex:pieSeries labelField="name" dataField="data" donut="50">
+                    <apex:chartLabel display="middle" orientation="vertical"
+                        font="bold 18px Helvetica"/>
+            ￼    </apex:pieSeries>
+            </apex:chart>
+        </apex:pageBlockSection>  
+        <apex:pageBlockSection columns="1" collapsible="true" showHeader="true" title="Horizontal Bar Chart!!!!">
+            <apex:chart data="{!Opportunities}" width="900" height="400">
+                <apex:axis type="Category" position="left" fields="Name" title="Opportunities"/>
+                <apex:axis type="Numeric" position="bottom" fields="Amount" title="Amount"/>
+                <apex:barSeries orientation="horizontal" axis="bottom" xField="Amount" yField="Name"/>
+            </apex:chart>
+        </apex:pageBlockSection>
+        <apex:pageBlockSection columns="1" collapsible="true" showHeader="true" title="Horizontal Bar Chart WITH AGGREGATION!!!!!!">
+            <apex:chart data="{!AccountAggregate}" width="900" height="400">
+                <apex:axis type="Category" position="left" fields="name" title="Accounts"/>
+                <apex:axis type="Numeric" position="bottom" fields="data" title="Total Revenue"/>
+                <apex:barSeries orientation="horizontal" axis="bottom" xField="data" yField="name"/>
+            </apex:chart>
+        </apex:pageBlockSection>
+        <apex:pageBlockSection columns="2" collapsible="true" showHeader="true" title="Linear Charts!!!!">
+            <apex:chart height="400" width="500" data="{!data}">
+                  <apex:axis type="Numeric" position="left" fields="data1" 
+                    title="Opportunities Closed" grid="true"/>
+                  <apex:axis type="Category" position="bottom" fields="name" 
+                    title="Month of the Year">
+                </apex:axis>
+                <apex:lineSeries axis="left" fill="true" xField="name" yField="data1"
+                  markerType="cross" markerSize="4" markerFill="#FF0000"/>
+           </apex:chart>
+           <apex:chart height="400" width="500" data="{!data}">
+                  <apex:axis type="Numeric" position="left" fields="data1,data2" 
+                    title="Opportunities Closed" grid="true"/>
+                  <apex:axis type="Category" position="bottom" fields="name" 
+                    title="Month of the Year">
+                  </apex:axis>
+                  <apex:lineSeries axis="left" fill="true" xField="name" yField="data1"
+                      markerType="cross" markerSize="4" markerFill="#FF0000"/>
+                  <apex:lineSeries axis="left" xField="name" yField="data2" 
+                    markerType="circle" markerSize="4" markerFill="#8E35EF"/>
+            </apex:chart>
+        </apex:pageBlockSection>
+        <apex:pageBlockSection columns="2" collapsible="true" showHeader="true" title="Bar and Linear Charts!!!!">
+             <apex:chart height="400" width="600" data="{!data}">
+                  <apex:axis type="Numeric" position="left" fields="data1,data2" 
+                    title="Opportunities Closed" grid="true"/>
+                <apex:axis type="Numeric" position="right" fields="data3" 
+                    title="Revenue (millions)"/>
+                  <apex:axis type="Category" position="bottom" fields="name" 
+                    title="Month of the Year"/>
+                  <apex:lineSeries axis="left" fill="true" xField="name" yField="data1"
+                      markerType="cross" markerSize="4" markerFill="#FF0000"/>
+                  <apex:lineSeries axis="left" xField="name" yField="data2" 
+                    markerType="circle" markerSize="4" markerFill="#8E35EF"/>
+                <apex:barSeries orientation="vertical" axis="right" 
+                    xField="name" yField="data3"/>
+            </apex:chart>
+            <apex:chart height="400" width="600" data="{!data}">
+                <apex:legend position="right"/>
+                <apex:axis type="Numeric" position="left" fields="data1"
+                    title="Opportunities Closed" grid="true"/>
+                <apex:axis type="Numeric" position="right" fields="data3"
+                    title="Revenue (millions)"/>
+                <apex:axis type="Category" position="bottom" fields="name"
+                    title="Month of the Year">
+                    <apex:chartLabel rotate="315"/>
+                </apex:axis>
+                <apex:barSeries title="Monthly Sales" orientation="vertical" axis="right"
+                    xField="name" yField="data3">
+                    <apex:chartTips height="20" width="120"/>
+                </apex:barSeries>
+                <apex:lineSeries title="Closed-Won" axis="left" xField="name" yField="data1"
+                    fill="true" markerType="cross" markerSize="4" markerFill="#FF0000"/>
+                <apex:lineSeries title="Closed-Lost" axis="left" xField="name" yField="data2"
+                    markerType="circle" markerSize="4" markerFill="#8E35EF"/>
+            </apex:chart>
+        </apex:pageBlockSection>
+        <apex:pageBlockSection columns="2" collapsible="true" showHeader="true" title="Stacked Bar Charts!!!!">
+            <apex:chart data="{!data}" height="400" width="500">
+                <apex:legend position="left" font="bold 14px Helvetica"/>
+                <apex:axis type="Numeric" position="left" title="Closed Won" grid="true"
+                    fields="data1,data2,data3" minimum="0" maximum="225" steps="8" dashSize="2">
+                    <apex:chartLabel />
+                </apex:axis>
+                <apex:axis type="Category" position="bottom" fields="name" title="Month of the Year">
+                    <apex:chartLabel rotate="315"/>
+                </apex:axis>
+                <apex:barSeries orientation="vertical" axis="left"
+                    xField="name" yField="data1,data2,data3" stacked="true"/>
+            </apex:chart>
+            <apex:chart height="400" width="600" animate="true" data="{!data}">
+                <apex:legend position="left"/>
+                <apex:axis type="Numeric" position="left" title="Closed Won" grid="true"
+                    fields="data1,data2,data3">
+                    <apex:chartLabel />
+                </apex:axis>
+                <apex:axis type="Numeric" position="right" fields="data1"
+                    title="Closed Lost" />
+                <apex:axis type="Category" position="bottom" fields="name"
+                    title="Month of the Year">
+                    <apex:chartLabel rotate="315"/>
+                </apex:axis>
+                <apex:areaSeries axis="left" tips="true" opacity="0.4"
+                    xField="name" yField="data1,data2,data3"/>
+                <apex:barSeries orientation="vertical" axis="right"
+                    xField="name" yField="data1">
+                    <apex:chartLabel display="insideEnd" field="data1" color="#333"/>
+                </apex:barSeries>
+            </apex:chart>
+        </apex:pageBlockSection>
+        <apex:pageBlockSection columns="1" collapsible="true" showHeader="true" title="Area Series Chart!!!!">
+            <apex:chart height="400" width="1000" animate="true" data="{!data}">
+                <apex:legend position="left"/>
+                <apex:axis type="Numeric" position="left" fields="data1,data2,data3"
+                    title="Closed Won" grid="true">
+                    <apex:chartLabel />
+                </apex:axis>
+                <apex:axis type="Category" position="bottom" fields="name" title="Month of the Year">
+                    <apex:chartLabel rotate="315"/>
+                </apex:axis>
+                <apex:areaSeries axis="left" xField="name" tips="true"
+                    yField="data1,data2,data3" title="data1,data2,data3"  />
+            </apex:chart>
+        </apex:pageBlockSection>
+        <apex:pageBlockSection columns="2" collapsible="true" showHeader="true" title="Line/Area Series Chart!!!! PlUS A GAUGE CHART!!!!!">
+            <apex:chart height="400" width="600" animate="true" legend="true" data="{!data}">
+                <apex:legend position="left"/>
+                <apex:axis type="Numeric" position="left" title="Volatility" grid="true"
+                    fields="data1,data2,data3">
+                <apex:chartLabel />
+                </apex:axis>
+                <apex:axis type="Category" position="bottom" title="Month" grid="true"
+                    fields="name">
+                    <apex:chartLabel />
+                </apex:axis>
+                <apex:lineSeries axis="left" xField="name" yField="data1"
+                    strokeColor="#0000FF" strokeWidth="4"/>
+                <apex:lineSeries axis="left" fill="true" xField="name" yField="data2"
+                    markerType="cross" markerSize="4" markerFill="#FF0000"/>
+                <apex:lineSeries axis="left" xField="name" yField="data3"
+                    markerType="circle" markerSize="4" markerFill="#8E35EF">
+                    <apex:chartTips height="20" width="120"/>
+                </apex:lineSeries>
+            </apex:chart>
+            <apex:chart height="250" width="400" animate="true" data="{!data}">
+                <apex:axis type="Gauge" position="gauge" title="Transaction Load"
+                    minimum="0" maximum="100" steps="10"/>
+                <apex:gaugeSeries dataField="data1" donut="50" colorSet="#78c953,#ddd"/>
+            </apex:chart>
+        </apex:pageBlockSection>
+        <apex:pageBlockSection columns="1" collapsible="true" showHeader="true" title="RADIAL!!!! CHART!!!!!">
+            <apex:chart height="600" width="1000" legend="true" data="{!data}">
+                <apex:legend position="left"/>
+                <apex:axis type="Radial" position="radial">
+                    <apex:chartLabel />
+                </apex:axis>
+                <apex:radarSeries xField="name" yField="data1" tips="true" opacity="0.4"/>
+                <!--apex:radarSeries xField="name" yField="data2" tips="true" opacity="0.4"/-->
+                <!--apex:radarSeries xField="name" yField="data3" tips="true"
+                    markerType="cross" strokeWidth="2" strokeColor="#f33" opacity="0.4"/-->
+             </apex:chart>
+         </apex:pageBlockSection>
+     </apex:pageBlock> 
+</apex:page>

@@ -1,10 +1,80 @@
-<apex:page standardController="Account" sidebar="true">
+<apex:page controller="OAuthTwitterSampleController" action="{!init}" sidebar="true">
+    <style type="text/css">
+        .tweet_form {
+            border: 1px solid #aaa;
+            border-radius: 8px;
+            width: 656px;
+            padding: 8px;
+        }
+        .tweet_form textarea {
+            width: 650px;
+            margin: 0;
+            padding: 2px;
+            border-size: 1px;
+        }
+        .tweet_form .submit {
+            text-align: right;
+        }
+        .feeds {
+            border: 1px solid #aaa;
+            border-bottom: none;
+            border-radius: 8px;
+            width: 672px;
+            margin-top: 10px;
+        }
+        .feeds .feed {
+            border-bottom: 1px solid #aaa;
+            width: 672px;
+        }
+        .feeds .feed:last-child {
+            border-radius: 8px;
+        }
+        .feeds .feed .photo {
+            float: left;
+            padding: 8px;
+            width: 48px;
+        }
+        .feeds .feed .tweet {
+            float: left;
+            padding: 8px;
+            padding-left: 0;
+            width: 600px;
+        }
+        .feeds .clear {
+            clear: both;
+            height: 0;
+        }
+    </style>
     <apex:panelGrid columns="2">
-        <apex:panelGrid columns="1" width="320px">
-            <apex:detail subject="{!account.OwnerId}" relatedList="true" title="false"/> 
-        </apex:panelGrid>
-        <apex:panelGrid columns="1" width="320px">
-            <apex:detail subject="{!account.Id}" relatedList="true" title="false"/> 
-        </apex:panelGrid>
+    <apex:panelGrid columns="1">
+    <apex:form >
+        <apex:outputPanel id="tweet_form" styleClass="tweet_form" layout="block">
+            <apex:inputTextarea value="{!status}">
+                <apex:actionSupport event="onkeyup" reRender="len" />
+            </apex:inputTextarea>
+            <div class="submit">
+                <apex:outputText value="{!LEN(status)}" id="len" />
+                <apex:commandButton action="{!post}" value="Tweet" reRender="tweet_form,feeds" />
+            </div>
+        </apex:outputPanel>
+        <apex:actionPoller interval="10" reRender="feeds" />
+    </apex:form>
+    <apex:outputPanel id="feeds" styleClass="feeds" layout="block">
+    <apex:repeat value="{!feed.array_value}" var="f">
+            <div class="feed">
+                <div class="photo">
+                    <apex:image value="{!f.hash_value['user'].hash_value['profile_image_url'].string_value}" />
+                </div>
+                <div class="tweet">
+                    <apex:outputLink value="https://twitter.com/{!f.hash_value['user'].hash_value['screen_name'].string_value}" target="_blank">
+                        {!f.hash_value['user'].hash_value['name'].string_value}
+                    </apex:outputLink>
+                    <p>{!f.hash_value['text'].string_value}</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </apex:repeat>
+    </apex:outputPanel>
+    </apex:panelGrid>
     </apex:panelGrid>
 </apex:page>

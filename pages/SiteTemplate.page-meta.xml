@@ -3,4 +3,39 @@
     <apiVersion>25.0</apiVersion>
     <description>Force.com デフォルトページ - サイトのテンプレート</description>
     <label>SiteTemplate</label>
+    <packageVersions>
+        <majorNumber>3</majorNumber>
+        <minorNumber>23</minorNumber>
+        <namespace>GBLite</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>1</majorNumber>
+        <minorNumber>812</minorNumber>
+        <namespace>SDOC</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>7</majorNumber>
+        <minorNumber>60</minorNumber>
+        <namespace>TIMBASURVEYS</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>1</majorNumber>
+        <minorNumber>0</minorNumber>
+        <namespace>cloudconverter</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>2</majorNumber>
+        <minorNumber>0</minorNumber>
+        <namespace>cloudsync</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>5</majorNumber>
+        <minorNumber>155</minorNumber>
+        <namespace>cms</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>2</majorNumber>
+        <minorNumber>31</minorNumber>
+        <namespace>tatami2</namespace>
+    </packageVersions>
 </ApexPage>
