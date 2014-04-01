@@ -15,7 +15,7 @@
         <enableCSRFOnGet>true</enableCSRFOnGet>
         <enableCSRFOnPost>true</enableCSRFOnPost>
         <enableCacheAndAutocomplete>true</enableCacheAndAutocomplete>
-        <enableClickjackNonsetupSFDC>false</enableClickjackNonsetupSFDC>
+        <enableClickjackNonsetupSFDC>true</enableClickjackNonsetupSFDC>
         <enableClickjackNonsetupUser>false</enableClickjackNonsetupUser>
         <enableClickjackSetup>true</enableClickjackSetup>
         <enableSMSIdentity>false</enableSMSIdentity>

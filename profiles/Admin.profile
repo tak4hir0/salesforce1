@@ -788,6 +788,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>PR</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>PaymentDetailInfo</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -4307,7 +4311,15 @@
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
+        <apexPage>OneStarter</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>OpinionChartPie</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>PR</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
