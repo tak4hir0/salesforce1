@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPageWebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Full Editor</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>javascript:var iframes= document.getElementsByTagName(&apos;iframe&apos;);for (var frame in document.getElementsByTagName(&apos;iframe&apos;)){ iframes[frame].src = iframes[frame].src.replace(&apos;&amp;Toolbar=SalesforceBasic&apos;,&apos;&apos;);}</url>
+</CustomPageWebLink>

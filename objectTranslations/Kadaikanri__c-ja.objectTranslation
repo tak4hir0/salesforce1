@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>課題管理</value>
+    </caseValues>
+    <fields>
+        <label><!-- 課題内容［本文］ --></label>
+        <name>Kadainaiyo__c</name>
+    </fields>
+    <fields>
+        <label><!-- 課題完了日 --></label>
+        <name>Kanryoubi__c</name>
+    </fields>
+    <fields>
+        <label><!-- 経過内容 --></label>
+        <name>Naiyokakunin__c</name>
+    </fields>
+    <fields>
+        <label><!-- お客様記載欄 --></label>
+        <name>Okyakusamakisairan__c</name>
+    </fields>
+    <fields>
+        <label><!-- 作成者（またはタスク依頼者） --></label>
+        <name>Sakuseisya__c</name>
+    </fields>
+    <fields>
+        <help><!-- 現在までの消費工数を記載します。（単位：時間、0.5刻み） --></help>
+        <label><!-- 現在までの消費工数 --></label>
+        <name>Syouhikousu__c</name>
+    </fields>
+    <fields>
+        <label><!-- 課題のクローズ --></label>
+        <name>close__c</name>
+    </fields>
+    <fields>
+        <label><!-- 外部ID --></label>
+        <name>gaibuid__c</name>
+    </fields>
+    <fields>
+        <label><!-- 課題分類 --></label>
+        <name>kadaibunrui__c</name>
+        <picklistValues>
+            <masterLabel>0.未分類</masterLabel>
+            <translation><!-- 0.未分類 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.機能追加修正(範囲内）</masterLabel>
+            <translation><!-- 1.機能追加修正(範囲内） --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.機能追加修正(範囲外)</masterLabel>
+            <translation><!-- 2.機能追加修正(範囲外) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.バグ・瑕疵</masterLabel>
+            <translation><!-- 3.バグ・瑕疵 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- No{000000}-{YYYY}{MM}{DD} --></help>
+        <label><!-- 課題No --></label>
+        <name>kadainum__c</name>
+    </fields>
+    <fields>
+        <label><!-- 課題発生または優先度理由 --></label>
+        <name>kadairiyu__c</name>
+    </fields>
+    <fields>
+        <label><!-- Uhuruステータス --></label>
+        <name>kadaisutats__c</name>
+        <picklistValues>
+            <masterLabel>保留</masterLabel>
+            <translation><!-- 保留 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>完了</masterLabel>
+            <translation><!-- 完了 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>未着手</masterLabel>
+            <translation><!-- 未着手 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>着手中</masterLabel>
+            <translation><!-- 着手中 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 決定内容 --></label>
+        <name>ketteijikou__c</name>
+    </fields>
+    <fields>
+        <label><!-- 貴社ステータス --></label>
+        <name>kisyasutetasu__c</name>
+        <picklistValues>
+            <masterLabel>対応中</masterLabel>
+            <translation><!-- 対応中 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>確認中</masterLabel>
+            <translation><!-- 確認中 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>確認済</masterLabel>
+            <translation><!-- 確認済 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- お客様に入力して頂きます。 --></help>
+        <label><!-- 決定内容承認 --></label>
+        <name>syounin__c</name>
+    </fields>
+    <fields>
+        <help><!-- 高→影響範囲が広く、作業の緊急性を要するるもの。またはバグなど。
+中→通常はこちらを選択してください。（デフォルト値）
+低→質問や事象の記録など。 --></help>
+        <label><!-- 優先度 --></label>
+        <name>yuusenndo__c</name>
+        <picklistValues>
+            <masterLabel>中</masterLabel>
+            <translation><!-- 中 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>低</masterLabel>
+            <translation><!-- 低 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>高</masterLabel>
+            <translation><!-- 高 --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>KadaikanriMain</layout>
+        <sections>
+            <label><!-- 1.起票 --></label>
+            <section>1.起票</section>
+        </sections>
+        <sections>
+            <label><!-- 2.経過（Uhuru） --></label>
+            <section>2.経過（Uhuru）</section>
+        </sections>
+        <sections>
+            <label><!-- 2.経過（お客様） --></label>
+            <section>2.経過（お客様）</section>
+        </sections>
+        <sections>
+            <label><!-- 3.決定事項 --></label>
+            <section>3.決定事項</section>
+        </sections>
+        <sections>
+            <label><!-- 4.完了 --></label>
+            <section>4.完了</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 新規セクション --></label>
+            <section>新規セクション</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

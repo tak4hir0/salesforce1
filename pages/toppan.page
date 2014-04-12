@@ -1,0 +1,7 @@
+<apex:page >
+<apex:iframe src="{!URLFOR($Resource.toppan,'index.html')}"/>
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Congratulations</h1>
+  This is your new Page: toppan
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

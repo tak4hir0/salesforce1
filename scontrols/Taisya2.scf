@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"> 
+<html> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+<title>退社時間</title> 
+<link href="/css/ja/ie_global.css" rel="stylesheet" type="text/css"> 
+<link href="/css/ja/ie_navigation.css" rel="stylesheet" type="text/css"> 
+
+<script src="/soap/ajax/13.0/connection.js" type="text/javascript"></script> 
+<script type="text/javascript"> 
+
+function Taisya2(){ 
+
+	
+	var date = new Date();
+				var yy = date.getYear();
+					if (yy < 2000) yy += 1900;
+				var mm=date.getMonth() + 1;
+					if(mm<10)mm="0"+mm;
+				var dd=date.getDate();
+					if(dd<10)dd="0"+dd;
+				var dd2=date.getDate() -1;
+					if(dd2<10)dd2="0"+dd2;
+
+	var date2 = yy+"-"+mm+"-"+dd
+
+
+	var qrDT = sforce.connection.query("Select Id,CreatedDate_custom__c,CreatedById From Timecard__c Where CreatedById = '{!User.Id}' and Taisyo_data__c = 1 ORDER BY Syussya_bi__c desc"); 
+
+	if (qrDT.size > 0) {
+
+		var recs = qrDT.getArray("records");
+		var TimecardId = recs[0].get("Id")
+	        var Time= new sforce.SObject("Timecard__c");
+		var updateObjects = [];
+		
+                Time.set("Id",TimecardId);
+		Time.set("Taisya_Time__c",new Date());
+
+		updateObjects.push(Time); 
+		var sfdc = sforce.connection.update(updateObjects);
+
+	        alert("退社データ作成完了です。お疲れ様でした。")
+
+	} 
+
+	else {
+	        alert("該当の出社データがありません")
+	} 
+
+window.parent.close();
+
+} 
+
+</script> 
+</head> 
+
+<body onload="Taisya2()" bgcolor="#ffffff" LINK="#000000" VLINK="#000000" ALINK="#99CC00" TOPMARGIN="0" LEFTMARGIN="0" MARGINWIDTH="0" MARGINHEIGHT="0"> 
+
+<center> 
+<br> 
+<table width="100%"> 
+<tr> 
+<td align=center> 
+<span class="moduleTitle">データの更新中... </span> 
+</td> 
+</tr> 
+<tr> 
+<td>&nbsp;</td> 
+</tr> 
+<tr> 
+<td align=center> 
+<img src="/img/waiting_dots.gif" border="0" width=156 height=25> 
+</td> 
+</tr> 
+</table> 
+</center> 
+
+</body> 
+</html>

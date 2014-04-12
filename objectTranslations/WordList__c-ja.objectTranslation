@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>WordList</value>
+    </caseValues>
+    <fields>
+        <label><!-- Mining --></label>
+        <name>Mining__c</name>
+        <relationshipLabel><!-- WordList --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>ma_result</masterLabel>
+            <translation><!-- ma_result --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>uniq_result</masterLabel>
+            <translation><!-- uniq_result --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- pos --></label>
+        <name>pos__c</name>
+    </fields>
+    <fields>
+        <label><!-- reading --></label>
+        <name>reading__c</name>
+    </fields>
+    <fields>
+        <label><!-- surface --></label>
+        <name>surface__c</name>
+    </fields>
+</CustomObjectTranslation>

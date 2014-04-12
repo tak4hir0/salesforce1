@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>顧客数変遷</value>
+    </caseValues>
+    <fields>
+        <label><!-- 種別 --></label>
+        <name>Field1__c</name>
+    </fields>
+    <fields>
+        <label><!-- 顧客数 --></label>
+        <name>Field2__c</name>
+    </fields>
+    <fields>
+        <label><!-- 取引先所有者 --></label>
+        <name>Field3__c</name>
+    </fields>
+    <fields>
+        <label><!-- 所有者ロール --></label>
+        <name>Field4__c</name>
+    </fields>
+    <fields>
+        <label><!-- 日付 --></label>
+        <name>date__c</name>
+    </fields>
+    <layouts>
+        <layout>顧客数変遷レイアウト</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

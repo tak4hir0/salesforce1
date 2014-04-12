@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>コンベア</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Merchandise</value>
+    </caseValues>
+    <fields>
+        <label><!-- 日付 --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- 備考 --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- 複数選択リスト --></label>
+        <name>Field1__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E</masterLabel>
+            <translation><!-- E --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 複数選択リストをテキスト --></label>
+        <name>Field2__c</name>
+    </fields>
+    <fields>
+        <label><!-- 選択リスト --></label>
+        <name>Field3__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E</masterLabel>
+            <translation><!-- E --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 複数選択リストに値があるか？ --></label>
+        <name>Field4__c</name>
+    </fields>
+    <fields>
+        <label><!-- 取引先 --></label>
+        <name>Field5__c</name>
+        <relationshipLabel><!-- Merchandise --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 過去 --></label>
+        <name>Past__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Inventory --></label>
+        <name>Total_Inventory__c</name>
+    </fields>
+    <layouts>
+        <layout>Merchandise Layout</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 非表示セクション --></label>
+            <section>非表示セクション</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

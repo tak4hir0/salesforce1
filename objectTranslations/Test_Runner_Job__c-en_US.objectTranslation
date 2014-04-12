@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Test Runner Job</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Test Runner Jobs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Automated Test Run --></label>
+        <name>Automated_Test_Run__c</name>
+        <relationshipLabel><!-- Test Runner Jobs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Processed --></label>
+        <name>Processed__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

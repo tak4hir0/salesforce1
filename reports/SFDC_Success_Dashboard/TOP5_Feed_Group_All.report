@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>User.CollaborationGroup$CreatedById.FeedItems$Body</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>User.CollaborationGroup$CreatedById.FeedItems$CreatedDate</column>
+            <operator>lessThan</operator>
+            <value>THIS_WEEK</value>
+        </criteriaItems>
+        <language>ja</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>User.CollaborationGroup$CreatedById.FeedItems$Type</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>User.CollaborationGroup$CreatedById.FeedItems$CreatedBy</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Group_投稿(全期間)</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>User_ChatterGroup_Feed_2012__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>User.CollaborationGroup$CreatedById.FeedItems$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>
