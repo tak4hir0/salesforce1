@@ -13,7 +13,6 @@ global with sharing class Clone {
    //standard constructor
    global Clone(){
 		String hoge;
-		String foo;
    }
 
    //quick clone constructor
