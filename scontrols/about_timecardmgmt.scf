@@ -1,0 +1,165 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<!-- Replace all instances of MyApp with your app's name -->
+<title>MyApp Splash Page</title>
+<!-- Do not edit this section below -->
+<style type="text/css" media="all">
+body#splashBody {
+font-family: arial, helvetica, verdana, sans-serif;
+font-size: 80%;
+margin: 0;
+padding: 0;
+width: 97%;
+}
+img {
+border: 0;
+margin: 0;
+padding: 0;
+}
+p {
+margin: 0;
+padding: 0;
+}
+h1.appName {
+font-weight: bold;
+font-size: 100%;
+color: #FFF;
+background-color: #638658;
+padding: 10px 0 10px 8px;
+margin: 0 0 15px 0;
+}
+h2 {
+color: #FFF;
+padding: 2px 0 2px 8px;
+margin-top: 0;
+background-color: #638658;
+font-size: 90%;
+}
+h2.exchangeTitle {
+background-color: #999;
+}
+#splash {
+margin: 0;
+padding: 0;
+width: 100%;
+}
+#splash td {
+margin: 0;
+padding: 0;
+}
+#splash #splashLeft {
+vertical-align: top;
+background-color: #F3F3EC;
+border-bottom: 2px solid #638658;
+}
+#splash #splashCenter {
+display:block;
+width: 15px;
+background-color: #FFF;
+}
+#splash #splashRight {
+vertical-align: top;
+background-color: #E8E8E8;
+border-bottom: 2px solid #999;
+}
+#splash #splashLeft .about, #splash #splashLeft .exchange {
+width: 100%;
+}
+#splash #splashRight .exchange p {
+font-size: 90%;
+color: #333;
+margin: 0 10px 12px 10px;
+line-height: 1.4em;
+}
+#splash #splashLeft .about p {
+font-size: 90%;
+color: #333;
+margin: 0 10px 12px 15px;
+line-height: 1.4em;
+}
+#splash #splashLeft .about fieldset {
+color: #333;
+margin: 0 15px 10px 15px;
+padding: 2px;
+}
+#splash #splashLeft .about fieldset ul {
+padding: 0;
+margin: .3em 0 .3em 2em;
+}
+#splash #splashLeft .about fieldset li {
+padding: 0;
+margin: 0;
+}
+#splash #splashLeft .about legend {
+font-size: 90%;
+color: #333;
+font-weight: bold;
+}
+.imgDiv {
+text-align: center;
+padding: 0 0 10px 0; 
+}
+
+</style><!-- Do not edit this section above -->
+</head>
+<body id="splashBody">
+<h1 class="appName">外注費管理</h1>
+<table id="splash" cellspacing="0">
+<tbody>
+<tr>
+<td id="splashLeft" width="75%">
+<div class="about">
+<h2>タイムカード管理について</h2>
+<p>タイムカード管理では、出退社時間を容易な操作で保存できるので、勤務時間や残業時間をSalesforce上で確認・分析することが出来ます。<br>
+出社・退社各リンクをクリックすることでデータが自動生成され、レポートやダッシュボードで確認することが可能です。
+<br>
+なお、このアプリケーションは、AJAXを利用し、Force.com WebサービスAPI経由で情報を更新するため、Force.com WebサービスAPI を使用可能な
+Editionを利用する必要があります。<br>
+<br>
+</p>
+<p>【使用方法】<br>
+</p>
+<ol>
+<li>
+<p>出社時はホームタブの出社リンクをクリック。</p>
+</li>
+<li>
+<p>退社時もホームタブの退社リンクをクリック。</p>
+</li>
+<li>
+<p>以上で操作は完了です。</p>
+</li>
+</ol>
+</ul>
+</ul>
+</div>
+</td>
+<td>
+<div id="splashCenter">&nbsp;</div>
+</td>
+<td id="splashRight" width="25%">
+<div class="exchange"><!-- Replace the information below with your COMPANY logo and a brief description of your company. -->
+<!-- Do not alter the width & height of the image -->
+<h2 class="exchangeTitle">株式会社セールスフォース・ドットコムについて<br>
+</h2>
+<div class="imgDiv">
+<p>&nbsp;</p>
+<p><em><img alt="salesforce.com"
+src="https://www.salesforce.com/us/assets/logos/sfdc_223x78.gif"
+style="width: 223px; height: 78px;"><br>
+</em></p>
+</div>
+<p>セールスフォース・ドットコムは、オンデマンド・カスタマー・リレーションシップ・マネージメント（CRM）のマーケットおよびテクノロジーのリーディングカンパニーです。同社のオンデマンドCRMアプリケーションは、企業の規模や業種、拠点を問わず、企業の複雑な情報管理と共有を実現します。
+Salesforce SFA、Salesforce Marketing、Salesforce Service &amp;
+Supportは、Force.comプラットフォーム上に構築されています。Force.comプラットフォームを活
+用することにより、ユーザや独立系ソフトウェアベンダー（ISV）は、同社アプリケーションのカスタマイズや他システムとの連携はもちろん、新たなオンデ
+マンド・エンタープライズ・アプリケーションの作成が可能です。またForce.com AppExchangeでは、開発者、パートナー、ユーザの皆様が自ら開発したオンデマン
+ド・アプリケーションを交換・共有する場（オンデマンド・マーケットプレイス）を提供しています。</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

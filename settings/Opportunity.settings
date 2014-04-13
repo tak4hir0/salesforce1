@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpportunitySettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoActivateNewReminders>true</autoActivateNewReminders>
+    <enableFindSimilarOpportunities>true</enableFindSimilarOpportunities>
+    <enableOpportunityTeam>false</enableOpportunityTeam>
+    <enableUpdateReminders>true</enableUpdateReminders>
+    <findSimilarOppFilter>
+        <similarOpportunitiesDisplayColumns>OPPORTUNITY.NAME</similarOpportunitiesDisplayColumns>
+        <similarOpportunitiesDisplayColumns>ACCOUNT.NAME</similarOpportunitiesDisplayColumns>
+        <similarOpportunitiesDisplayColumns>CORE.USERS.FULL_NAME</similarOpportunitiesDisplayColumns>
+        <similarOpportunitiesDisplayColumns>OPPORTUNITY.STAGE_NAME</similarOpportunitiesDisplayColumns>
+        <similarOpportunitiesMatchFields>OPPORTUNITY.ACCOUNT</similarOpportunitiesMatchFields>
+        <similarOpportunitiesMatchFields>Opportunity.OpportunityCompetitors</similarOpportunitiesMatchFields>
+        <similarOpportunitiesMatchFields>Opportunity.OpportunityLineItems</similarOpportunitiesMatchFields>
+        <similarOpportunitiesMatchFields>Opportunity.OpportunityContactRoles</similarOpportunitiesMatchFields>
+    </findSimilarOppFilter>
+    <promptToAddProducts>false</promptToAddProducts>
+</OpportunitySettings>

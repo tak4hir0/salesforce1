@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skill xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <profiles>
+            <profile>Live Agent ユーザ</profile>
+            <profile>システム管理者%EF%BC%88カスタム%EF%BC%89</profile>
+        </profiles>
+        <users>
+            <user>tak4hir0@sf.dev</user>
+        </users>
+    </assignments>
+    <label>予約</label>
+</Skill>

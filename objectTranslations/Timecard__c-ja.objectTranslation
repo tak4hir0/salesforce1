@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>タイムカード</value>
+    </caseValues>
+    <fields>
+        <label><!-- 作成日（カスタム） --></label>
+        <name>CreatedDate_custom__c</name>
+    </fields>
+    <fields>
+        <label><!-- 出社日時 --></label>
+        <name>Syussya_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- 出勤時間を数値換算 --></label>
+        <name>Syussya_Time_value__c</name>
+    </fields>
+    <fields>
+        <label><!-- 出社日 --></label>
+        <name>Syussya_bi__c</name>
+    </fields>
+    <fields>
+        <label><!-- 退社時間（時間のみ） --></label>
+        <name>Taisya_Hour__c</name>
+    </fields>
+    <fields>
+        <label><!-- 退社日時 --></label>
+        <name>Taisya_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- 退社時間を数値換算 --></label>
+        <name>Taisya_Time_value__c</name>
+    </fields>
+    <fields>
+        <label><!-- 退社対象データフラグ --></label>
+        <name>Taisyo_data__c</name>
+    </fields>
+    <fields>
+        <label><!-- 勤務時間（h） --></label>
+        <name>Working_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- 出勤日付 --></label>
+        <name>syukkinn_Scon__c</name>
+    </fields>
+    <fields>
+        <label><!-- 残業時間（18時以降） --></label>
+        <name>zangyo_time_18pm__c</name>
+    </fields>
+    <fields>
+        <label><!-- 残業時間（h） --></label>
+        <name>zangyou__c</name>
+    </fields>
+    <layouts>
+        <layout>タイムカードレイアウト</layout>
+        <sections>
+            <label><!-- 情報 --></label>
+            <section>情報</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

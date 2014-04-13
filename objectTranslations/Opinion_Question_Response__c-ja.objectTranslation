@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>意識調査質問回答選択値</value>
+    </caseValues>
+    <fields>
+        <label><!-- 意識調査質問 --></label>
+        <name>Opinion_Question__c</name>
+        <relationshipLabel><!-- 意識調査質問回答選択値 --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- 真偽値は はい/いいえ で利用
+もしくはテキストが格納されます。 --></help>
+        <label><!-- 意識調査回答値 --></label>
+        <name>Response_Option__c</name>
+    </fields>
+    <layouts>
+        <layout>意識調査質問回答選択値レイアウト</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

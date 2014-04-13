@@ -1,0 +1,9 @@
+<apex:page docType="html-5.0">
+       <video width="640" height="360" controls="controls">
+           <!--source src="{!URLFOR($Resource.MP4)}" type="video/mp4" /-->
+           <source src="/servlet/servlet.FileDownload?file=00PE0000005isB6" type="video/mp4" />
+           <!--source src="/sfc/servlet.shepherd/version/download/068E0000000o2a0" type="video/mp4" /-->
+           Your browser does not support the video tag.
+       </video>
+       <input type="text" x-webkit-speech>
+  </apex:page>

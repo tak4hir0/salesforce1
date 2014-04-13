@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <body>&lt;script type=&quot;application/javascript&quot;&gt;window.addEventListener(&quot;load&quot;, function() {    var iframes= document.getElementsByTagName(&apos;iframe&apos;);for (var frame in document.getElementsByTagName(&apos;iframe&apos;)){ iframes[frame].src = iframes[frame].src.replace(&apos;&amp;Toolbar=SalesforceBasic&apos;,&apos;&apos;);}}, false);&lt;/script&gt;</body>
+    <pageComponentType>htmlArea</pageComponentType>
+    <width>narrow</width>
+</HomePageComponent>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Automated Test Run</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Automated Test Runs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Comma-separated email addresses --></help>
+        <label><!-- Emails --></label>
+        <name>Emails__c</name>
+    </fields>
+    <fields>
+        <help><!-- Comma-delimited list of classes to exclude from testing --></help>
+        <label><!-- Excluded Classes --></label>
+        <name>Excluded_Classes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Query to match test class names, ie. Test% or %_Test (case insensitive) --></help>
+        <label><!-- Query --></label>
+        <name>Query__c</name>
+    </fields>
+    <layouts>
+        <layout>Automated Test Run Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Settings --></label>
+            <section>Settings</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

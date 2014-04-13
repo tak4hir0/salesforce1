@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>27.0</apiVersion>
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Account</name>
+    <packageVersions>
+        <majorNumber>1</majorNumber>
+        <minorNumber>812</minorNumber>
+        <namespace>SDOC</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>7</majorNumber>
+        <minorNumber>60</minorNumber>
+        <namespace>TIMBASURVEYS</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>1</majorNumber>
+        <minorNumber>0</minorNumber>
+        <namespace>cloudconverter</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>2</majorNumber>
+        <minorNumber>0</minorNumber>
+        <namespace>cloudsync</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>2</majorNumber>
+        <minorNumber>31</minorNumber>
+        <namespace>tatami2</namespace>
+    </packageVersions>
+    <style>none</style>
+    <type>visualforce</type>
+</EmailTemplate>

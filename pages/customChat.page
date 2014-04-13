@@ -1,0 +1,30 @@
+<apex:page showHeader="false">
+<!-- Add custom CSS here -->
+<!-- The root element for the chat window. This element gets a CSS class dynamically applied to indicate the state of the chat window. Available states are:
+"liveAgentStateWaiting" - indicates that the chat has not yet been answered.
+"liveAgentState" - indicates that the chat is engaged
+"liveAgentStateStatusMessage" - indicates that a status message is being displayed to the
+user.
+"liveAgentStateEnded" - indicates that the chat has ended. -->
+<liveAgent:clientchat >
+    <liveAgent:clientChatMessages />
+    <div id="waitingMessage" class="modal">
+    <!-- You can customize this waiting message HTML -->
+    <em>You are now being connected to an agent.</em>
+    </div>
+    <input type="hidden" name="liveagent.chat.query:Email" value="Contact,Contact.Email" />
+    <input type='hidden' name='liveagent.chat:Email' value="tkawabata@uhuru.jp"/>
+    <div id="chatControls" class="pod">
+    <liveAgent:clientChatEndButton label="End Chat" />
+    </div>
+    <liveAgent:clientChatLog />
+    <div id="chatInput" class="pod">
+    <liveagent:clientChatInput />
+    <liveAgent:clientChatSendButton label="Send"/>
+    </div>
+</liveAgent:clientchat>
+<!-- You can customize the window title with the js below -->
+<script type="text/javascript">
+document.title = "My Custom Live Chat Window";
+</script>
+</apex:page>

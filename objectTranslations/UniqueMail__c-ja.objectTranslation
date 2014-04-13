@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ユニークメールアドレス</value>
+    </caseValues>
+    <fields>
+        <label><!-- Autobahn配信停止 --></label>
+        <name>AutobahnNotSend__c</name>
+    </fields>
+    <fields>
+        <label><!-- キャンペーン名（ロングテキスト） --></label>
+        <name>CampaignNameMemo__c</name>
+    </fields>
+    <fields>
+        <label><!-- キャンペーン名 --></label>
+        <name>CampaignName__c</name>
+        <picklistValues>
+            <masterLabel>なし</masterLabel>
+            <translation><!-- なし --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- DM禁止 --></label>
+        <name>DMInhibitation__c</name>
+    </fields>
+    <fields>
+        <label><!-- レポート --></label>
+        <name>DomainReport__c</name>
+    </fields>
+    <fields>
+        <help><!-- メールアドレスの@以降をドメインとして表示します --></help>
+        <label><!-- ドメイン --></label>
+        <name>Domain__c</name>
+    </fields>
+    <fields>
+        <label><!-- メールアドレス --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- メール送信チェック --></label>
+        <name>MailTransmissionCheck__c</name>
+    </fields>
+    <fields>
+        <label><!-- 氏名（受講者） --></label>
+        <name>NameAudit__c</name>
+    </fields>
+    <fields>
+        <label><!-- 氏名（試験結果） --></label>
+        <name>NameExamResult__c</name>
+    </fields>
+    <fields>
+        <label><!-- 氏名（リード） --></label>
+        <name>NameLead__c</name>
+    </fields>
+    <fields>
+        <label><!-- 氏名（商談） --></label>
+        <name>NameOpp__c</name>
+    </fields>
+    <fields>
+        <label><!-- 氏名（バウチャー） --></label>
+        <name>NameVoucher__c</name>
+    </fields>
+    <fields>
+        <label><!-- 氏名 --></label>
+        <name>Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- ニュースレター受取 --></label>
+        <name>NewsLetterReceipt__c</name>
+        <picklistValues>
+            <masterLabel>不要</masterLabel>
+            <translation><!-- 不要 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>要</masterLabel>
+            <translation><!-- 要 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 不達電子メール --></label>
+        <name>NonEmail__c</name>
+    </fields>
+    <fields>
+        <help><!-- 配信停止、Autobahn配信停止、DM禁止、退職済・転属先不明のいずれかにチェックがある場合に赤となります。 --></help>
+        <label><!-- 配信停止 --></label>
+        <name>NotSend__c</name>
+    </fields>
+    <fields>
+        <label><!-- 退職済・転属先不明 --></label>
+        <name>Transferring__c</name>
+    </fields>
+    <fields>
+        <label><!-- 配信停止 --></label>
+        <name>TransmissionHalt__c</name>
+    </fields>
+    <fields>
+        <label><!-- 会計・財務関連サービスの案内を希望 --></label>
+        <name>WishAccounts__c</name>
+    </fields>
+    <fields>
+        <label><!-- 試験・研修の案内を希望 --></label>
+        <name>WishExam__c</name>
+    </fields>
+    <fields>
+        <label><!-- セミナー・イベントの案内を希望 --></label>
+        <name>WishSeminarEvent__c</name>
+    </fields>
+    <fields>
+        <label><!-- WEBコンテンツの案内を希望 --></label>
+        <name>WishWEBContents__c</name>
+    </fields>
+    <layouts>
+        <layout>ユニークメールアドレスレイアウト</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

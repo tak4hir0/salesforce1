@@ -1,0 +1,17 @@
+<messaging:emailTemplate subject="Contacts for {!relatedTo.Name}" recipientType="User" relatedToType="Account">
+   <messaging:plainTextEmailBody >
+       Account Name: {!relatedTo.name}
+       Contact Names: 
+    <apex:repeat value="{!relatedTo.Contacts}" var="contact">
+        {!contact.name}
+    </apex:repeat>
+   </messaging:plainTextEmailBody>
+   <messaging:attachment renderAs="pdf" filename="contactlist">
+       <h1>{!relatedTo.Name}</h1>
+       <apex:dataTable value="{!relatedTo.Contacts}" var="contact">
+           <apex:column value="{!contact.name}"/>
+           <apex:column value="{!contact.phone}"/>            
+           <apex:column value="{!contact.email}"/>            
+       </apex:dataTable>
+   </messaging:attachment>
+</messaging:emailTemplate>

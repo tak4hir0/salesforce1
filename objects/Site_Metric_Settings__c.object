@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <customSettingsVisibility>Public</customSettingsVisibility>
+    <description>Settings used for import Google Analytics data for a Force.com Site</description>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Average_Time_on_Site__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Select if you want to track average time spent on the site per visit.</inlineHelpText>
+        <label>Track Average Time on Site</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Email__c</fullName>
+        <description>Email username for Google Analytics</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Email username for Google Analytics</inlineHelpText>
+        <label>Email</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Password__c</fullName>
+        <description>Password for Google Analytics account</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Password for Google Analytics account</inlineHelpText>
+        <label>Password</label>
+        <length>80</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Table_Id__c</fullName>
+        <description>Google Table Id for Site, ie. ga:123456</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Google Table Id for Site, ie. ga:123456</inlineHelpText>
+        <label>Table Id</label>
+        <length>20</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Track_New_Visits__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Select if you want to track percentage of new visits.</inlineHelpText>
+        <label>Track New Visits %</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Track_Page_Views_Per_Visit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Select if you want to track page views per visit.</inlineHelpText>
+        <label>Track Page Views Per Visit</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Track_Visit_Bounce_Rate__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Select if you want to track visit bounce rate.</inlineHelpText>
+        <label>Track Visit Bounce Rate</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Track_Visitors__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Select if you want to track visitors to your site.</inlineHelpText>
+        <label>Track Visitors</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Tracking_Average_Time_on_Site__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This is an internal field to determine if we need to pull just the day&apos;s Google Analytics data or last 30 day&apos;s worth Google Analytics data.</description>
+        <externalId>false</externalId>
+        <label>Tracking Average Time on Site</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Tracking_New_Visits__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This is an internal field to determine if we need to pull just the day&apos;s Google Analytics data or last 30 day&apos;s worth Google Analytics data.</description>
+        <externalId>false</externalId>
+        <label>Tracking New Visits %</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Tracking_Page_Views_Per_Visit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This is an internal field to determine if we need to pull just the day&apos;s Google Analytics data or last 30 day&apos;s worth Google Analytics data.</description>
+        <externalId>false</externalId>
+        <label>Tracking Page Views Per Visit</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Tracking_Visit_Bounce_Rate__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This is an internal field to determine if we need to pull just the day&apos;s Google Analytics data or last 30 day&apos;s worth Google Analytics data.</description>
+        <externalId>false</externalId>
+        <label>Tracking Visit Bounce Rate</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Tracking_Visitors__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This is an internal field to determine if we need to pull just the day&apos;s Google Analytics data or last 30 day&apos;s worth Google Analytics data.</description>
+        <externalId>false</externalId>
+        <label>Tracking Visitors</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Site Metric Settings</label>
+</CustomObject>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>カスタム項目テスト</value>
+    </caseValues>
+    <fields>
+        <label><!-- テキスト --></label>
+        <name>Field2__c</name>
+    </fields>
+    <fields>
+        <label><!-- MultiPicklist --></label>
+        <name>MultiPicklist__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E</masterLabel>
+            <translation><!-- E --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F</masterLabel>
+            <translation><!-- F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G</masterLabel>
+            <translation><!-- G --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H</masterLabel>
+            <translation><!-- H --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I</masterLabel>
+            <translation><!-- I --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J</masterLabel>
+            <translation><!-- J --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K</masterLabel>
+            <translation><!-- K --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L</masterLabel>
+            <translation><!-- L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M</masterLabel>
+            <translation><!-- M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N</masterLabel>
+            <translation><!-- N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>O</masterLabel>
+            <translation><!-- O --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P</masterLabel>
+            <translation><!-- P --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q</masterLabel>
+            <translation><!-- Q --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R</masterLabel>
+            <translation><!-- R --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S</masterLabel>
+            <translation><!-- S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T</masterLabel>
+            <translation><!-- T --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U</masterLabel>
+            <translation><!-- U --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Picklist --></label>
+        <name>Picklist__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

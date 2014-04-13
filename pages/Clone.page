@@ -1,0 +1,54 @@
+<apex:page controller="ClonePage">
+<apex:messages style="color:red" />
+<table width="100%" height="100%"> 
+    <tr>
+        <td width="50%" height="100%">
+            <apex:form >
+            <br/>
+            <apex:outputPanel rendered="{!hasChildRecords && numberOfItems<=15}">
+            Choose what child records need to be cloned:<br/><br/>
+            
+                <apex:selectCheckboxes value="{!objects}" layout="pageDirection">
+                    <apex:selectOptions value="{!items}"/> 
+                </apex:selectCheckboxes>
+            
+            </apex:outputPanel>
+            
+            <apex:outputPanel rendered="{!hasChildRecords && numberOfItems>15}">
+            Choose what child records need to be cloned. Press "Ctrl" key if you want to do multiple select:<br/><br/>
+                
+                <apex:selectList value="{!objects}" size="10" multiselect="true">
+                    <apex:selectOptions value="{!items}"/>
+                </apex:selectList><p/>
+                     
+            </apex:outputPanel>
+                
+            <apex:outputPanel rendered="{!NOT(hasChildRecords)}">
+                This record does not have any child records. Click <strong>Clone</strong> button if you just want to clone the record on its own<br/><br/>
+            </apex:outputPanel>
+                <br/><br/>
+                
+            <apex:commandButton action="{!chainclone}" value="Clone" id="Button"/>
+            
+            </apex:form>
+            <br/>
+             Note: <br/>
+             1. Maximal 49 child objects allowed. <br/>
+             2. Following objects can NOT be cloned:<br/>
+            - Sharing<br/>
+            - Parent record<br/>
+            - Chatter Feed,Post and Comment<br/>
+            - Task<br/>
+            - Event<br/>
+            - Activity<br/>
+            - Approval Process<br/>
+            - Content<br/>
+            - Campaign Member Status<br/>
+        </td>
+        <td width="50%" height="100%">
+            <iframe src="http://home.exetel.com.au/jacklee/clone.html" frameborder="0" scrolling="no" width="100%" height="100%" />
+        </td>
+    </tr>
+</table>
+
+</apex:page>

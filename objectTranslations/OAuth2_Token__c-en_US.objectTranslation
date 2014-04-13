@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OAuth2 Token</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OAuth2 Tokens</value>
+    </caseValues>
+    <fields>
+        <label><!-- Access Token --></label>
+        <name>Access_Token__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expires_Date --></label>
+        <name>Expires_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expires In --></label>
+        <name>Expires_In__c</name>
+    </fields>
+    <fields>
+        <label><!-- OAuth Service --></label>
+        <name>OAuth_Service__c</name>
+        <relationshipLabel><!-- OAuth2 Tokens --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Owner --></label>
+        <name>Owner__c</name>
+        <relationshipLabel><!-- OAuth2 Tokens --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Refresh Token --></label>
+        <name>Refresh_Token__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scope --></label>
+        <name>Scope__c</name>
+    </fields>
+    <fields>
+        <label><!-- Token Type --></label>
+        <name>Token_Type__c</name>
+    </fields>
+    <layouts>
+        <layout>OAuth2 Token Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

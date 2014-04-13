@@ -1,0 +1,105 @@
+<!--apex:page >
+<script type="text/javascript">
+    var __sfdcSessionId = '{!GETSESSIONID()}';
+</script>
+<script src="/soap/ajax/27.0/connection.js" type="text/javascript"></script>
+<script type="text/javascript">
+    window.onload = setupPage;
+    
+    function setupPage() {
+        //function contains all code to execute after page is rendered
+
+        var state = { //state that you need when the callback is called
+            output : document.getElementById("output"),
+            startTime : new Date().getTime()};
+
+        var callback = {
+            //call layoutResult if the request is successful
+            onSuccess: layoutResults,
+
+            //call queryFailed if the api request fails
+            onFailure: queryFailed,
+            source: state};
+
+        sforce.connection.query(
+            "Select Id, Name, Industry From Account order by Industry",
+            callback);
+            
+            var result = sforce.connection.describeSObject("Account");
+            
+            console.log(result);
+ 
+//            console.log(result.label + " : " + result.name + " : ");
+            
+//            console.log("---------- fields ---------");
+            for (var i=0; i<result.fields.length; i++) {
+            var field = result.fields[i];
+//                console.log(field.name + " : " + field.label + " : " + field.length + " : ");
+            }
+            
+//            console.log("---------- child relationships ---------");
+            
+            for (var i=0; i<result.childRelationships.length; i++) {
+                var cr = result.childRelationships[i];
+//                console.log(cr.field + " : " + cr.childSObject);
+            }
+            
+//            console.log("---------- record type info ----------");
+            for (var i=0; i<result.recordTypeInfos.length; i++) {
+                var rt = result.recordTypeInfos[i];
+//                console.log(rt.name);
+            }
+    }
+
+    function queryFailed(error, source) {
+        source.output.innerHTML = "An error has occurred: " + error;
+    }
+
+    /**
+    * This method will be called when the toolkit receives a successful
+    * response from the server.
+    * @queryResult - result that server returned
+    * @source - state passed into the query method call.
+    */
+    function layoutResults(queryResult, source) {
+        if (queryResult.size > 0) {
+            var output = "";
+
+            //get the records array
+            var records = queryResult.getArray('records');
+
+            //loop through the records and construct html string
+            for (var i = 0; i < records.length; i++) {
+                var account = records[i];
+
+                output += account.Id + " " + account.Name +
+                " [Industry - " + account.Industry + "]<br>";
+            }
+
+            //render the generated html string
+            source.output.innerHTML = output;
+        }
+    }
+</script>
+
+<div id="output"></div>
+
+</apex:page-->
+
+<apex:page >
+<script type="text/javascript">
+    __sfdcSessionId = "{!$API.Session_ID}";
+</script>
+<script type="text/javascript" src="/soap/ajax/26.0/connection.js"></script>
+<script type="text/javascript" src="{!URLFOR($Resource.metadatajs)}"></script>
+<script type="text/javascript" src="{!URLFOR($Resource.jQuery)}"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        
+        sforce.metadata.describeMetadata(function(response) {
+            alert(response);
+        });
+        
+    });
+</script>
+</apex:page>
