@@ -3495,6 +3495,9 @@
         <layout>Chat_Answer__kav-Chat Answerレイアウト</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>CollaborationGroup-グループレイアウト</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Contact-Contact %28Marketing%29 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>

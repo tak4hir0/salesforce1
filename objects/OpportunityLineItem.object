@@ -49,4 +49,8 @@
         <fullName>OpportunityId</fullName>
         <type>Lookup</type>
     </fields>
+    <fields>
+        <fullName>Product2Id</fullName>
+        <type>Lookup</type>
+    </fields>
 </CustomObject>
