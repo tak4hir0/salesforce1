@@ -228,6 +228,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>D3Cloud</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>DataImportWorker</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -4150,6 +4154,10 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
+        <apexPage>d3cloud</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>editsite</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
@@ -4163,6 +4171,10 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>maps</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>obNotificationCenter</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
@@ -4240,6 +4252,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>UserInfo</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>d3_cloud</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

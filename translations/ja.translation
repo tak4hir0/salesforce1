@@ -4101,6 +4101,10 @@
         <name>UserInfoUpdater</name>
     </customTabs>
     <customTabs>
+        <label><!-- d3-cloud --></label>
+        <name>d3_cloud</name>
+    </customTabs>
+    <customTabs>
         <label><!-- famo.us --></label>
         <name>famo_us</name>
     </customTabs>
