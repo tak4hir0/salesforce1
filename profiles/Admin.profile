@@ -856,6 +856,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>ViewImage</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>apexWorkbook</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -4456,6 +4460,10 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>d3cloud</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>download</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
