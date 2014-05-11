@@ -4152,6 +4152,10 @@
         <label><!-- NewTask --></label>
         <name>NewTask</name>
     </quickActions>
+    <quickActions>
+        <label><!-- OneStarter --></label>
+        <name>OneStarter</name>
+    </quickActions>
     <reportTypes>
         <description><!-- Chatter --></description>
         <label><!-- Chatter --></label>
