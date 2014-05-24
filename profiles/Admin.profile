@@ -244,6 +244,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>DownloadFiles</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>ForgotPasswordController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -333,6 +337,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>OAuth2Test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>OAuth2Tester</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -808,6 +816,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>SignaturePad</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>SiteLoginController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -825,6 +837,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>SmartFactory_Test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>StaticResourceURL</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -890,6 +906,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.CSM_SFDC_RuisekiLost_Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.DefaultValue__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4319,6 +4340,10 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
+        <apexPage>Internal_Community_main</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>ListViews</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
@@ -4384,6 +4409,10 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>PreapprovalDetailTest</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>Prototype</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
@@ -4467,6 +4496,10 @@
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
+        <apexPage>downloadFiles</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>editsite</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
@@ -4492,6 +4525,10 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>salesforceMetadata</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>signaturepad</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>

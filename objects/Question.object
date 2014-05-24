@@ -57,7 +57,7 @@
         <fullName>Record_type_for_community_09aE00000007asPIAQ_entity_Question</fullName>
         <active>true</active>
         <description>Record type used to associate Question with a specific community</description>
-        <label>Internal Community: Question Record Type</label>
+        <label>Internal Community: Question レコードタイプ</label>
     </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>QUESTION.TITLE</customTabListAdditionalFields>

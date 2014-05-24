@@ -5,6 +5,7 @@
     <customButtons>SDOC__Email_Docs</customButtons>
     <customButtons>call</customButtons>
     <customButtons>metadatajs</customButtons>
+    <excludeButtons>DataDotComClean</excludeButtons>
     <excludeButtons>Submit</excludeButtons>
     <layoutSections>
         <customLabel>true</customLabel>
@@ -12,6 +13,17 @@
         <editHeading>true</editHeading>
         <label>&lt;font color=&quot;red&quot;&gt;新規セクション&lt;/font&gt;</label>
         <layoutColumns>
+            <layoutItems>
+                <reportChartComponent>
+                    <cacheData>true</cacheData>
+                    <contextFilterableField>ACCOUNT_ID</contextFilterableField>
+                    <hideOnError>false</hideOnError>
+                    <includeContext>true</includeContext>
+                    <reportName>csmqualityquantityeachobjects1</reportName>
+                    <showTitle>false</showTitle>
+                    <size>SMALL</size>
+                </reportChartComponent>
+            </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>hogehoge__c</field>
@@ -27,6 +39,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Field2__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>DefaultValue__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -225,6 +241,18 @@
     </layoutSections>
     <quickActionList>
         <quickActionListItems>
+            <quickActionName>Account.Update</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>Account.Kaden</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>Account.Kaden2</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>OneStarter</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
             <quickActionName>FeedItem.TextPost</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
@@ -261,9 +289,27 @@
             <quickActionName>FeedItem.PollPost</quickActionName>
         </quickActionListItems>
     </quickActionList>
+    <relatedContent>
+        <relatedContentItems>
+            <layoutItem>
+                <behavior>Readonly</behavior>
+                <field>ParentId</field>
+            </layoutItem>
+        </relatedContentItems>
+        <relatedContentItems>
+            <layoutItem>
+                <behavior>Readonly</behavior>
+                <field>Merchandise__c</field>
+            </layoutItem>
+        </relatedContentItems>
+    </relatedContent>
     <relatedLists>
-        <fields>NAME</fields>
-        <relatedList>SDOC__SDRelationship__c.SDOC__Account__c</relatedList>
+        <fields>CONTRACT.CONTRACT_NUMBER</fields>
+        <fields>CONTRACT.NAME</fields>
+        <fields>CONTRACT.START_DATE</fields>
+        <fields>CONTRACT.END_DATE</fields>
+        <fields>CONTRACT.STATUS</fields>
+        <relatedList>RelatedContractList</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>FULL_NAME</fields>

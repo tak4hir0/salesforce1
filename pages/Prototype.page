@@ -1,0 +1,3 @@
+<apex:page >
+<apex:image url="{!URLFOR($Resource.AvatarRed, 'red_met_white_black_00.png')}"/>
+</apex:page>

@@ -4156,6 +4156,10 @@
         <label><!-- OneStarter --></label>
         <name>OneStarter</name>
     </quickActions>
+    <quickActions>
+        <label><!-- Signature --></label>
+        <name>Signature</name>
+    </quickActions>
     <reportTypes>
         <description><!-- Chatter --></description>
         <label><!-- Chatter --></label>

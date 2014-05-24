@@ -73,6 +73,20 @@
         <type>Default</type>
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>CustomCompactLayout</fullName>
+        <fields>Name</fields>
+        <fields>BillingAddress</fields>
+        <fields>Type</fields>
+        <fields>Industry</fields>
+        <fields>AnnualRevenue</fields>
+        <fields>Phone</fields>
+        <fields>Website</fields>
+        <fields>OwnerId</fields>
+        <fields>Ruisekisei_yaku_kaisuu__c</fields>
+        <fields>SFDC_RuisekiClose_Amount__c</fields>
+        <label>カスタムコンパクトレイアウト</label>
+    </compactLayouts>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <fields>
@@ -120,6 +134,18 @@
         <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
         <summaryOperation>sum</summaryOperation>
         <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>DefaultValue__c</fullName>
+        <defaultValue>&quot;DefaultValue&quot;</defaultValue>
+        <description>既存レコードにデフォルト値は有効にならない。新規作成時だけ。</description>
+        <externalId>false</externalId>
+        <label>デフォルト値検証</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Due__c</fullName>

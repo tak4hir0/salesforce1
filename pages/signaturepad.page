@@ -1,0 +1,93 @@
+<apex:page showHeader="false" sidebar="false" standardStylesheets="false" docType="html-5.0" id="samplepage" controller="SignaturePad">
+  <style>
+    * {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+    }
+    html, body {
+        min-height: 100%;
+        height: 100%;
+        max-width: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+    html, body, form {
+        margin: 0px;
+    }
+    html, form {
+        padding: 0px;
+    }
+    html, body, fieldset {
+        background: #aaa;
+    }
+    fieldset {
+        position: absolute;
+        border: 5px solid #aaa;
+        background: #aaa;
+        right: 0px;
+        bottom: 0px;
+    }
+    canvas {
+        outline: 5px solid #aaa;
+        background: #fff;
+    }
+    input[type=submit], input[type=reset], input[type=button] {
+        font-size: larger;
+    }
+  </style>
+  <link rel="stylesheet" href="{!URLFOR($Resource.signaturepad, 'thomasjbradley-signature-pad-0814093/assets/jquery.signaturepad.css')}"/>
+  <!--[if lt IE 9]><script src="../assets/flashcanvas.js"></script><![endif]-->
+  <script src="{!URLFOR($Resource.jQuery)}"></script>
+    <form method="POST" action="">
+        <canvas class="pad"></canvas>
+        <fieldset>
+            <input type="reset" value="clear" />
+            <input type="button" value="save" onclick="saveImage()"/>
+        </fieldset>
+    </form>
+  <script src="{!URLFOR($Resource.signaturepad, 'thomasjbradley-signature-pad-0814093/jquery.signaturepad.js')}"></script>
+  <script>
+  
+  var api;
+  
+  function saveImage(){
+      debugger;
+      console.log(api.getSignatureImg());
+  }
+  
+  (function(window) {
+    var $canvas,
+        onResize = function(event) {
+          $canvas.attr({
+            height: window.innerHeight,
+            width: window.innerWidth
+          });
+        };
+
+    $(document).ready(function() {
+      $canvas = $('canvas');
+      window.addEventListener('orientationchange', onResize, false);
+      window.addEventListener('resize', onResize, false);
+      onResize();
+
+      api = $('form').signaturePad({
+        drawOnly: true,
+        defaultAction: 'drawIt',
+        validateFields: false,
+        lineWidth: 0,
+        output: null,
+        sigNav: null,
+        name: null,
+        typed: null,
+        clear: 'input[type=reset]',
+        typeIt: null,
+        drawIt: null,
+        typeItDesc: null,
+        drawItDesc: null
+      });
+    });
+  }(this));
+  </script>
+  <script src="{!URLFOR($Resource.signaturepad, 'thomasjbradley-signature-pad-0814093/assets/json2.min.js')}"></script>
+</apex:page>

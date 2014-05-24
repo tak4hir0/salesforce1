@@ -55,7 +55,7 @@
         <fullName>InternalIdeasIdeaRecordType</fullName>
         <active>true</active>
         <description>Record Type used to associate ideas with a specific community</description>
-        <label>Internal Ideas: Idea Record Type</label>
+        <label>Internal Community: Idea レコードタイプ</label>
     </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>IDEA.TITLE</customTabListAdditionalFields>

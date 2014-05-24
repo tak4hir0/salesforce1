@@ -9,16 +9,15 @@
     <analyticsTrackingCode>UA-44237235-1</analyticsTrackingCode>
     <authorizationRequiredPage>Unauthorized</authorizationRequiredPage>
     <bandwidthExceededPage>BandwidthExceeded</bandwidthExceededPage>
-    <favoriteIcon>tatami2__spinergif</favoriteIcon>
     <fileNotFoundPage>FileNotFound</fileNotFoundPage>
     <genericErrorPage>Exception</genericErrorPage>
     <inMaintenancePage>InMaintenance</inMaintenancePage>
-    <indexPage>UnderConstruction</indexPage>
+    <indexPage>downloadFiles</indexPage>
     <masterLabel>Demo Member</masterLabel>
-    <portal>カスタマーポータル</portal>
     <requireInsecurePortalAccess>false</requireInsecurePortalAccess>
     <siteAdmin>tak4hir0@sf.dev</siteAdmin>
     <siteTemplate>SiteTemplate</siteTemplate>
     <siteType>Visualforce</siteType>
     <subdomain>tak4hir0-developer-edition</subdomain>
+    <urlPathPrefix>demo</urlPathPrefix>
 </CustomSite>
