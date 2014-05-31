@@ -5,7 +5,7 @@
     </answers>
     <cases>
         <articlePublicSharingSites>
-            <site>Demo_Member</site>
+            <site>SiteDemo</site>
         </articlePublicSharingSites>
         <enableArticleCreation>false</enableArticleCreation>
         <enableArticlePublicSharingSites>true</enableArticlePublicSharingSites>

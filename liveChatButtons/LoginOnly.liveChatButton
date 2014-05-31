@@ -11,7 +11,7 @@
     <optionsIsInviteAutoRemove>false</optionsIsInviteAutoRemove>
     <pushTimeOut>30</pushTimeOut>
     <routingType>LeastActive</routingType>
-    <site>Demo_Member</site>
+    <site>SiteDemo</site>
     <skills>
         <skill>Login</skill>
     </skills>

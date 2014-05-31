@@ -43,7 +43,7 @@
         <canvas class="pad"></canvas>
         <fieldset>
             <input type="reset" value="clear" />
-            <input type="button" value="save" onclick="saveImage()"/>
+            <input type="button" value="sign" onclick="saveImage()"/>
         </fieldset>
     </form>
   <script src="{!URLFOR($Resource.signaturepad, 'thomasjbradley-signature-pad-0814093/jquery.signaturepad.js')}"></script>
@@ -51,9 +51,20 @@
   
   var api;
   
-  function saveImage(){
-      debugger;
-      console.log(api.getSignatureImg());
+  function saveImage(){    
+    Visualforce.remoting.Manager.invokeAction(
+        '{!$RemoteAction.SignaturePad.save}',
+        api.getSignatureImage(),
+        function(result, event){
+            if(event.status){
+                debugger;
+                //TODO 画面遷移
+                //window.location.href = '/003E000000I8hyt';
+                $('form').html('Signed !');
+            }
+        },
+        {escape: true}
+    );
   }
   
   (function(window) {

@@ -9,7 +9,7 @@
     <optionsHasInviteAfterReject>false</optionsHasInviteAfterReject>
     <optionsIsInviteAutoRemove>false</optionsIsInviteAutoRemove>
     <routingType>LeastActive</routingType>
-    <site>Demo_Member</site>
+    <site>SiteDemo</site>
     <skills>
         <skill>Login</skill>
     </skills>

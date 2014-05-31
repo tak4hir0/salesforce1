@@ -248,6 +248,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>FeedBodyParser</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>ForgotPasswordController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -805,6 +809,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>PaymentDetailInfo</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>RESTCaseController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>

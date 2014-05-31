@@ -3,6 +3,6 @@
     <enablePrechatApi>false</enablePrechatApi>
     <enableTranscriptSave>false</enableTranscriptSave>
     <label>ログインに関する問い合わせ</label>
-    <site>Demo_Member</site>
+    <site>SiteDemo</site>
     <windowTitle>Live Chat</windowTitle>
 </LiveChatDeployment>
