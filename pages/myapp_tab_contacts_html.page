@@ -1,0 +1,11 @@
+<apex:page showHeader="false" sidebar="false" standardStylesheets="false"  applyBodyTag="false" applyHtmlTag="false">
+ <ion-view title="Contacts">
+  <ion-content class="has-header">
+    <ion-list>
+      <ion-item ng-repeat="contact in contacts" type="item-text-wrap" href="#/tab/contact/{{contact.Id}}">
+        {{contact.Name}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
+</apex:page>

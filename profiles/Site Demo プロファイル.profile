@@ -64,6 +64,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>AutocreatedRegHandler1402482269728</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>AutomatedTestSetup_Controller</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -813,10 +817,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>RESTCaseController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>RefundInfo</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>RemoteTKController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -849,6 +857,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>StaticResourceURL</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>TestRemoteTKController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -4202,6 +4214,34 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>maps</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>myapp_account_detail</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>myapp_account_new</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>myapp_index_html</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>myapp_tab_account_html</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>myapp_tab_contacts_html</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>myapp_tab_dash_html</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>myapp_tabs_html</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>

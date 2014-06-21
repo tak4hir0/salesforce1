@@ -64,6 +64,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>AutocreatedRegHandler1402482269728</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>AutomatedTestSetup_Controller</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -820,6 +824,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>RemoteTKController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>ScheduledTumbling</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -849,6 +857,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>StaticResourceURL</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>TestRemoteTKController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -4521,6 +4533,34 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>maps</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>myapp_account_detail</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>myapp_account_new</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>myapp_index_html</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>myapp_tab_account_html</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>myapp_tab_contacts_html</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>myapp_tab_dash_html</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>myapp_tabs_html</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>

@@ -1,0 +1,23 @@
+<apex:page showHeader="false" sidebar="false" standardStylesheets="false"  applyBodyTag="false" applyHtmlTag="false">
+<ion-view has-header="true" title="New">
+<ion-content has-header="true" padding="true">
+	<div class="list" ng-controller="AccountNewCtrl">
+		<label class="item item-input item-stacked-label">
+		<span class="input-label">Account Name</span>
+		<i class="icon ion-star placeholder-icon"></i>
+		<input ng-model="Name" type="text" placeholder="Coca Cola" />
+	</label>
+		<label class="item item-input item-stacked-label">
+		<span class="input-label">Account Number</span>
+		<input ng-model="AccountNumber" type="text" placeholder="12345"></input>
+	</label>
+	<button class="button button-block button-positive" ng-click="save()">
+	Save
+	</button>
+		<div ng-hide="noError" class="bar bar-assertive">
+		<h4 class="title">{{error}}</h4>
+	</div>
+</div>
+</ion-content>
+</ion-view>
+</apex:page>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuthProvider xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorizeUrl>https://accounts.google.com/o/oauth2/auth</authorizeUrl>
+    <consumerKey>1015576789413-mb1edbom5s9hve9ee26g6phcsd7de3cq.apps.googleusercontent.com</consumerKey>
+    <consumerSecret>KeZOpKl1iNIWw601ARo1iP6cjpqkuo+ucEEY92ILatc=</consumerSecret>
+    <executionUser>tak4hir0@sf.dev</executionUser>
+    <friendlyName>Google</friendlyName>
+    <providerType>OpenIdConnect</providerType>
+    <registrationHandler>AutocreatedRegHandler1402482269728</registrationHandler>
+    <tokenUrl>https://accounts.google.com/o/oauth2/token</tokenUrl>
+    <userInfoUrl>https://www.googleapis.com/oauth2/v3/userinfo</userInfoUrl>
+</AuthProvider>
