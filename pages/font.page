@@ -1,0 +1,4 @@
+<apex:page renderAs="" showHeader="false" sidebar="false" standardStylesheets="false">
+<div style="font-family: Arial Unicode MS; font-size: 14pt; ">Arial 日本語</div>
+<div style="font-family: Arial Unicode MS; font-size: 14pt; ">山㟁</div>
+</apex:page>

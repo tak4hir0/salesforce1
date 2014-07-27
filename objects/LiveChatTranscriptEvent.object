@@ -33,4 +33,8 @@
         <fullName>AgentId</fullName>
         <type>Lookup</type>
     </fields>
+    <fields>
+        <fullName>LiveChatTranscriptId</fullName>
+        <type>MasterDetail</type>
+    </fields>
 </CustomObject>

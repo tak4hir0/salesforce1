@@ -49,12 +49,17 @@
     <enableHistory>false</enableHistory>
     <fields>
         <fullName>AccountId</fullName>
-        <trackTrending>false</trackTrending>
+        <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>CampaignId</fullName>
-        <trackTrending>false</trackTrending>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ContractId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -64,7 +69,6 @@
         <length>100</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -78,7 +82,6 @@
         <relationshipName>Opps</relationshipName>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -129,8 +132,20 @@
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
-        <trackTrending>false</trackTrending>
+        <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Lead__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>リード</label>
+        <referenceTo>Lead</referenceTo>
+        <relationshipLabel>商談</relationshipLabel>
+        <relationshipName>Opportunites</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>MainCompetitors__c</fullName>
@@ -139,7 +154,6 @@
         <length>100</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -150,7 +164,6 @@
         <length>8</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -163,12 +176,15 @@
         <relationshipName>Opps</relationshipName>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
-        <trackTrending>false</trackTrending>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PartnerAccountId</fullName>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -195,7 +211,6 @@
             <sorted>false</sorted>
         </picklist>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
         <type>Picklist</type>
     </fields>
     <fields>
@@ -256,7 +271,6 @@
         <precision>18</precision>
         <required>false</required>
         <scale>0</scale>
-        <trackTrending>false</trackTrending>
         <type>Number</type>
         <unique>false</unique>
     </fields>
@@ -345,6 +359,7 @@
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
+        <trackFeedHistory>true</trackFeedHistory>
         <trackTrending>true</trackTrending>
         <type>Picklist</type>
     </fields>
@@ -355,7 +370,6 @@
         <length>12</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -380,7 +394,7 @@
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
-        <trackTrending>false</trackTrending>
+        <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields>
     <fields>
@@ -392,7 +406,6 @@
         <precision>18</precision>
         <required>false</required>
         <scale>0</scale>
-        <trackTrending>false</trackTrending>
         <type>Currency</type>
     </fields>
     <listViews>

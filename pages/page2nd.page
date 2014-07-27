@@ -1,0 +1,8 @@
+<apex:page controller="SessionController">
+<apex:outputField value="{!acc.Id}"/>
+<apex:outputField value="{!acc.Name}"/>
+<apex:form >
+<apex:commandLink action="{!showPage1st}">back</apex:commandLink>&nbsp;
+<apex:commandLink action="{!showPage3rd}">next</apex:commandLink>
+</apex:form>
+</apex:page>

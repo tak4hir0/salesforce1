@@ -1,0 +1,23 @@
+<apex:page standardController="ContentVersion" sidebar="false" showHeader="false" >
+    <apex:pageBlock >
+        <apex:pageBlockSection title="{!ContentVersion.Title} - {!ContentVersion.Id}" >
+            <apex:outputField value="{!ContentVersion.Title}"/>
+            <apex:outputField value="{!ContentVersion.TagCSV}"/>
+            <apex:outputField value="{!ContentVersion.CreatedDate}"/>
+            <apex:outputField value="{!ContentVersion.Description}"/>
+            <apex:outputField value="{!ContentVersion.FileType}"/>
+            <apex:outputField value="{!ContentVersion.Title}"/>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+<div id="dpvPreviewWrapper" align="center">
+<h2 class="filePreviewHeading">Preview</h2>
+<div class="chatterFileViewerPanel" id="chatterFileViewerPanel">
+<embed src="/DocViewer.swf"  id="renditionLarge" quality="high" bgcolor="#f3f3f3" name="renditionLarge" allowscriptaccess="sameDomain" allowfullscreen="true" pluginspage="<a target='_blank' href='http://www.adobe.com/go/getflashplayer'>http://www.adobe.com/go/getflashplayer</a>" wmode="opaque" type="application/x-shockwave-flash" align="middle" height="700px" width="800px"></embed>
+<noembed><p>Flash file preview</p></noembed>
+</div>
+<script>
+insertFlexComponent('/_swf/121310/sfc/flex/DocViewer', 'shepherd_prefix=/sfc/servlet.shepherd&v={!ContentVersion.Id}&mode=chatterfilepreview&in_tests=false', '700px', '400px', '#f3f3f3', 'chatterFileViewerPanel', 'renditionLarge', false, { adobeFlashVersionLbl : 'You must enable or download Adobe Flash Player version 9.0.115 or later to use this feature.', downloadAdobeLbl : 'Download Adobe Flash Player', downloadAdobeLinkLbl : 'Click the link below to download the Adobe Flash Player:', closeDialogLbl : 'Cancel'});
+Ninja.Flex.ContentStaticResourcesBase = '/_swf/121310/sfc';Ninja.Flex.ShepherdController = '/sfc/servlet.shepherd';
+</script>
+</div>
+</apex:page>

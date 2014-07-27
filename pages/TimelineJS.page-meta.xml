@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ApexPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>27.0</apiVersion>
+    <availableInTouch>false</availableInTouch>
+    <confirmationTokenRequired>false</confirmationTokenRequired>
     <label>TimelineJS</label>
+    <packageVersions>
+        <majorNumber>3</majorNumber>
+        <minorNumber>23</minorNumber>
+        <namespace>GBLite</namespace>
+    </packageVersions>
     <packageVersions>
         <majorNumber>1</majorNumber>
         <minorNumber>812</minorNumber>
@@ -13,6 +20,11 @@
         <namespace>TIMBASURVEYS</namespace>
     </packageVersions>
     <packageVersions>
+        <majorNumber>3</majorNumber>
+        <minorNumber>9</minorNumber>
+        <namespace>VSTrackIT2</namespace>
+    </packageVersions>
+    <packageVersions>
         <majorNumber>1</majorNumber>
         <minorNumber>0</minorNumber>
         <namespace>cloudconverter</namespace>
@@ -21,6 +33,21 @@
         <majorNumber>2</majorNumber>
         <minorNumber>0</minorNumber>
         <namespace>cloudsync</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>5</majorNumber>
+        <minorNumber>155</minorNumber>
+        <namespace>cms</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>1</majorNumber>
+        <minorNumber>6</minorNumber>
+        <namespace>sf_chttr_apps</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>1</majorNumber>
+        <minorNumber>5</minorNumber>
+        <namespace>sf_com_apps</namespace>
     </packageVersions>
     <packageVersions>
         <majorNumber>2</majorNumber>

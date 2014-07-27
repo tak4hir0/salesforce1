@@ -11,7 +11,7 @@
     <routingType>LeastActive</routingType>
     <skills>
         <skill>Login</skill>
-        <skill>予約</skill>
+        <skill>Reservation</skill>
     </skills>
     <type>Standard</type>
     <windowLanguage>ja</windowLanguage>

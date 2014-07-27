@@ -119,12 +119,13 @@
         <members>OpportunityLineItem</members>
         <members>PartnerRole</members>
         <members>Pricebook2</members>
+        <members>PricebookEntry</members>
         <members>Product2</members>
         <members>Question</members>
         <members>QuickText</members>
+        <members>QuickTextAction</members>
         <members>Reply</members>
         <members>Site</members>
-        <members>SiteChangelist</members>
         <members>SocialPersona</members>
         <members>Solution</members>
         <members>Task</members>

@@ -76,9 +76,25 @@
                 <fullName>メール</fullName>
                 <default>false</default>
             </picklistValues>
+            <picklistValues>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Portal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Internal</fullName>
+                <default>false</default>
+            </picklistValues>
             <sorted>false</sorted>
         </picklist>
-        <type>MultiselectPicklist</type>
+        <type>Picklist</type>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>

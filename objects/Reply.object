@@ -26,10 +26,6 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <fields>
-        <fullName>CommunityId</fullName>
-        <type>Lookup</type>
-    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>REPLY.BODY</customTabListAdditionalFields>
         <customTabListAdditionalFields>REPLY.UP_VOTES</customTabListAdditionalFields>

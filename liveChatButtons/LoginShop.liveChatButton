@@ -14,8 +14,8 @@
     <site>SiteDemo</site>
     <skills>
         <skill>Shop</skill>
-        <skill>ログイン</skill>
-        <skill>予約</skill>
+        <skill>Login</skill>
+        <skill>Reservation</skill>
     </skills>
     <type>Standard</type>
     <windowLanguage>ja</windowLanguage>

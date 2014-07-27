@@ -182,6 +182,11 @@
                 <field>CampaignId</field>
             </layoutItem>
         </relatedContentItems>
+        <relatedContentItems>
+            <layoutItem>
+                <component>sfa:socialPanel</component>
+            </layoutItem>
+        </relatedContentItems>
     </relatedContent>
     <relatedLists>
         <fields>TASK.SUBJECT</fields>
@@ -211,6 +216,12 @@
     <relatedLists>
         <fields>NAME</fields>
         <relatedList>Account__c.Lead__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>OPPORTUNITY.NAME</fields>
+        <fields>ACCOUNT.NAME</fields>
+        <fields>OPPORTUNITY.CLOSE_DATE</fields>
+        <relatedList>Opportunity.Lead__c</relatedList>
     </relatedLists>
     <runAssignmentRulesDefault>false</runAssignmentRulesDefault>
     <showEmailCheckbox>true</showEmailCheckbox>

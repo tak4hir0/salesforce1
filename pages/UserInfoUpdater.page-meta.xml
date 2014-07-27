@@ -2,6 +2,7 @@
 <ApexPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>27.0</apiVersion>
     <availableInTouch>true</availableInTouch>
+    <confirmationTokenRequired>false</confirmationTokenRequired>
     <label>UserInfoUpdater</label>
     <packageVersions>
         <majorNumber>3</majorNumber>
@@ -17,6 +18,11 @@
         <majorNumber>7</majorNumber>
         <minorNumber>60</minorNumber>
         <namespace>TIMBASURVEYS</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>3</majorNumber>
+        <minorNumber>9</minorNumber>
+        <namespace>VSTrackIT2</namespace>
     </packageVersions>
     <packageVersions>
         <majorNumber>1</majorNumber>

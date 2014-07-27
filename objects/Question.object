@@ -35,15 +35,7 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <fields>
-        <fullName>BestReplyId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>BestReplySelectedById</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>LastReplyId</fullName>
         <type>Lookup</type>
     </fields>
     <fields>

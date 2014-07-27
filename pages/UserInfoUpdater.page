@@ -1,5 +1,5 @@
 <apex:page standardController="User" recordSetVar="users" tabstyle="account">
-    
+<apex:outputLink value="/001E000000uUwkD">TEST 2nd</apex:outputLink>
    <apex:form > 
    <apex:pageBlock mode="edit">    
    <apex:pageMessages />

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ApexPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>30.0</apiVersion>
+    <availableInTouch>false</availableInTouch>
+    <confirmationTokenRequired>false</confirmationTokenRequired>
     <description>自動生成された Chatter アンサーのホームページ</description>
     <label>Internal_Community_main</label>
     <packageVersions>

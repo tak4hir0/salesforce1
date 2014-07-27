@@ -15,9 +15,11 @@
     <changePasswordTemplate>unfiled$public/CommunityChangePasswordEmailTemplate</changePasswordTemplate>
     <emailSenderAddress>tkawabata@uhuru.jp</emailSenderAddress>
     <emailSenderName>Hoge</emailSenderName>
+    <enableGuestChatter>false</enableGuestChatter>
     <enableInvitation>false</enableInvitation>
     <enableKnowledgeable>false</enableKnowledgeable>
     <enablePrivateMessages>false</enablePrivateMessages>
+    <enableReputation>false</enableReputation>
     <forgotPasswordTemplate>unfiled$public/CommunityForgotPasswordEmailTemplate</forgotPasswordTemplate>
     <networkMemberGroups>
         <profile>Admin</profile>

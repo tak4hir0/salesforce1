@@ -210,12 +210,12 @@
     <miniLayout>
         <fields>Name</fields>
         <fields>AccountId</fields>
-        <fields>MobilePhone</fields>
-        <fields>OtherPhone</fields>
         <fields>Fax</fields>
-        <fields>Email</fields>
+        <fields>MobilePhone</fields>
         <fields>AssistantName</fields>
         <fields>AssistantPhone</fields>
+        <fields>OtherPhone</fields>
+        <fields>Email</fields>
     </miniLayout>
     <quickActionList>
         <quickActionListItems>

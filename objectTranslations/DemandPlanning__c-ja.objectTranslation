@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Demand Planning</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>DPAccountName__c</name>
+        <relationshipLabel><!-- Demand Planning --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Oct-Diff --></label>
+        <name>Diff10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nov-Diff --></label>
+        <name>Diff11__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dec-Diff --></label>
+        <name>Diff12__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jan-Diff --></label>
+        <name>Diff1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feb-Diff --></label>
+        <name>Diff2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mar-Diff --></label>
+        <name>Diff3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Apr-Diff --></label>
+        <name>Diff4__c</name>
+    </fields>
+    <fields>
+        <label><!-- May-Diff --></label>
+        <name>Diff5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jun-Diff --></label>
+        <name>Diff6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jul-Diff --></label>
+        <name>Diff7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aug-Diff --></label>
+        <name>Diff8__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sept-Difference --></label>
+        <name>Diff9__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fiscal Year --></label>
+        <name>FiscalYear__c</name>
+        <picklistValues>
+            <masterLabel>FY12</masterLabel>
+            <translation><!-- FY12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FY13</masterLabel>
+            <translation><!-- FY13 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Oct-Plan --></label>
+        <name>Plan10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nov-Plan --></label>
+        <name>Plan11__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dec-Plan --></label>
+        <name>Plan12__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jan-Plan --></label>
+        <name>Plan1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feb-Plan --></label>
+        <name>Plan2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mar-Plan --></label>
+        <name>Plan3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Apr-Plan --></label>
+        <name>Plan4__c</name>
+    </fields>
+    <fields>
+        <label><!-- May-Plan --></label>
+        <name>Plan5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jun-Plan --></label>
+        <name>Plan6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jul-Plan --></label>
+        <name>Plan7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aug-Plan --></label>
+        <name>Plan8__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sept-Plan --></label>
+        <name>Plan9__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Type --></label>
+        <name>ProductType__c</name>
+        <picklistValues>
+            <masterLabel>Plank</masterLabel>
+            <translation><!-- Plank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sheet</masterLabel>
+            <translation><!-- Sheet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Steel Pipe</masterLabel>
+            <translation><!-- Steel Pipe --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Oct-Result --></label>
+        <name>Result10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nov-Result --></label>
+        <name>Result11__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dec-Result --></label>
+        <name>Result12__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jan-Result --></label>
+        <name>Result1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feb-Result --></label>
+        <name>Result2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mar-Result --></label>
+        <name>Result3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Apr-Result --></label>
+        <name>Result4__c</name>
+    </fields>
+    <fields>
+        <label><!-- May-Result --></label>
+        <name>Result5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jun-Result --></label>
+        <name>Result6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jul-Result --></label>
+        <name>Result7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aug-Result --></label>
+        <name>Result8__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sept-Result --></label>
+        <name>Result9__c</name>
+    </fields>
+    <layouts>
+        <layout>Demand Planning Layout</layout>
+        <sections>
+            <label><!-- April --></label>
+            <section>April</section>
+        </sections>
+        <sections>
+            <label><!-- August --></label>
+            <section>August</section>
+        </sections>
+        <sections>
+            <label><!-- December --></label>
+            <section>December</section>
+        </sections>
+        <sections>
+            <label><!-- February --></label>
+            <section>February</section>
+        </sections>
+        <sections>
+            <label><!-- January --></label>
+            <section>January</section>
+        </sections>
+        <sections>
+            <label><!-- July --></label>
+            <section>July</section>
+        </sections>
+        <sections>
+            <label><!-- June --></label>
+            <section>June</section>
+        </sections>
+        <sections>
+            <label><!-- March --></label>
+            <section>March</section>
+        </sections>
+        <sections>
+            <label><!-- May --></label>
+            <section>May</section>
+        </sections>
+        <sections>
+            <label><!-- November --></label>
+            <section>November</section>
+        </sections>
+        <sections>
+            <label><!-- October --></label>
+            <section>October</section>
+        </sections>
+        <sections>
+            <label><!-- September --></label>
+            <section>September</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

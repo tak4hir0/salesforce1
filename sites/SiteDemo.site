@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomSite xmlns="http://soap.sforce.com/2006/04/metadata">
-    <active>false</active>
+    <active>true</active>
     <allowHomePage>false</allowHomePage>
     <allowStandardAnswersPages>false</allowStandardAnswersPages>
     <allowStandardIdeasPages>false</allowStandardIdeasPages>
@@ -19,5 +19,4 @@
     <siteTemplate>SiteTemplate</siteTemplate>
     <siteType>Visualforce</siteType>
     <subdomain>tak4hir0-developer-edition</subdomain>
-    <urlPathPrefix>demo</urlPathPrefix>
 </CustomSite>

@@ -23,7 +23,7 @@
         <picklist>
             <sorted>false</sorted>
         </picklist>
-        <type>MultiselectPicklist</type>
+        <type>Picklist</type>
     </fields>
     <fields>
         <fullName>Status</fullName>

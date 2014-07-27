@@ -97,6 +97,7 @@
     <enableHistory>false</enableHistory>
     <fields>
         <fullName>AccountId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -179,6 +180,7 @@ https://success.salesforce.com/questionDetail?qId=a1X30000000JF94EAG</descriptio
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields>
     <fields>
@@ -224,10 +226,12 @@ https://success.salesforce.com/questionDetail?qId=a1X30000000JF94EAG</descriptio
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>ReportsToId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
     </fields>
     <fields>
