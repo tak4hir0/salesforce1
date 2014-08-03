@@ -153,6 +153,7 @@
                 <column>ACCOUNT.NAME</column>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>RowCount</column>
                 <showTotal>true</showTotal>
                 <sortBy>RowValueDescending</sortBy>

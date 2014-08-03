@@ -6,8 +6,11 @@
     <label>ログインだけ</label>
     <offlineImage>LiveAgentOffline</offlineImage>
     <onlineImage>LiveAgentOnline</onlineImage>
+    <optionsCustomRoutingIsEnabled>false</optionsCustomRoutingIsEnabled>
     <optionsHasInviteAfterAccept>false</optionsHasInviteAfterAccept>
     <optionsHasInviteAfterReject>false</optionsHasInviteAfterReject>
+    <optionsHasRerouteDeclinedRequest>false</optionsHasRerouteDeclinedRequest>
+    <optionsIsAutoAccept>false</optionsIsAutoAccept>
     <optionsIsInviteAutoRemove>false</optionsIsInviteAutoRemove>
     <pushTimeOut>30</pushTimeOut>
     <routingType>LeastActive</routingType>

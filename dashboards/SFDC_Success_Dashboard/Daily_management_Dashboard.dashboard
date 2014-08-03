@@ -66,11 +66,13 @@
                 <column>STAGE_NAME</column>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>OPPORTUNITY_NAME</column>
                 <showTotal>false</showTotal>
             </dashboardTableColumn>
             <dashboardTableColumn>
                 <aggregateType>Sum</aggregateType>
+                <calculatePercent>false</calculatePercent>
                 <column>AMOUNT</column>
                 <showTotal>true</showTotal>
                 <sortBy>RowValueDescending</sortBy>
@@ -97,11 +99,13 @@
                 <column>FULL_NAME</column>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>OPPORTUNITY_NAME</column>
                 <showTotal>false</showTotal>
             </dashboardTableColumn>
             <dashboardTableColumn>
                 <aggregateType>Sum</aggregateType>
+                <calculatePercent>false</calculatePercent>
                 <column>AMOUNT</column>
                 <showTotal>true</showTotal>
                 <sortBy>RowValueDescending</sortBy>
@@ -151,11 +155,13 @@
                 <column>FULL_NAME</column>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>OPPORTUNITY_NAME</column>
                 <showTotal>false</showTotal>
             </dashboardTableColumn>
             <dashboardTableColumn>
                 <aggregateType>Sum</aggregateType>
+                <calculatePercent>false</calculatePercent>
                 <column>AMOUNT</column>
                 <showTotal>true</showTotal>
                 <sortBy>RowValueDescending</sortBy>
@@ -184,6 +190,7 @@
             </dashboardTableColumn>
             <dashboardTableColumn>
                 <aggregateType>Sum</aggregateType>
+                <calculatePercent>false</calculatePercent>
                 <column>AMOUNT</column>
                 <showTotal>true</showTotal>
             </dashboardTableColumn>
@@ -209,6 +216,7 @@
             </dashboardTableColumn>
             <dashboardTableColumn>
                 <aggregateType>Sum</aggregateType>
+                <calculatePercent>false</calculatePercent>
                 <column>AMOUNT</column>
                 <showTotal>true</showTotal>
             </dashboardTableColumn>
@@ -233,6 +241,7 @@
                 <column>OPP_OWNER</column>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>RowCount</column>
                 <showTotal>true</showTotal>
                 <sortBy>RowValueDescending</sortBy>
@@ -264,10 +273,12 @@
             </dashboardTableColumn>
             <dashboardTableColumn>
                 <aggregateType>Sum</aggregateType>
+                <calculatePercent>false</calculatePercent>
                 <column>AMOUNT</column>
                 <showTotal>true</showTotal>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>RowCount</column>
                 <showTotal>true</showTotal>
             </dashboardTableColumn>
@@ -294,12 +305,14 @@
             </dashboardTableColumn>
             <dashboardTableColumn>
                 <aggregateType>Average</aggregateType>
+                <calculatePercent>false</calculatePercent>
                 <column>AGE</column>
                 <showTotal>false</showTotal>
                 <sortBy>RowValueDescending</sortBy>
             </dashboardTableColumn>
             <dashboardTableColumn>
                 <aggregateType>Average</aggregateType>
+                <calculatePercent>false</calculatePercent>
                 <column>STAGE_DURATION</column>
                 <showTotal>false</showTotal>
             </dashboardTableColumn>

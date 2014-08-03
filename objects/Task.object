@@ -161,6 +161,7 @@
         <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
     </fields>
+    <sharingModel>Private</sharingModel>
     <webLinks>
         <fullName>SDOC__S_Docs</fullName>
         <availability>online</availability>

@@ -5,8 +5,11 @@
     <enableQueue>true</enableQueue>
     <isActive>true</isActive>
     <label>ログイン＋ショップ</label>
+    <optionsCustomRoutingIsEnabled>false</optionsCustomRoutingIsEnabled>
     <optionsHasInviteAfterAccept>false</optionsHasInviteAfterAccept>
     <optionsHasInviteAfterReject>false</optionsHasInviteAfterReject>
+    <optionsHasRerouteDeclinedRequest>false</optionsHasRerouteDeclinedRequest>
+    <optionsIsAutoAccept>false</optionsIsAutoAccept>
     <optionsIsInviteAutoRemove>false</optionsIsInviteAutoRemove>
     <overallQueueLength>1</overallQueueLength>
     <pushTimeOut>10</pushTimeOut>

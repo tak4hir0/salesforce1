@@ -324,6 +324,7 @@ https://success.salesforce.com/questionDetail?qId=a1X30000000JF94EAG</descriptio
         <searchResultsAdditionalFields>CONTACT.EMAIL</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
     <webLinks>
         <fullName>SDOC__Email_Docs</fullName>
         <availability>online</availability>

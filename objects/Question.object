@@ -67,4 +67,5 @@
         <searchResultsAdditionalFields>QUESTION.HAS_BEST_REPLY</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>QUESTION.NUM_REPLIES</searchResultsAdditionalFields>
     </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

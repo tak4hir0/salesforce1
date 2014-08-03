@@ -2,18 +2,30 @@
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
     <customConsoleComponents>
         <primaryTabComponents>
-            <component>
-                <location>right</location>
-                <visualforcePage>SiteTemplate</visualforcePage>
+            <containers>
+                <region>Right</region>
+                <sidebarComponents>
+                    <height>100</height>
+                    <page>SiteTemplate</page>
+                    <unit>Percentage</unit>
+                </sidebarComponents>
+                <style>Stack</style>
+                <unit>Pixel</unit>
                 <width>200</width>
-            </component>
+            </containers>
         </primaryTabComponents>
         <subtabComponents>
-            <component>
-                <location>Right</location>
-                <visualforcePage>About_PayPal_Adaptive_Toolkit</visualforcePage>
+            <containers>
+                <region>Right</region>
+                <sidebarComponents>
+                    <height>100</height>
+                    <page>About_PayPal_Adaptive_Toolkit</page>
+                    <unit>Percentage</unit>
+                </sidebarComponents>
+                <style>Stack</style>
+                <unit>Pixel</unit>
                 <width>200</width>
-            </component>
+            </containers>
         </subtabComponents>
     </customConsoleComponents>
     <layoutSections>

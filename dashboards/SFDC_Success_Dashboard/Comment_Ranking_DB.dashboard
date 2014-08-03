@@ -13,11 +13,13 @@
                 <column>User.CollaborationGroup$OwnerId.FeedItems$CreatedBy</column>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>FORMULA1</column>
                 <showTotal>false</showTotal>
                 <sortBy>RowValueDescending</sortBy>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>User.CollaborationGroup$OwnerId.FeedItems$Body</column>
                 <showTotal>false</showTotal>
             </dashboardTableColumn>
@@ -41,11 +43,13 @@
                 <column>User.CollaborationGroup$OwnerId.FeedItems$CreatedBy</column>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>FORMULA1</column>
                 <showTotal>false</showTotal>
                 <sortBy>RowValueDescending</sortBy>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>User.CollaborationGroup$OwnerId.FeedItems$Body</column>
                 <showTotal>false</showTotal>
             </dashboardTableColumn>
@@ -71,11 +75,13 @@
                 <column>User.CollaborationGroup$OwnerId.FeedItems$CreatedBy</column>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>FORMULA1</column>
                 <showTotal>false</showTotal>
                 <sortBy>RowValueDescending</sortBy>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>User.CollaborationGroup$OwnerId$Name</column>
                 <showTotal>false</showTotal>
             </dashboardTableColumn>
@@ -99,11 +105,13 @@
                 <column>User.CollaborationGroup$OwnerId.FeedItems$CreatedBy</column>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>FORMULA1</column>
                 <showTotal>false</showTotal>
                 <sortBy>RowValueDescending</sortBy>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>User.CollaborationGroup$OwnerId$Name</column>
                 <showTotal>false</showTotal>
             </dashboardTableColumn>
@@ -130,10 +138,12 @@
                 <sortBy>RowLabelAscending</sortBy>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>User.FeedItems$Body</column>
                 <showTotal>false</showTotal>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>FORMULA1</column>
                 <showTotal>false</showTotal>
             </dashboardTableColumn>
@@ -157,10 +167,12 @@
                 <column>User.FeedItems$CreatedBy</column>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>User.FeedItems$Body</column>
                 <showTotal>false</showTotal>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>FORMULA1</column>
                 <showTotal>false</showTotal>
                 <sortBy>RowValueDescending</sortBy>

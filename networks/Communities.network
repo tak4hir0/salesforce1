@@ -26,6 +26,7 @@
         <profile>HighVolumePortal</profile>
         <profile>Chatter Free User</profile>
     </networkMemberGroups>
+    <picassoSite>Communities_C</picassoSite>
     <selfRegistration>false</selfRegistration>
     <sendWelcomeEmail>true</sendWelcomeEmail>
     <site>Communities</site>

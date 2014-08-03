@@ -113,6 +113,7 @@
         <trackFeedHistory>true</trackFeedHistory>
         <type>Lookup</type>
     </fields>
+    <sharingModel>Private</sharingModel>
     <webLinks>
         <fullName>CustomLink1</fullName>
         <availability>online</availability>

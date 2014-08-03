@@ -7,6 +7,7 @@
         <domain>www.google.co.jp</domain>
     </domainWhitelist>
     <enableKeyboardShortcuts>false</enableKeyboardShortcuts>
+    <enableMultiMonitorComponents>false</enableMultiMonitorComponents>
     <isServiceCloudConsole>true</isServiceCloudConsole>
     <keyboardShortcuts>
         <defaultShortcut>

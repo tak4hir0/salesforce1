@@ -7,6 +7,8 @@
     <friendlyName>Google</friendlyName>
     <providerType>OpenIdConnect</providerType>
     <registrationHandler>AutocreatedRegHandler1402482269728</registrationHandler>
+    <sendAccessTokenInHeader>true</sendAccessTokenInHeader>
+    <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
     <tokenUrl>https://accounts.google.com/o/oauth2/token</tokenUrl>
     <userInfoUrl>https://www.googleapis.com/oauth2/v3/userinfo</userInfoUrl>
 </AuthProvider>

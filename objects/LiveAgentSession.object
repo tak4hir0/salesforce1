@@ -36,10 +36,12 @@
     <enableFeeds>false</enableFeeds>
     <fields>
         <fullName>AgentId</fullName>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <searchLayouts>
@@ -60,4 +62,5 @@
         <searchResultsAdditionalFields>LoginTime</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>LogoutTime</searchResultsAdditionalFields>
     </searchLayouts>
+    <sharingModel>Private</sharingModel>
 </CustomObject>

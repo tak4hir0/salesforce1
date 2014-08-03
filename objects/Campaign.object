@@ -169,6 +169,7 @@
         <searchResultsAdditionalFields>CAMPAIGN.NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
+    <sharingModel>FullAccess</sharingModel>
     <webLinks>
         <fullName>ViewCampaignInfluenceReport</fullName>
         <availability>online</availability>

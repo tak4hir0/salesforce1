@@ -32,11 +32,13 @@
                 <column>User.CollaborationGroup$CreatedById$Name</column>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>FORMULA2</column>
                 <showTotal>true</showTotal>
                 <sortBy>RowValueDescending</sortBy>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>User.CollaborationGroup$CreatedById$LastFeedModifiedDate</column>
                 <showTotal>false</showTotal>
             </dashboardTableColumn>

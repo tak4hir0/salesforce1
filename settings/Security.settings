@@ -8,6 +8,7 @@
         <lockoutInterval>Forever</lockoutInterval>
         <maxLoginAttempts>NoLimit</maxLoginAttempts>
         <minPasswordLength>EightCharacters</minPasswordLength>
+        <obscureSecretAnswer>false</obscureSecretAnswer>
         <questionRestriction>None</questionRestriction>
     </passwordPolicies>
     <sessionSettings>

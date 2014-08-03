@@ -4,8 +4,11 @@
     <enableQueue>false</enableQueue>
     <isActive>true</isActive>
     <label>ログイン＋予約</label>
+    <optionsCustomRoutingIsEnabled>false</optionsCustomRoutingIsEnabled>
     <optionsHasInviteAfterAccept>false</optionsHasInviteAfterAccept>
     <optionsHasInviteAfterReject>false</optionsHasInviteAfterReject>
+    <optionsHasRerouteDeclinedRequest>false</optionsHasRerouteDeclinedRequest>
+    <optionsIsAutoAccept>false</optionsIsAutoAccept>
     <optionsIsInviteAutoRemove>false</optionsIsInviteAutoRemove>
     <pushTimeOut>10</pushTimeOut>
     <routingType>LeastActive</routingType>

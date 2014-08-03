@@ -1,4 +1,5 @@
 <apex:page controller="ChartController">
+日本語
 <apex:chart data="{!data}" height="512" width="768">
     <apex:legend position="right" font="bold 14px Helvetica"/>
     <apex:axis type="Numeric" position="left" title="Closed Won" grid="true"

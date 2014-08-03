@@ -138,8 +138,14 @@
     </listViews>
     <listViews>
         <fullName>AllUsers</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.FIRST_NAME</columns>
+        <columns>CORE.USERS.LAST_NAME</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
         <filterScope>Everything</filterScope>
-        <label>All Users</label>
+        <label>すべてのユーザ</label>
+        <language>ja</language>
     </listViews>
     <searchLayouts>
         <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
@@ -155,4 +161,5 @@
         <searchResultsAdditionalFields>CORE.USERS.EMAIL</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USER_ROLE.NAME</searchResultsAdditionalFields>
     </searchLayouts>
+    <sharingModel>Read</sharingModel>
 </CustomObject>

@@ -68,6 +68,7 @@
             </dashboardTableColumn>
             <dashboardTableColumn>
                 <aggregateType>Sum</aggregateType>
+                <calculatePercent>false</calculatePercent>
                 <column>ACTIVE</column>
                 <showTotal>true</showTotal>
                 <sortBy>RowValueDescending</sortBy>
@@ -91,6 +92,7 @@
             </dashboardTableColumn>
             <dashboardTableColumn>
                 <aggregateType>Sum</aggregateType>
+                <calculatePercent>false</calculatePercent>
                 <column>ACTIVE</column>
                 <showTotal>true</showTotal>
                 <sortBy>RowValueDescending</sortBy>
@@ -114,6 +116,7 @@
             </dashboardTableColumn>
             <dashboardTableColumn>
                 <aggregateType>Sum</aggregateType>
+                <calculatePercent>false</calculatePercent>
                 <column>ACTIVE</column>
                 <showTotal>true</showTotal>
                 <sortBy>RowValueDescending</sortBy>

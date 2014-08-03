@@ -69,6 +69,7 @@ Chatterテスト</description>
                 <column>CAMPAIGN_NAME</column>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>RowCount</column>
                 <showTotal>true</showTotal>
                 <sortBy>RowValueDescending</sortBy>
@@ -149,10 +150,12 @@ Chatterテスト</description>
                 <column>CAMPAIGN_NAME</column>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>CAMPAIGN_STARTDATE</column>
                 <showTotal>false</showTotal>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>RowCount</column>
                 <showTotal>true</showTotal>
                 <sortBy>RowValueDescending</sortBy>
@@ -233,11 +236,13 @@ Chatterテスト</description>
                 <column>CAMPAIGN_NAME</column>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>CAMPAIGN_STARTDATE</column>
                 <showTotal>false</showTotal>
             </dashboardTableColumn>
             <dashboardTableColumn>
                 <aggregateType>Sum</aggregateType>
+                <calculatePercent>false</calculatePercent>
                 <column>AMOUNT</column>
                 <showTotal>true</showTotal>
                 <sortBy>RowValueDescending</sortBy>

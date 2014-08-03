@@ -83,6 +83,7 @@
                 <column>ACCOUNT_NAME</column>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>RowCount</column>
                 <showTotal>false</showTotal>
                 <sortBy>RowValueDescending</sortBy>
@@ -300,12 +301,14 @@
             </dashboardTableColumn>
             <dashboardTableColumn>
                 <aggregateType>Sum</aggregateType>
+                <calculatePercent>false</calculatePercent>
                 <column>Account.SFDC_RuisekiClose_Amount__c</column>
                 <showTotal>false</showTotal>
                 <sortBy>RowValueDescending</sortBy>
             </dashboardTableColumn>
             <dashboardTableColumn>
                 <aggregateType>Sum</aggregateType>
+                <calculatePercent>false</calculatePercent>
                 <column>Account.Ruisekisei_yaku_kaisuu__c</column>
                 <showTotal>false</showTotal>
             </dashboardTableColumn>

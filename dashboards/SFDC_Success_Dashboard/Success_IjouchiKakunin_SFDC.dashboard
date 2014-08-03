@@ -23,6 +23,7 @@
                 <column>FULL_NAME</column>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>RowCount</column>
                 <showTotal>true</showTotal>
                 <sortBy>RowValueDescending</sortBy>
@@ -49,6 +50,7 @@
                 <column>FULL_NAME</column>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>RowCount</column>
                 <showTotal>true</showTotal>
                 <sortBy>RowValueDescending</sortBy>
@@ -74,6 +76,7 @@
                 <column>FULL_NAME</column>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>RowCount</column>
                 <showTotal>true</showTotal>
                 <sortBy>RowValueDescending</sortBy>
@@ -102,6 +105,7 @@
                 <column>FULL_NAME</column>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>RowCount</column>
                 <showTotal>true</showTotal>
                 <sortBy>RowValueDescending</sortBy>
@@ -128,6 +132,7 @@
                 <column>FULL_NAME</column>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>RowCount</column>
                 <showTotal>true</showTotal>
                 <sortBy>RowValueDescending</sortBy>
@@ -156,6 +161,7 @@
                 <column>FULL_NAME</column>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>RowCount</column>
                 <showTotal>true</showTotal>
                 <sortBy>RowValueDescending</sortBy>
@@ -182,6 +188,7 @@
                 <column>FULL_NAME</column>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>RowCount</column>
                 <showTotal>true</showTotal>
                 <sortBy>RowValueDescending</sortBy>
@@ -207,6 +214,7 @@
                 <column>ASSIGNED</column>
             </dashboardTableColumn>
             <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
                 <column>RowCount</column>
                 <showTotal>true</showTotal>
                 <sortBy>RowValueDescending</sortBy>

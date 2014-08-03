@@ -13,4 +13,5 @@
         <type>Default</type>
     </actionOverrides>
     <enableFeeds>false</enableFeeds>
+    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
