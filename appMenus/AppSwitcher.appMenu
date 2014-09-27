@@ -41,10 +41,6 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>Timecard</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>Live_Agent_Console</name>
         <type>CustomApplication</type>
     </appMenuItems>
@@ -57,23 +53,11 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>UserInfoMassUpdater</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>cloudconverter__Cloud_Converter</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
         <name>PayPal_Adaptive_Toolkit</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>tatami2__tatami_cms</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>CustomApplication</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
@@ -97,14 +81,6 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>cms__OrchestraCMS</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>GBLite__GridBuddy</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>VSTrackIT2__VSTrackit</name>
         <type>CustomApplication</type>
     </appMenuItems>
@@ -114,6 +90,18 @@
     </appMenuItems>
     <appMenuItems>
         <name>Litmos__Litmos</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>CKSW_SHIFT__ShiftExpert</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>CKSW_SHIFT__ShiftExpert_Admin</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Apex_Library_for_Box_API</name>
         <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>

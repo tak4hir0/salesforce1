@@ -22,9 +22,11 @@
     <enableReputation>false</enableReputation>
     <forgotPasswordTemplate>unfiled$public/CommunityForgotPasswordEmailTemplate</forgotPasswordTemplate>
     <networkMemberGroups>
-        <profile>Admin</profile>
         <profile>HighVolumePortal</profile>
         <profile>Chatter Free User</profile>
+        <profile>Admin</profile>
+        <profile>PlatformPortal</profile>
+        <profile>Customer Community User</profile>
     </networkMemberGroups>
     <picassoSite>Communities_C</picassoSite>
     <selfRegistration>false</selfRegistration>

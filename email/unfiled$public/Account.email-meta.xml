@@ -24,11 +24,6 @@
         <minorNumber>0</minorNumber>
         <namespace>cloudsync</namespace>
     </packageVersions>
-    <packageVersions>
-        <majorNumber>2</majorNumber>
-        <minorNumber>31</minorNumber>
-        <namespace>tatami2</namespace>
-    </packageVersions>
     <style>none</style>
     <type>visualforce</type>
 </EmailTemplate>

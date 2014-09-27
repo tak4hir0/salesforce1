@@ -6,11 +6,6 @@
     <description>Force.com デフォルトページ - サイトのテンプレート</description>
     <label>SiteTemplate</label>
     <packageVersions>
-        <majorNumber>3</majorNumber>
-        <minorNumber>23</minorNumber>
-        <namespace>GBLite</namespace>
-    </packageVersions>
-    <packageVersions>
         <majorNumber>1</majorNumber>
         <minorNumber>812</minorNumber>
         <namespace>SDOC</namespace>
@@ -34,10 +29,5 @@
         <majorNumber>5</majorNumber>
         <minorNumber>155</minorNumber>
         <namespace>cms</namespace>
-    </packageVersions>
-    <packageVersions>
-        <majorNumber>2</majorNumber>
-        <minorNumber>31</minorNumber>
-        <namespace>tatami2</namespace>
     </packageVersions>
 </ApexPage>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
     <customApplications>
-        <label><!-- Automated Testing --></label>
-        <name>Automated_Testing</name>
+        <label><!-- Apex Library for Box API --></label>
+        <name>Apex_Library_for_Box_API</name>
     </customApplications>
     <customApplications>
-        <label><!-- プロジェクト・問題管理 --></label>
-        <name>CustomApplication</name>
+        <label><!-- Automated Testing --></label>
+        <name>Automated_Testing</name>
     </customApplications>
     <customApplications>
         <label><!-- Google Analytics --></label>
@@ -29,17 +29,1013 @@
         <name>PayPal_Adaptive_Toolkit</name>
     </customApplications>
     <customApplications>
-        <label><!-- タイムカード --></label>
-        <name>Timecard</name>
-    </customApplications>
-    <customApplications>
-        <label><!-- ユーザ情報一括更新 --></label>
-        <name>UserInfoMassUpdater</name>
-    </customApplications>
-    <customApplications>
         <label><!-- Warehouse --></label>
         <name>Warehouse</name>
     </customApplications>
+    <customLabels>
+        <label>klrrm0p1nwcemzf3ykqcobcnts1kznx5</label>
+        <name>BoxApiKey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Request_Status_Approved --></label>
+        <name>CKSW_BASE__Request_Status_Approved</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Request_Status_Pending --></label>
+        <name>CKSW_BASE__Request_Status_Pending</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Request_Status_Rejected --></label>
+        <name>CKSW_BASE__Request_Status_Rejected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - Are you sure you want to cancel all scheduled jobs? --></label>
+        <name>CKSW_SHIFT__Alert_Are_you_sure_you_want_to_cancel_all_scheduled_jobs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - Are you sure you want to delete all completed tasks --></label>
+        <name>CKSW_SHIFT__Alert_Are_you_sure_you_want_to_delete_all_completed_tasks</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Can&apos;t delete published shift --></label>
+        <name>CKSW_SHIFT__Alert_CantDeletePublishedShift</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - Click OK to Refresh --></label>
+        <name>CKSW_SHIFT__Alert_Click_OK_to_Refresh</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Confirm shift delete --></label>
+        <name>CKSW_SHIFT__Alert_ConfirmShiftDelete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - Create Shift Failed --></label>
+        <name>CKSW_SHIFT__Alert_CreateShiftFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - Daily Rec Failed --></label>
+        <name>CKSW_SHIFT__Alert_DailyRecFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - Delete Shift Failed --></label>
+        <name>CKSW_SHIFT__Alert_DeleteShiftFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - Dictonaries values must be unique --></label>
+        <name>CKSW_SHIFT__Alert_Dictonaries_values_must_be_unique</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - Failed to load candidates for current shift. --></label>
+        <name>CKSW_SHIFT__Alert_FailedToLoadCandidatesForCurrentShift</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - Failed To Modify Shifts --></label>
+        <name>CKSW_SHIFT__Alert_FailedToModifyShifts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - Failed to Refresh your session --></label>
+        <name>CKSW_SHIFT__Alert_Failed_to_Refresh</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - Invalid date range --></label>
+        <name>CKSW_SHIFT__Alert_InvalidDateRange</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - Invalid date range to delete --></label>
+        <name>CKSW_SHIFT__Alert_InvalidDateRangeToDdelete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - Invalid date range to publish --></label>
+        <name>CKSW_SHIFT__Alert_InvalidDateRangeToPublish</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - Invalid date range to smart assign --></label>
+        <name>CKSW_SHIFT__Alert_InvalidDateRangeToSmartAssign</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - Invalid date range to unassign --></label>
+        <name>CKSW_SHIFT__Alert_InvalidDateRangeToUnassign</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - Modify Shift Failed --></label>
+        <name>CKSW_SHIFT__Alert_ModifyShiftFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - multiple shifts might be deleted --></label>
+        <name>CKSW_SHIFT__Alert_MultipleShiftsMightBeDeleted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Candidates Found Alert --></label>
+        <name>CKSW_SHIFT__Alert_NoCandidatesFound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - shift form validation --></label>
+        <name>CKSW_SHIFT__Alert_PleaseReviewShiftFormFields_n</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Please wait for the candidates to load --></label>
+        <name>CKSW_SHIFT__Alert_PleaseWaitForCandidatesToLoad</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - Publish Failed --></label>
+        <name>CKSW_SHIFT__Alert_PublishFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - Publish with rule violations --></label>
+        <name>CKSW_SHIFT__Alert_PublishWithRuleViolations</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - recurrence validation --></label>
+        <name>CKSW_SHIFT__Alert_RecurrenceEndMustBeSfterToday</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Recurrence more then a year --></label>
+        <name>CKSW_SHIFT__Alert_RecurrenceMoreThenYear</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- alert dates validation --></label>
+        <name>CKSW_SHIFT__Alert_ShiftEndMustBeAfterShiftStart</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - Smart Assign Failed --></label>
+        <name>CKSW_SHIFT__Alert_SmartAssignFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - Status Change Failed --></label>
+        <name>CKSW_SHIFT__Alert_StatusChangeFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - Unable to Get Absences. --></label>
+        <name>CKSW_SHIFT__Alert_UnableGetAbsences</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - Unable to get Shifts --></label>
+        <name>CKSW_SHIFT__Alert_UnableToGetShifts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - Unassign Failed --></label>
+        <name>CKSW_SHIFT__Alert_UnassignFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - Weekly Rec Failed --></label>
+        <name>CKSW_SHIFT__Alert_WeeklyRecFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - Working Days Rec Failed --></label>
+        <name>CKSW_SHIFT__Alert_WorkingDaysRecFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - Location Validation --></label>
+        <name>CKSW_SHIFT__Alert_YouMustSelectLocation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Alert - Your Session Has Timed Out --></label>
+        <name>CKSW_SHIFT__Alert_Your_Session_Has_Timed_Out</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Authorization Successful --></label>
+        <name>CKSW_SHIFT__Authorization_Successful</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- BackToWork --></label>
+        <name>CKSW_SHIFT__BackToWork</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- BackToWorkExplain --></label>
+        <name>CKSW_SHIFT__BackToWorkExplain</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clock In --></label>
+        <name>CKSW_SHIFT__Clock_In</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clock In Explain --></label>
+        <name>CKSW_SHIFT__Clock_In_Explain</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clock Out --></label>
+        <name>CKSW_SHIFT__Clock_Out</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clock Out Explain --></label>
+        <name>CKSW_SHIFT__Clock_Out_Explain</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Confirm Reset Settings --></label>
+        <name>CKSW_SHIFT__Confirm_Reset_Settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Current Run --></label>
+        <name>CKSW_SHIFT__Current_Run</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Dialog Assign button --></label>
+        <name>CKSW_SHIFT__Dialog_Assign</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Dialog Bulk Action Title --></label>
+        <name>CKSW_SHIFT__Dialog_BulkActionTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Dialog Bulk Date Range --></label>
+        <name>CKSW_SHIFT__Dialog_BulkDateRange</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Dialog smart assign dates range --></label>
+        <name>CKSW_SHIFT__Dialog_DateRangeToAssign</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Dialog Publish date range --></label>
+        <name>CKSW_SHIFT__Dialog_DateRangetoPublish</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Dialog Publish button --></label>
+        <name>CKSW_SHIFT__Dialog_Publish</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Dialog Publish Dialog Title --></label>
+        <name>CKSW_SHIFT__Dialog_PublishShifts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Dialog smart assign title --></label>
+        <name>CKSW_SHIFT__Dialog_SmartAssignTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Request Prevent Approved Rejected --></label>
+        <name>CKSW_SHIFT__Error_Request_Prevent_Approved_Rejected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Global AM --></label>
+        <name>CKSW_SHIFT__Global_AM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancel button --></label>
+        <name>CKSW_SHIFT__Global_Cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Global Change Status --></label>
+        <name>CKSW_SHIFT__Global_Change_Status</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Global Delete --></label>
+        <name>CKSW_SHIFT__Global_Delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Global_Edit --></label>
+        <name>CKSW_SHIFT__Global_Edit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Global Employee --></label>
+        <name>CKSW_SHIFT__Global_Employee</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Friday --></label>
+        <name>CKSW_SHIFT__Global_Friday</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- From --></label>
+        <name>CKSW_SHIFT__Global_From</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Location --></label>
+        <name>CKSW_SHIFT__Global_Location</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Monday --></label>
+        <name>CKSW_SHIFT__Global_Monday</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- None --></label>
+        <name>CKSW_SHIFT__Global_None</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OK Button --></label>
+        <name>CKSW_SHIFT__Global_OK</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Global PM --></label>
+        <name>CKSW_SHIFT__Global_PM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Position --></label>
+        <name>CKSW_SHIFT__Global_Position</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Print button --></label>
+        <name>CKSW_SHIFT__Global_Print</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Global Publish --></label>
+        <name>CKSW_SHIFT__Global_Publish</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Recurrence --></label>
+        <name>CKSW_SHIFT__Global_Recurrence</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Saturday --></label>
+        <name>CKSW_SHIFT__Global_Saturday</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Global Save --></label>
+        <name>CKSW_SHIFT__Global_Save</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Global Select Action --></label>
+        <name>CKSW_SHIFT__Global_Select_Action</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift --></label>
+        <name>CKSW_SHIFT__Global_Shift</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Status --></label>
+        <name>CKSW_SHIFT__Global_Status</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sunday --></label>
+        <name>CKSW_SHIFT__Global_Sunday</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Thursday --></label>
+        <name>CKSW_SHIFT__Global_Thursday</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- To --></label>
+        <name>CKSW_SHIFT__Global_To</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tuesday --></label>
+        <name>CKSW_SHIFT__Global_Tuesday</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Global Unassign --></label>
+        <name>CKSW_SHIFT__Global_Unassign</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Wednesday --></label>
+        <name>CKSW_SHIFT__Global_Wednesday</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label - Are you sure you want to reset all scheduled jobs --></label>
+        <name>CKSW_SHIFT__Label_Are_you_sure_you_want_to_reset_all_scheduled_jobs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Last Action on clock in page --></label>
+        <name>CKSW_SHIFT__Last_Action_Clockin</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Location Already Has User --></label>
+        <name>CKSW_SHIFT__Location_Already_Has_User</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LunchBreak --></label>
+        <name>CKSW_SHIFT__LunchBreak</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Lunch Break Explain --></label>
+        <name>CKSW_SHIFT__LunchBreakExplain</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Next Run --></label>
+        <name>CKSW_SHIFT__Next_Run</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Resource Associated With Your User --></label>
+        <name>CKSW_SHIFT__No_Resource_Associated_With_Your_User</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Optimizaion Msg Settings page --></label>
+        <name>CKSW_SHIFT__Optimizaion_Msg_Settings_page</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Optimization Clicksoftware optimization session with your salesforce account has --></label>
+        <name>CKSW_SHIFT__Optimization_Clicksoftware_optimization_session_with_your_salesforce_account_has</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Optimization In order to smart assign shifts you need to click authorize inside --></label>
+        <name>CKSW_SHIFT__Optimization_In_order_to_smart_assign_shifts_you_need_to_click_authorize_inside</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Optimization error --></label>
+        <name>CKSW_SHIFT__Optimization_OptimizationError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Optimization in progress --></label>
+        <name>CKSW_SHIFT__Optimization_OptimizationInProgress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Optimization in queue --></label>
+        <name>CKSW_SHIFT__Optimization_OptimizationInQueue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Optimization Completed --></label>
+        <name>CKSW_SHIFT__Optimization_Optimization_Completed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Optimization Please Wait --></label>
+        <name>CKSW_SHIFT__Optimization_PleaseWaitForOptimizationToFinish</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Requesting Optimization --></label>
+        <name>CKSW_SHIFT__Optimization_RequestingOptimization</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Optimization Your optimizaton request capacity is bigger than your orgnization l --></label>
+        <name>CKSW_SHIFT__Optimization_Your_optimizaton_request_capacity_is_bigger_than_your_orgnization_l</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Position Already Has Skill --></label>
+        <name>CKSW_SHIFT__Position_Already_Has_Skill</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Previous Run --></label>
+        <name>CKSW_SHIFT__Previous_Run</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Resource Already Has Skill --></label>
+        <name>CKSW_SHIFT__Resource_Already_Has_Skill</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Review Mention Text --></label>
+        <name>CKSW_SHIFT__Review_Mention_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- 3 Days label --></label>
+        <name>CKSW_SHIFT__RosterGrid_3Days</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- 3 Days Tooltip --></label>
+        <name>CKSW_SHIFT__RosterGrid_3DaysTooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Absences --></label>
+        <name>CKSW_SHIFT__RosterGrid_Absences</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Auto schedule tooltip --></label>
+        <name>CKSW_SHIFT__RosterGrid_AutoScheduleToolTip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Daily View Label --></label>
+        <name>CKSW_SHIFT__RosterGrid_Daily</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Daily tool tip --></label>
+        <name>CKSW_SHIFT__RosterGrid_DailyTooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete Tooltip --></label>
+        <name>CKSW_SHIFT__RosterGrid_DeleteToolTip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Shift Tool Tip --></label>
+        <name>CKSW_SHIFT__RosterGrid_EditShiftToolTip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tooltip - Toggle views with TAB --></label>
+        <name>CKSW_SHIFT__RosterGrid_EmpPosToggleTooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Employee label toggle --></label>
+        <name>CKSW_SHIFT__RosterGrid_Employee</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Filter Employee Filter --></label>
+        <name>CKSW_SHIFT__RosterGrid_FilterEmployeePlaceHolder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Filter Position Filter --></label>
+        <name>CKSW_SHIFT__RosterGrid_FilterPositionPlaceHolder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift Availability Types --></label>
+        <name>CKSW_SHIFT__RosterGrid_FilteringShiftAvailabilityTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Getting Started Box Cancel --></label>
+        <name>CKSW_SHIFT__RosterGrid_GettingStartedBoxCancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Getting Started Box Ok --></label>
+        <name>CKSW_SHIFT__RosterGrid_GettingStartedBoxOk</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Getting Started Box Header --></label>
+        <name>CKSW_SHIFT__RosterGrid_GettingStartedBoxTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Getting Started Box content --></label>
+        <name>CKSW_SHIFT__RosterGrid_GettingStartedWelcome</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Jump to placeholder --></label>
+        <name>CKSW_SHIFT__RosterGrid_JumptoPlaceholder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Monthly view label --></label>
+        <name>CKSW_SHIFT__RosterGrid_Monthly</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Monthly Tooltip --></label>
+        <name>CKSW_SHIFT__RosterGrid_MonthlyTooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New Shift --></label>
+        <name>CKSW_SHIFT__RosterGrid_NewShift</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Next days tooltip --></label>
+        <name>CKSW_SHIFT__RosterGrid_NextDaysToolTip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Templates Text --></label>
+        <name>CKSW_SHIFT__RosterGrid_NoTemplates</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Auto Assign Notification Text --></label>
+        <name>CKSW_SHIFT__RosterGrid_Notifications_AutoAssignNotificationText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Auto Assign Notification Title --></label>
+        <name>CKSW_SHIFT__RosterGrid_Notifications_AutoAssignNotificationTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Change Shift Status Notification Text --></label>
+        <name>CKSW_SHIFT__RosterGrid_Notifications_ChangeShiftStatusNotificationText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Change Shift Status Notification Title --></label>
+        <name>CKSW_SHIFT__RosterGrid_Notifications_ChangeShiftStatusNotificationTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Daily Recurrence Notification Title --></label>
+        <name>CKSW_SHIFT__RosterGrid_Notifications_DailyRecurrenceNotificationTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete Shifts Notification text --></label>
+        <name>CKSW_SHIFT__RosterGrid_Notifications_DeleteNotificationText1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete Shifts Notification Title --></label>
+        <name>CKSW_SHIFT__RosterGrid_Notifications_DeleteShiftsNotificationTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Recurrence Notifications Text 1 --></label>
+        <name>CKSW_SHIFT__RosterGrid_Notifications_EditRecurrenceNotificationsText1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Recurrence Notifications Text 2 --></label>
+        <name>CKSW_SHIFT__RosterGrid_Notifications_EditRecurrenceNotificationsText2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Recurrence Notifications Title --></label>
+        <name>CKSW_SHIFT__RosterGrid_Notifications_EditRecurrenceNotificationsTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift In Jeopardy Notification Title --></label>
+        <name>CKSW_SHIFT__RosterGrid_Notifications_InJeopardyNotificationTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift In Jeopardy Notification Text --></label>
+        <name>CKSW_SHIFT__RosterGrid_Notifications_In_JeopardyNotificationText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- was modified after publish. Notification Text --></label>
+        <name>CKSW_SHIFT__RosterGrid_Notifications_ModifyAfterPublishNotificationText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Modify shift after publish Notification text 2 --></label>
+        <name>CKSW_SHIFT__RosterGrid_Notifications_ModifyAfterPublishNotificationText2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Publish Shift Notification Text --></label>
+        <name>CKSW_SHIFT__RosterGrid_Notifications_PublishShiftNotificationText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Publish Shift Notification Title --></label>
+        <name>CKSW_SHIFT__RosterGrid_Notifications_PublishShiftNotificationTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Publish Shift Notification Text --></label>
+        <name>CKSW_SHIFT__RosterGrid_Notifications_PublishShiftsNotificationText1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Publish Shift Notification Text --></label>
+        <name>CKSW_SHIFT__RosterGrid_Notifications_PublishShiftsNotificationText2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Publish Shift Notification Text --></label>
+        <name>CKSW_SHIFT__RosterGrid_Notifications_PublishShiftsNotificationText3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Published Shift Modified Notification Title --></label>
+        <name>CKSW_SHIFT__RosterGrid_Notifications_PublishedShiftModifiedNotificationTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Recurrence Shifts Were Created Notification Text --></label>
+        <name>CKSW_SHIFT__RosterGrid_Notifications_ShiftsWereCreatedText1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Recurrence Shifts Were Created Notification Text --></label>
+        <name>CKSW_SHIFT__RosterGrid_Notifications_ShiftsWereCreatedText2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unassign Notification text --></label>
+        <name>CKSW_SHIFT__RosterGrid_Notifications_UnassignNotificationText1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unassign Notification Title --></label>
+        <name>CKSW_SHIFT__RosterGrid_Notifications_UnassignNotificationTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Weekly Rec Notification Title --></label>
+        <name>CKSW_SHIFT__RosterGrid_Notifications_WeeklyRecNotificationTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- WorkingDays Recurrence Notification Title --></label>
+        <name>CKSW_SHIFT__RosterGrid_Notifications_WorkingDaysRecurrenceNotificationTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Position toggle label --></label>
+        <name>CKSW_SHIFT__RosterGrid_Position</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Previous days tooltip --></label>
+        <name>CKSW_SHIFT__RosterGrid_PreviousDaysToolTip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Print Box Title --></label>
+        <name>CKSW_SHIFT__RosterGrid_PrintBoxTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Print Location --></label>
+        <name>CKSW_SHIFT__RosterGrid_PrintLocation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Print Starting Date --></label>
+        <name>CKSW_SHIFT__RosterGrid_PrintStartingDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Actions - Print --></label>
+        <name>CKSW_SHIFT__RosterGrid_PrintWeeklyShifts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Publish Tool Tip --></label>
+        <name>CKSW_SHIFT__RosterGrid_PublishToolTip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quick Jump Label - today --></label>
+        <name>CKSW_SHIFT__RosterGrid_QuickJumpLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quick jump tool tip --></label>
+        <name>CKSW_SHIFT__RosterGrid_QuickJumpToolTip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Actions Label --></label>
+        <name>CKSW_SHIFT__RosterGrid_RosterGrid_Actions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Action - Bulk Action Shifts --></label>
+        <name>CKSW_SHIFT__RosterGrid_RosterGrid_BulkAction</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Actions - News Shift --></label>
+        <name>CKSW_SHIFT__RosterGrid_RosterGrid_NewShift</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Actions - Publish Shifts --></label>
+        <name>CKSW_SHIFT__RosterGrid_RosterGrid_PublishShifts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Actions - Refresh --></label>
+        <name>CKSW_SHIFT__RosterGrid_RosterGrid_Refresh</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Actions - Smart Assign Shifts --></label>
+        <name>CKSW_SHIFT__RosterGrid_RosterGrid_SmartAssignShifts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Actions - Rules Validate --></label>
+        <name>CKSW_SHIFT__RosterGrid_RosterGrid_ValidateRules</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select All --></label>
+        <name>CKSW_SHIFT__RosterGrid_SelectAll</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift Explorer --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftExplorer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift explorer - Employee (position) --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftExplorerEmpPos</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift Explorer Explanation --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftExplorerExplain</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift explorer - rules violated --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftExplorerRulesViolated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift explorer - sched button --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftExplorerSched</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift Filtering General Title --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftFilteringGeneralPropertiesTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift Filtering Title --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftFilteringTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift Filters tool tip --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftFilters</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift Lightbox Availability Types --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftLightBox_AvailabilityType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift lightbox weekly --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftLightBox_Daily</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift lightbox days --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftLightBox_Days</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift Lightbox Editing Options --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftLightBox_EditingOptions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift lightbox every --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftLightBox_Every</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift lightbox extended form link --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftLightBox_Extended</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift lightbox finish --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftLightBox_Finish</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift Lightbox Frequency --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftLightBox_Frequency</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift lightbox future shifts --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftLightBox_FutureShifts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift lightbox incompleted shifts --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftLightBox_Incompleted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift lightbox recurrence modifying --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftLightBox_ModifyingAffectMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift lightbox only this shift --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftLightBox_OnlyThisShift</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift Lightbox Other Employees --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftLightBox_OtherEmployees</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift Lightbox past shifts --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftLightBox_PastShifts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift Lightbox Recommended Candidate --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftLightBox_RecommendedCandidates</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift lightbox recurrence end text --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftLightBox_RecurrenceEndText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift lightbox recurrence help --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftLightBox_RecurrenceHelpText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shifts Lightbox Rules Warning --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftLightBox_RulesWarning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift Lightbox Search Place Holder --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftLightBox_SearchEmployeePlaceHolder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift Lightbox Select Employee --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftLightBox_SelectEmployee</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift Settings --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftLightBox_ShiftSettings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift Types --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftLightBox_ShiftTypes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift lightbox start --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftLightBox_Start</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift lightbox title --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftLightBox_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift Lightbox weekly --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftLightBox_Weekly</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift Lightbox Working Days --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftLightBox_WorkingDays</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- shift end date can&apos;t be before the start date --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftLightbox_ShiftStartEndValidate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift Status --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftStatus</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift Templates --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftTemplates</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift templates tool tip --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftTemplatesToolTip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift Time --></label>
+        <name>CKSW_SHIFT__RosterGrid_ShiftTime</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tooltip Absence Time --></label>
+        <name>CKSW_SHIFT__RosterGrid_Tooltip_AbsenceTime</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tooltip Absence Type --></label>
+        <name>CKSW_SHIFT__RosterGrid_Tooltip_AbsenceType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tooltip Availability --></label>
+        <name>CKSW_SHIFT__RosterGrid_Tooltip_Availability</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tooltip No Position Allocated --></label>
+        <name>CKSW_SHIFT__RosterGrid_Tooltip_NoPositionAllocated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tooltip No Resource Assigned --></label>
+        <name>CKSW_SHIFT__RosterGrid_Tooltip_NoResourceAssigned</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tooltip No Skills --></label>
+        <name>CKSW_SHIFT__RosterGrid_Tooltip_NoSkills</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tooltip Shift Type --></label>
+        <name>CKSW_SHIFT__RosterGrid_Tooltip_ShiftType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tooltip Shift Violations --></label>
+        <name>CKSW_SHIFT__RosterGrid_Tooltip_ShiftViolations</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tooltip Skills --></label>
+        <name>CKSW_SHIFT__RosterGrid_Tooltip_Skills</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unallocated --></label>
+        <name>CKSW_SHIFT__RosterGrid_Unallocated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unallocated Shifts --></label>
+        <name>CKSW_SHIFT__RosterGrid_UnallocatedShifts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unassigned --></label>
+        <name>CKSW_SHIFT__RosterGrid_Unassigned</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unselect All --></label>
+        <name>CKSW_SHIFT__RosterGrid_UnselectAll</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Violations --></label>
+        <name>CKSW_SHIFT__RosterGrid_Violations</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Weekly view label --></label>
+        <name>CKSW_SHIFT__RosterGrid_Weekly</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Weekly Tool tip --></label>
+        <name>CKSW_SHIFT__RosterGrid_WeeklyTooltip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Match Constant Rule Violation --></label>
+        <name>CKSW_SHIFT__RuleViolation_Match_Constant</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Match Field Rule Violation --></label>
+        <name>CKSW_SHIFT__RuleViolation_Match_Field</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Match Skills Rule Violation --></label>
+        <name>CKSW_SHIFT__RuleViolation_Match_Skills</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Maximum Consecutive Work Rule Violation --></label>
+        <name>CKSW_SHIFT__RuleViolation_Maximum_Consecutive_Work</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Maximum Shift Length Rule Violation --></label>
+        <name>CKSW_SHIFT__RuleViolation_Maximum_Shift_Length</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Maximum Work Time Rule Violation --></label>
+        <name>CKSW_SHIFT__RuleViolation_Maximum_Work_Time</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Minimum Rest Time Rule Violation --></label>
+        <name>CKSW_SHIFT__RuleViolation_Minimum_Rest_Time</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Minimum Shift Length Rule Violation --></label>
+        <name>CKSW_SHIFT__RuleViolation_Minimum_Shift_Length</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Overlapping Shift Violation --></label>
+        <name>CKSW_SHIFT__RuleViolation_Overlapping_Shift</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Settings --></label>
+        <name>CKSW_SHIFT__Settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shift part of a sequence --></label>
+        <name>CKSW_SHIFT__ShiftLightbox_PartOfSequence</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ShiftExpert --></label>
+        <name>CKSW_SHIFT__Shift_Manager</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- All Shifts --></label>
+        <name>CKSW_SHIFT__SmartAssignBox_AllShifts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Shifts to assign --></label>
+        <name>CKSW_SHIFT__SmartAssignBox_ShiftsToAssign</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unassigned shifts --></label>
+        <name>CKSW_SHIFT__SmartAssignBox_UnassignedShifts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Times Triggered --></label>
+        <name>CKSW_SHIFT__Times_Triggered</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unique Location Name --></label>
+        <name>CKSW_SHIFT__Unique_Location_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unique Position Name --></label>
+        <name>CKSW_SHIFT__Unique_Position_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unique Shift Type Name --></label>
+        <name>CKSW_SHIFT__Unique_Shift_Type_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unique Skill Name --></label>
+        <name>CKSW_SHIFT__Unique_Skill_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- User Already Associated With Resource --></label>
+        <name>CKSW_SHIFT__User_Already_Associated_With_Resource</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No candidates were found --></label>
+        <name>CKSW_SHIFT__VF006_NoCandidatesWereFound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select Candidate --></label>
+        <name>CKSW_SHIFT__VF006_SelectCandidate</name>
+    </customLabels>
     <customLabels>
         <label><!-- - --></label>
         <name>TIMBASURVEYS__timabasurveys_Already_Collected</name>
@@ -2532,1490 +3528,10 @@
         <label><!-- taxonomy load noitems msg --></label>
         <name>cms__taxonomy_load_noitems_msg</name>
     </customLabels>
-    <customLabels>
-        <label><!-- AccAuthConfig --></label>
-        <name>tatami2__AccAuthConfig</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- アクセスできません --></label>
-        <name>tatami2__AccessDenied</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- アクション --></label>
-        <name>tatami2__Action</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- 承認者 --></label>
-        <name>tatami2__Actor</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Add --></label>
-        <name>tatami2__Add</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- AddAfterLabel --></label>
-        <name>tatami2__AddAfterLabel</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- AddBeforeLabel --></label>
-        <name>tatami2__AddBeforeLabel</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- AdminUser --></label>
-        <name>tatami2__AdminUser</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- すべての状況 --></label>
-        <name>tatami2__AllStatus</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- AltText --></label>
-        <name>tatami2__AltText</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- 申請者 --></label>
-        <name>tatami2__Applicants</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Application --></label>
-        <name>tatami2__Application</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Approval --></label>
-        <name>tatami2__Approval</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- ApprovalApplication --></label>
-        <name>tatami2__ApprovalApplication</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- ApprovalBatch --></label>
-        <name>tatami2__ApprovalBatch</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- ApprovalPending --></label>
-        <name>tatami2__ApprovalPending</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Approved --></label>
-        <name>tatami2__Approved</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Asc --></label>
-        <name>tatami2__Asc</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- 割り当て先 --></label>
-        <name>tatami2__Assignment</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Authority --></label>
-        <name>tatami2__Authority</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Back --></label>
-        <name>tatami2__Back</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- BlockSelect --></label>
-        <name>tatami2__BlockSelect</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Body --></label>
-        <name>tatami2__Body</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- BodyClass --></label>
-        <name>tatami2__BodyClass</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- BodyID --></label>
-        <name>tatami2__BodyID</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- CMSUser --></label>
-        <name>tatami2__CMSUser</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Cancel --></label>
-        <name>tatami2__Cancel</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- ClearAll --></label>
-        <name>tatami2__ClearAll</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Close --></label>
-        <name>tatami2__Close</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- CloseBatch --></label>
-        <name>tatami2__CloseBatch</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- ClosePage --></label>
-        <name>tatami2__ClosePage</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Column2BothSide --></label>
-        <name>tatami2__Column2BothSide</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Column2RightSide --></label>
-        <name>tatami2__Column2LeftSide</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Column2RightSide --></label>
-        <name>tatami2__Column2RightSide</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Config --></label>
-        <name>tatami2__Config</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- ConfigBasic --></label>
-        <name>tatami2__ConfigBasic</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- ConfigDetail --></label>
-        <name>tatami2__ConfigDetail</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Contents --></label>
-        <name>tatami2__Contents</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Copy --></label>
-        <name>tatami2__Copy</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- CopyBase --></label>
-        <name>tatami2__CopyBase</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- CopyBaseSelect --></label>
-        <name>tatami2__CopyBaseSelect</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- CopyDirectory --></label>
-        <name>tatami2__CopyDirectory</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- CopyToSelect --></label>
-        <name>tatami2__CopyToSelect</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Count --></label>
-        <name>tatami2__Count</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Create --></label>
-        <name>tatami2__Create</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- 作成者 --></label>
-        <name>tatami2__CreateUser</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- CrumbWidget --></label>
-        <name>tatami2__CrumbWidget</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Days --></label>
-        <name>tatami2__Days</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Decision --></label>
-        <name>tatami2__Decision</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- DefaultLanguage --></label>
-        <name>tatami2__DefaultLanguage</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- デフォルトテンプレート --></label>
-        <name>tatami2__DefaultTemplate</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Delete --></label>
-        <name>tatami2__Delete</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Delivery --></label>
-        <name>tatami2__Delivery</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Depth --></label>
-        <name>tatami2__Depth</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Desc --></label>
-        <name>tatami2__Desc</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- DestinationUrl --></label>
-        <name>tatami2__DestinationUrl</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Detail --></label>
-        <name>tatami2__Detail</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Document --></label>
-        <name>tatami2__Document</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Down --></label>
-        <name>tatami2__Down</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Download --></label>
-        <name>tatami2__Download</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Edit --></label>
-        <name>tatami2__Edit</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Editting --></label>
-        <name>tatami2__Editting</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- EndDate --></label>
-        <name>tatami2__EndDate</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- EndPublishBatch --></label>
-        <name>tatami2__EndPublishBatch</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- ExactMatch --></label>
-        <name>tatami2__ExactMatch</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Excel --></label>
-        <name>tatami2__Excel</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- ExecDelete --></label>
-        <name>tatami2__ExecDelete</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- File --></label>
-        <name>tatami2__File</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- FilePath --></label>
-        <name>tatami2__FilePath</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- FilePathApplication --></label>
-        <name>tatami2__FilePathApplication</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- FileUpload --></label>
-        <name>tatami2__FileUpload</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- フラットビュー --></label>
-        <name>tatami2__FlatView</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- FolderList --></label>
-        <name>tatami2__FolderList</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- フォーマット --></label>
-        <name>tatami2__Format</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Forward --></label>
-        <name>tatami2__Forward</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- GeneralUser --></label>
-        <name>tatami2__GeneralUser</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Grade --></label>
-        <name>tatami2__Grade</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Guest --></label>
-        <name>tatami2__Guest</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_001 --></label>
-        <name>tatami2__HMSG_001</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_003 --></label>
-        <name>tatami2__HMSG_003</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_005 --></label>
-        <name>tatami2__HMSG_005</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_006 --></label>
-        <name>tatami2__HMSG_006</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_007 --></label>
-        <name>tatami2__HMSG_007</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_008 --></label>
-        <name>tatami2__HMSG_008</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_009 --></label>
-        <name>tatami2__HMSG_009</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_010 --></label>
-        <name>tatami2__HMSG_010</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_011 --></label>
-        <name>tatami2__HMSG_011</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_012 --></label>
-        <name>tatami2__HMSG_012</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_019 --></label>
-        <name>tatami2__HMSG_019</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_020 --></label>
-        <name>tatami2__HMSG_020</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_021 --></label>
-        <name>tatami2__HMSG_021</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_022 --></label>
-        <name>tatami2__HMSG_022</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_032 --></label>
-        <name>tatami2__HMSG_032</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_036 --></label>
-        <name>tatami2__HMSG_036</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_041 --></label>
-        <name>tatami2__HMSG_041</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_043 --></label>
-        <name>tatami2__HMSG_043</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_046 --></label>
-        <name>tatami2__HMSG_046</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_048 --></label>
-        <name>tatami2__HMSG_048</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_052 --></label>
-        <name>tatami2__HMSG_052</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_053 --></label>
-        <name>tatami2__HMSG_053</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_054 --></label>
-        <name>tatami2__HMSG_054</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_055 --></label>
-        <name>tatami2__HMSG_055</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_056 --></label>
-        <name>tatami2__HMSG_056</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_057 --></label>
-        <name>tatami2__HMSG_057</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_058 --></label>
-        <name>tatami2__HMSG_058</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_059 --></label>
-        <name>tatami2__HMSG_059</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_060 --></label>
-        <name>tatami2__HMSG_060</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- エラー --></label>
-        <name>tatami2__HMSG_061</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HMSG_062 --></label>
-        <name>tatami2__HMSG_062</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- パス変更エラー --></label>
-        <name>tatami2__HMSG_063</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HeaderTemplate --></label>
-        <name>tatami2__HeaderTemplate</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Height --></label>
-        <name>tatami2__Height</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- ヘルプ --></label>
-        <name>tatami2__Help</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Hide --></label>
-        <name>tatami2__Hide</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- 履歴 --></label>
-        <name>tatami2__History</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HTML --></label>
-        <name>tatami2__Html</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HtmlAttributeAll --></label>
-        <name>tatami2__HtmlAttributeAll</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HtmlAttributeTitle --></label>
-        <name>tatami2__HtmlAttributeTitle</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HtmlSyntaxError --></label>
-        <name>tatami2__HtmlSyntaxError</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_001 --></label>
-        <name>tatami2__IMSG_001</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_002 --></label>
-        <name>tatami2__IMSG_002</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- サイトと言語を選択してください --></label>
-        <name>tatami2__IMSG_003</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- 検索結果なし --></label>
-        <name>tatami2__IMSG_004</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_005 --></label>
-        <name>tatami2__IMSG_005</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_006 --></label>
-        <name>tatami2__IMSG_006</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_007 --></label>
-        <name>tatami2__IMSG_007</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_010 --></label>
-        <name>tatami2__IMSG_010</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_011 --></label>
-        <name>tatami2__IMSG_011</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_012 --></label>
-        <name>tatami2__IMSG_012</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_013 --></label>
-        <name>tatami2__IMSG_013</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_014 --></label>
-        <name>tatami2__IMSG_014</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_015 --></label>
-        <name>tatami2__IMSG_015</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_016 --></label>
-        <name>tatami2__IMSG_016</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_020 --></label>
-        <name>tatami2__IMSG_020</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_021 --></label>
-        <name>tatami2__IMSG_021</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_022 --></label>
-        <name>tatami2__IMSG_022</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_024 --></label>
-        <name>tatami2__IMSG_024</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_025 --></label>
-        <name>tatami2__IMSG_025</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_029 --></label>
-        <name>tatami2__IMSG_029</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_033 --></label>
-        <name>tatami2__IMSG_033</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_034 --></label>
-        <name>tatami2__IMSG_034</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_035 --></label>
-        <name>tatami2__IMSG_035</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_036 --></label>
-        <name>tatami2__IMSG_036</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_037 --></label>
-        <name>tatami2__IMSG_037</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_038 --></label>
-        <name>tatami2__IMSG_038</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_041 --></label>
-        <name>tatami2__IMSG_041</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_042 --></label>
-        <name>tatami2__IMSG_042</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_046 --></label>
-        <name>tatami2__IMSG_046</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_047 --></label>
-        <name>tatami2__IMSG_047</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_049 --></label>
-        <name>tatami2__IMSG_049</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_050 --></label>
-        <name>tatami2__IMSG_050</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_051 --></label>
-        <name>tatami2__IMSG_051</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_052 --></label>
-        <name>tatami2__IMSG_052</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_053 --></label>
-        <name>tatami2__IMSG_053</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_057 --></label>
-        <name>tatami2__IMSG_057</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_058 --></label>
-        <name>tatami2__IMSG_058</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_059 --></label>
-        <name>tatami2__IMSG_059</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_060 --></label>
-        <name>tatami2__IMSG_060</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_061 --></label>
-        <name>tatami2__IMSG_061</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_062 --></label>
-        <name>tatami2__IMSG_062</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_063 --></label>
-        <name>tatami2__IMSG_063</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_064 --></label>
-        <name>tatami2__IMSG_064</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_065 --></label>
-        <name>tatami2__IMSG_065</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_066 --></label>
-        <name>tatami2__IMSG_066</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_082 --></label>
-        <name>tatami2__IMSG_082</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_089 --></label>
-        <name>tatami2__IMSG_089</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_090 --></label>
-        <name>tatami2__IMSG_090</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_091 --></label>
-        <name>tatami2__IMSG_091</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_096 --></label>
-        <name>tatami2__IMSG_096</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_097 --></label>
-        <name>tatami2__IMSG_097</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_098 --></label>
-        <name>tatami2__IMSG_098</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_099 --></label>
-        <name>tatami2__IMSG_099</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_100 --></label>
-        <name>tatami2__IMSG_100</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_101 --></label>
-        <name>tatami2__IMSG_101</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_112 --></label>
-        <name>tatami2__IMSG_112</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_115 --></label>
-        <name>tatami2__IMSG_115</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_116 --></label>
-        <name>tatami2__IMSG_116</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_121 --></label>
-        <name>tatami2__IMSG_121</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_122 --></label>
-        <name>tatami2__IMSG_122</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_128 --></label>
-        <name>tatami2__IMSG_128</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_129 --></label>
-        <name>tatami2__IMSG_129</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_130 --></label>
-        <name>tatami2__IMSG_130</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_131 --></label>
-        <name>tatami2__IMSG_131</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_132 --></label>
-        <name>tatami2__IMSG_132</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_134 --></label>
-        <name>tatami2__IMSG_134</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_135 --></label>
-        <name>tatami2__IMSG_135</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_136 --></label>
-        <name>tatami2__IMSG_136</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_137 --></label>
-        <name>tatami2__IMSG_137</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_139 --></label>
-        <name>tatami2__IMSG_139</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_141 --></label>
-        <name>tatami2__IMSG_141</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_142 --></label>
-        <name>tatami2__IMSG_142</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_144 --></label>
-        <name>tatami2__IMSG_144</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_145 --></label>
-        <name>tatami2__IMSG_145</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_146 --></label>
-        <name>tatami2__IMSG_146</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_147 --></label>
-        <name>tatami2__IMSG_147</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_149 --></label>
-        <name>tatami2__IMSG_149</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_150 --></label>
-        <name>tatami2__IMSG_150</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_152 --></label>
-        <name>tatami2__IMSG_152</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_153 --></label>
-        <name>tatami2__IMSG_153</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_154 --></label>
-        <name>tatami2__IMSG_154</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_155 --></label>
-        <name>tatami2__IMSG_155</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_156 --></label>
-        <name>tatami2__IMSG_156</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_157 --></label>
-        <name>tatami2__IMSG_157</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_158 --></label>
-        <name>tatami2__IMSG_158</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_159 --></label>
-        <name>tatami2__IMSG_159</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_160 --></label>
-        <name>tatami2__IMSG_160</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_161 --></label>
-        <name>tatami2__IMSG_161</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- IMSG_162 --></label>
-        <name>tatami2__IMSG_162</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- HTML5フラグ --></label>
-        <name>tatami2__IMSG_163</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- ImageFile --></label>
-        <name>tatami2__ImageFile</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- ImgAlt --></label>
-        <name>tatami2__ImgAlt</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- ImgLink --></label>
-        <name>tatami2__ImgLink</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Install --></label>
-        <name>tatami2__Install</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- 項目 --></label>
-        <name>tatami2__Item</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- ItemsPerPage --></label>
-        <name>tatami2__ItemsPerPage</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- JavaScript --></label>
-        <name>tatami2__JavaScript</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- ラベル --></label>
-        <name>tatami2__Label</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Language --></label>
-        <name>tatami2__Language</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- LastUpdatedBy --></label>
-        <name>tatami2__LastUpdatedBy</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- LastUpdatedDate --></label>
-        <name>tatami2__LastUpdatedDate</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Layout --></label>
-        <name>tatami2__Layout</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- LeftIconType --></label>
-        <name>tatami2__LeftIconType</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Level --></label>
-        <name>tatami2__Level</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- License --></label>
-        <name>tatami2__License</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Link --></label>
-        <name>tatami2__Link</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- 詳細ページへのリンク --></label>
-        <name>tatami2__LinkForDetail</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- LinkImg --></label>
-        <name>tatami2__LinkImg</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- List --></label>
-        <name>tatami2__List</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- ListPageSelect --></label>
-        <name>tatami2__ListPageSelect</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- ListParentPage --></label>
-        <name>tatami2__ListParentPage</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- ListView --></label>
-        <name>tatami2__ListView</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- ListWidget --></label>
-        <name>tatami2__ListWidget</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Loading --></label>
-        <name>tatami2__Loading</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Manage --></label>
-        <name>tatami2__Manage</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Manual --></label>
-        <name>tatami2__Manual</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Menu --></label>
-        <name>tatami2__Menu</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- MenuWidget --></label>
-        <name>tatami2__MenuWidget</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- MetaDescription --></label>
-        <name>tatami2__MetaDescription</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- MetaKeyword --></label>
-        <name>tatami2__MetaKeyword</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- MngAuthConfig --></label>
-        <name>tatami2__MngAuthConfig</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- MustInput --></label>
-        <name>tatami2__MustInput</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Name --></label>
-        <name>tatami2__Name</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- NameOptional --></label>
-        <name>tatami2__NameOptional</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- New --></label>
-        <name>tatami2__New</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- NewArrivals --></label>
-        <name>tatami2__NewArrivals</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- NewMarkDispDays --></label>
-        <name>tatami2__NewMarkDispDays</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- NewSite --></label>
-        <name>tatami2__NewSite</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- NewWindow --></label>
-        <name>tatami2__NewWindow</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Next --></label>
-        <name>tatami2__Next</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- NoPermission --></label>
-        <name>tatami2__NoPermission</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- オブジェクト --></label>
-        <name>tatami2__Object</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- OldVersion --></label>
-        <name>tatami2__OldVersion</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Option --></label>
-        <name>tatami2__Option</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- OrderNumber --></label>
-        <name>tatami2__OrderNumber</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- 所有者 --></label>
-        <name>tatami2__Owner</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- PDF --></label>
-        <name>tatami2__PDF</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Page --></label>
-        <name>tatami2__Page</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- PageManage --></label>
-        <name>tatami2__PageManage</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- PageMember --></label>
-        <name>tatami2__PageMember</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- PageSearch --></label>
-        <name>tatami2__PageSearch</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Paging --></label>
-        <name>tatami2__Paging</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- ParentPage --></label>
-        <name>tatami2__ParentPage</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- PartialMatch --></label>
-        <name>tatami2__PartialMatch</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- PassagePage --></label>
-        <name>tatami2__PassagePage</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- パス --></label>
-        <name>tatami2__Path</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Pending --></label>
-        <name>tatami2__Pending</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Person --></label>
-        <name>tatami2__Person</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- PersonChange --></label>
-        <name>tatami2__PersonChange</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- PersonChangeContact --></label>
-        <name>tatami2__PersonChangeContact</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- PersonSelect --></label>
-        <name>tatami2__PersonSelect</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- PowerPoint --></label>
-        <name>tatami2__PowerPoint</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Preview --></label>
-        <name>tatami2__Preview</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Priority --></label>
-        <name>tatami2__Priority</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Profile --></label>
-        <name>tatami2__Profile</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- ProfileNewManage --></label>
-        <name>tatami2__ProfileNewManage</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Publiciting --></label>
-        <name>tatami2__Publiciting</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- PublicityDate --></label>
-        <name>tatami2__PublicityDate</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- PublicityStop --></label>
-        <name>tatami2__PublicityStop</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- 過去記事の参照権限追加 --></label>
-        <name>tatami2__REV_AUTH</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Reference --></label>
-        <name>tatami2__Reference</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Rejected --></label>
-        <name>tatami2__Rejected</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Release --></label>
-        <name>tatami2__Release</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- ReleaseBatch --></label>
-        <name>tatami2__ReleaseBatch</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- ReleasePlan --></label>
-        <name>tatami2__ReleasePlan</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Released --></label>
-        <name>tatami2__Released</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Reload --></label>
-        <name>tatami2__Reload</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Removed --></label>
-        <name>tatami2__Removed</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- 結果 --></label>
-        <name>tatami2__Result</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- 承認申請の取り消し --></label>
-        <name>tatami2__RevocationOfApproval</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- RightIconType --></label>
-        <name>tatami2__RightIconType</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Roll --></label>
-        <name>tatami2__Roll</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- SFDC --></label>
-        <name>tatami2__SFDC</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Sオブジェクト --></label>
-        <name>tatami2__SO</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- SSJS --></label>
-        <name>tatami2__SSJS</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- SalesForceトップ --></label>
-        <name>tatami2__SalesForceTop</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Sandbox インストール注意 --></label>
-        <name>tatami2__SandboxInstallationNote</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Save --></label>
-        <name>tatami2__Save</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- 保存して終了 --></label>
-        <name>tatami2__SaveAndExit</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- 検索 --></label>
-        <name>tatami2__Search</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Select --></label>
-        <name>tatami2__Select</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- SelectAll --></label>
-        <name>tatami2__SelectAll</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- SelectFolder --></label>
-        <name>tatami2__SelectFolder</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- ServerBrowser --></label>
-        <name>tatami2__ServerBrowser</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Setting --></label>
-        <name>tatami2__Setting</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- ShareLabel --></label>
-        <name>tatami2__ShareLabel</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Show --></label>
-        <name>tatami2__Show</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Site --></label>
-        <name>tatami2__Site</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- SiteCode --></label>
-        <name>tatami2__SiteCode</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- サイトマップ --></label>
-        <name>tatami2__SiteMap</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- SiteName --></label>
-        <name>tatami2__SiteName</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Size --></label>
-        <name>tatami2__Size</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- StartDirectoly --></label>
-        <name>tatami2__StartDirectoly</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Started --></label>
-        <name>tatami2__Started</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- State --></label>
-        <name>tatami2__State</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- 状況 --></label>
-        <name>tatami2__Status</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- StatusKana --></label>
-        <name>tatami2__StatusKana</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- StyleClass --></label>
-        <name>tatami2__StyleClass</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- StyleClassName --></label>
-        <name>tatami2__StyleClassName</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- StyleID --></label>
-        <name>tatami2__StyleID</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- StyleIdName --></label>
-        <name>tatami2__StyleIdName</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- StyleSheet --></label>
-        <name>tatami2__StyleSheet</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- SubText --></label>
-        <name>tatami2__SubText</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- SystemAdmin --></label>
-        <name>tatami2__SystemAdmin</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- TITLE_006 --></label>
-        <name>tatami2__TITLE_006</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- TITLE_008 --></label>
-        <name>tatami2__TITLE_008</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- TITLE_010 --></label>
-        <name>tatami2__TITLE_010</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- TakeDateRange --></label>
-        <name>tatami2__TakeDateRange</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Tatamicms --></label>
-        <name>tatami2__Tatamicms</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Template --></label>
-        <name>tatami2__Template</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- TemplateBodyConfig --></label>
-        <name>tatami2__TemplateBodyConfig</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- TemplateHTMLHeaderConfig --></label>
-        <name>tatami2__TemplateHTMLHeaderConfig</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- TemplateLayoutManage --></label>
-        <name>tatami2__TemplateLayoutManage</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Text --></label>
-        <name>tatami2__Text</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- TextSubText --></label>
-        <name>tatami2__TextSubText</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- TextWidget --></label>
-        <name>tatami2__TextWidget</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Title --></label>
-        <name>tatami2__Title</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- TitleLinkConfig --></label>
-        <name>tatami2__TitleLinkConfig</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- TitleLinkTitle --></label>
-        <name>tatami2__TitleLinkTitle</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Tree --></label>
-        <name>tatami2__Tree</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- TreeView --></label>
-        <name>tatami2__TreeView</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Type --></label>
-        <name>tatami2__Type</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- TypeBox --></label>
-        <name>tatami2__TypeBox</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- TypeCaption --></label>
-        <name>tatami2__TypeCaption</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- TypeContents --></label>
-        <name>tatami2__TypeContents</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- TypeImg --></label>
-        <name>tatami2__TypeImg</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- TypeLink --></label>
-        <name>tatami2__TypeLink</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- TypeRichText --></label>
-        <name>tatami2__TypeRichText</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- TypeText --></label>
-        <name>tatami2__TypeText</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- URL --></label>
-        <name>tatami2__URL</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- UnApplication --></label>
-        <name>tatami2__UnApplication</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- UnPublicity --></label>
-        <name>tatami2__UnPublicity</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- レコードロック解除 --></label>
-        <name>tatami2__UnlockRecord</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Up --></label>
-        <name>tatami2__Up</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Update --></label>
-        <name>tatami2__Update</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- 更新日時 --></label>
-        <name>tatami2__UpdateAt</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Upload --></label>
-        <name>tatami2__Upload</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- UploadFolder --></label>
-        <name>tatami2__UploadFolder</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- ユーザ --></label>
-        <name>tatami2__User</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- VersionName --></label>
-        <name>tatami2__VersionName</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- View --></label>
-        <name>tatami2__View</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- VisualForce --></label>
-        <name>tatami2__VisualForce</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- VisualForceWidget --></label>
-        <name>tatami2__VisualForceWidget</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Widget --></label>
-        <name>tatami2__Widget</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- WidgetInput --></label>
-        <name>tatami2__WidgetInput</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- WidgetMenu --></label>
-        <name>tatami2__WidgetMenu</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Width --></label>
-        <name>tatami2__Width</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- Word --></label>
-        <name>tatami2__Word</name>
-    </customLabels>
     <customPageWebLinks>
         <label><!-- Full Editor --></label>
         <name>Full_Editor</name>
     </customPageWebLinks>
-    <customPageWebLinks>
-        <label><!-- 出社 --></label>
-        <name>Syussya</name>
-    </customPageWebLinks>
-    <customPageWebLinks>
-        <label><!-- 退社 --></label>
-        <name>Taisya2</name>
-    </customPageWebLinks>
-    <customTabs>
-        <label><!-- タイムカードについて --></label>
-        <name>AboutSFDCJTimecard</name>
-    </customTabs>
     <customTabs>
         <label><!-- About PayPal Adaptive Toolkit --></label>
         <name>About_PayPal_Adaptive_Toolkit</name>
@@ -4023,6 +3539,10 @@
     <customTabs>
         <label><!-- 活動 --></label>
         <name>ActivityTab</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Authorization --></label>
+        <name>Authorization</name>
     </customTabs>
     <customTabs>
         <label><!-- Automated Test Setup --></label>
@@ -4112,6 +3632,10 @@
         <label><!-- Timeline --></label>
         <name>verite</name>
     </customTabs>
+    <quickActions>
+        <label><!-- Google Drive --></label>
+        <name>GoogleDrive</name>
+    </quickActions>
     <quickActions>
         <label><!-- LogACall --></label>
         <name>LogACall</name>
@@ -4328,16 +3852,4 @@
             <name>ユーザフィード</name>
         </sections>
     </reportTypes>
-    <scontrols>
-        <label><!-- 出社 --></label>
-        <name>Syussya</name>
-    </scontrols>
-    <scontrols>
-        <label><!-- 退社 --></label>
-        <name>Taisya2</name>
-    </scontrols>
-    <scontrols>
-        <label><!-- タイムカード管理について --></label>
-        <name>about_timecardmgmt</name>
-    </scontrols>
 </Translations>

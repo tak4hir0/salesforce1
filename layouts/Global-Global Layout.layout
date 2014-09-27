@@ -8,6 +8,9 @@
             <quickActionName>FeedItem.ContentPost</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
+            <quickActionName>GoogleDrive</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
             <quickActionName>OneStarter</quickActionName>
         </quickActionListItems>
         <quickActionListItems>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
-        <application>Automated_Testing</application>
+        <application>Apex_Library_for_Box_API</application>
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>CustomApplication</application>
+        <application>Automated_Testing</application>
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
@@ -37,16 +37,6 @@
     </applicationVisibilities>
     <applicationVisibilities>
         <application>PayPal_Adaptive_Toolkit</application>
-        <default>false</default>
-        <visible>false</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
-        <application>Timecard</application>
-        <default>false</default>
-        <visible>false</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
-        <application>UserInfoMassUpdater</application>
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
@@ -119,6 +109,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>AutomatedTestSetup_Controller</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>BoxToolkit</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -306,6 +300,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>FeedItemCreator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>FileUtil</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>ForgotPasswordController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -463,6 +465,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>OAuthTwitterSampleControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>OauthBox_con</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -943,6 +949,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>TestRunner_Test</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Test_BoxToolKit</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -1427,6 +1437,16 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Automated_Test_Run__c.Excluded_Classes__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Box_Net_Oauth__c.Auth_Token__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Box_Net_Oauth__c.OwnerId__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2237,86 +2257,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Invoice_Statement__c.Status__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Kadaikanri__c.Kadainaiyo__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Kadaikanri__c.Kanryoubi__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Kadaikanri__c.Naiyokakunin__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Kadaikanri__c.Okyakusamakisairan__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Kadaikanri__c.Sakuseisya__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Kadaikanri__c.Syouhikousu__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Kadaikanri__c.close__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Kadaikanri__c.gaibuid__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Kadaikanri__c.kadaibunrui__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Kadaikanri__c.kadainum__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Kadaikanri__c.kadairiyu__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Kadaikanri__c.kadaisutats__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Kadaikanri__c.ketteijikou__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Kadaikanri__c.kisyasutetasu__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Kadaikanri__c.syounin__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Kadaikanri__c.yuusenndo__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3226,96 +3166,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>SFDC_Issue__c.SFDC_Issue_Description__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>SFDC_Issue__c.SFDC_Issue_Name__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>SFDC_Issue__c.SFDC_Issue_Priority__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>SFDC_Issue__c.SFDC_Issue_Status__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>SFDC_Issue__c.SFDC_Project__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>SFDC_Issue__c.result__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>SFDC_Project__c.Account__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>SFDC_Project__c.Contact__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>SFDC_Project__c.Opportunity__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>SFDC_Project__c.SFDC_Days_Remaining__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>SFDC_Project__c.SFDC_Project_Duration__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>SFDC_Project__c.SFDC_Project_End_Date__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>SFDC_Project__c.SFDC_Project_Manager__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>SFDC_Project__c.SFDC_Project_Name__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>SFDC_Project__c.SFDC_Project_Start_Date__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>SFDC_Project__c.SFDC_Project_Status__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>SFDC_Project__c.SFDC_Status_Description__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>SFDC_Project__c.project_detail__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Site_Event__c.Action__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -3422,66 +3272,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Test_Runner_Job__c.Processed__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Timecard__c.CreatedDate_custom__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Timecard__c.Syussya_Time__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Timecard__c.Syussya_Time_value__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Timecard__c.Syussya_bi__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Timecard__c.Taisya_Hour__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Timecard__c.Taisya_Time__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Timecard__c.Taisya_Time_value__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Timecard__c.Taisyo_data__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Timecard__c.Working_Time__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Timecard__c.syukkinn_Scon__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Timecard__c.zangyo_time_18pm__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Timecard__c.zangyou__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3652,6 +3442,9 @@
         <layout>Automated_Test_Run__c-Automated Test Run Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Box_Net_Oauth__c-Box%2Enet Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Campaign-Campaign Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3685,6 +3478,9 @@
         <layout>CustomObject__c-カスタム項目テストレイアウト</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>CustomPermission-カスタム権限レイアウト</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>CustomerTrend__c-顧客数変遷レイアウト</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3704,9 +3500,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Invoice_Statement__c-Invoice Statement Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Kadaikanri__c-KadaikanriMain</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Lead-Lead Layout</layout>
@@ -3807,12 +3600,6 @@
         <layout>Reply-返信レイアウト</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>SFDC_Issue__c-問題のレイアウト</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SFDC_Project__c-プロジェクトレイアウト</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Site_Event__c-Site Event Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3837,10 +3624,11 @@
         <layout>Task-Task Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Test_Runner_Job__c-Test Runner Job Layout</layout>
+        <layout>Task-Task Layout</layout>
+        <recordType>Task.CKSW_SHIFT__Optimization_Server</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Timecard__c-タイムカードレイアウト</layout>
+        <layout>Test_Runner_Job__c-Test Runner Job Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>UniqueMail__c-ユニークメールアドレスレイアウト</layout>
@@ -4232,6 +4020,14 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
+        <apexPage>fromLayout</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>googledrive</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>lifegame</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
@@ -4265,6 +4061,10 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>myapp_tabs_html</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>oauth_box</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
@@ -4330,6 +4130,11 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Reply.Record_type_for_community_09aE00000007asPIAQ_entity_Reply</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Task.CKSW_SHIFT__Optimization_Server</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
     <tabVisibilities>

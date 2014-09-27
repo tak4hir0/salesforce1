@@ -531,45 +531,6 @@
         <url>http://www.fedex.com/cgi-bin/tracking?tracknumbers={!Opportunity_Tracking_Number}&amp;action=track&amp;language=english&amp;cntry_code=us</url>
     </webLinks>
     <webLinks>
-        <fullName>OpportunityOutput</fullName>
-        <availability>online</availability>
-        <description>商談タブの情報を使用して帳票を出力します。</description>
-        <displayType>button</displayType>
-        <linkType>javascript</linkType>
-        <masterLabel>帳票出力</masterLabel>
-        <openType>onClickJavaScript</openType>
-        <protected>false</protected>
-        <url>// 
-// All rights reserved. Copyright (c) 2009 Hitachi, Ltd. 
-// 
-
-function chs_startInterval() 
-{ 
-chs_bObj.disabled = true; 
-chs_CheckAndReloadID = setInterval(chs_checkAndReload, 1000); 
-} 
-
-function chs_stopInterval() 
-{ 
-clearInterval(chs_CheckAndReloadID); 
-} 
-
-function chs_checkAndReload() 
-{ 
-if(chs_fswindow.closed) 
-{ 
-chs_bObj.disabled=false; 
-chs_stopInterval(); 
-window.location.reload(); 
-} 
-} 
-
-chs_fswindow = window.open(encodeURI(&apos;https://chohyosquare.hitachi.jp/print/ServiceAdaptor/Gate?sid={!API.Session_ID}&amp;serverURL={!API.Partner_Server_URL_150}&amp;pk={!Opportunity.Id}&amp;chsadp=1&amp;chsfilter=Opportunity&apos;), &apos;&apos;, &apos;&apos;); 
-
-chs_bObj = this; 
-chs_startInterval();</url>
-    </webLinks>
-    <webLinks>
         <fullName>SDOC__Email_Docs</fullName>
         <availability>online</availability>
         <displayType>button</displayType>

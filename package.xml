@@ -1806,6 +1806,8 @@
         <members>Graphics_Pack_for_Tabs/x_office_presentation_png1.png</members>
         <members>Graphics_Pack_for_Tabs/x_office_spreadsheet_png1.png</members>
         <members>Graphics_Pack_for_Tabs/zoom_png2.png</members>
+        <members>Local_Folder</members>
+        <members>Local_Folder/BoxLogo.jpg</members>
         <members>Logos</members>
         <members>Logos/PayPalX_Logo.jpg</members>
         <members>Logos/PayPalX_Small_Logo.png</members>
@@ -1938,11 +1940,16 @@
     <types>
         <members>ApexDevNet</members>
         <members>Google</members>
+        <members>box</members>
+        <members>boxlist</members>
+        <members>boxupload</members>
+        <members>file</members>
         <members>outlook</members>
         <members>td_agent</members>
         <members>tumblr</members>
         <members>tumblr_api</members>
         <members>twitter_api</members>
+        <members>uploadbox</members>
         <members>yahooapi</members>
         <name>RemoteSiteSetting</name>
     </types>

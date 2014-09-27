@@ -21,7 +21,7 @@
         <enableClickjackSetup>true</enableClickjackSetup>
         <enableSMSIdentity>false</enableSMSIdentity>
         <forceRelogin>false</forceRelogin>
-        <lockSessionsToIp>false</lockSessionsToIp>
+        <lockSessionsToIp>true</lockSessionsToIp>
         <sessionTimeout>TwelveHours</sessionTimeout>
     </sessionSettings>
 </SecuritySettings>

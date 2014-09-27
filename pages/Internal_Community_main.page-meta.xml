@@ -6,11 +6,6 @@
     <description>自動生成された Chatter アンサーのホームページ</description>
     <label>Internal_Community_main</label>
     <packageVersions>
-        <majorNumber>3</majorNumber>
-        <minorNumber>23</minorNumber>
-        <namespace>GBLite</namespace>
-    </packageVersions>
-    <packageVersions>
         <majorNumber>1</majorNumber>
         <minorNumber>812</minorNumber>
         <namespace>SDOC</namespace>
@@ -49,10 +44,5 @@
         <majorNumber>1</majorNumber>
         <minorNumber>5</minorNumber>
         <namespace>sf_com_apps</namespace>
-    </packageVersions>
-    <packageVersions>
-        <majorNumber>2</majorNumber>
-        <minorNumber>31</minorNumber>
-        <namespace>tatami2</namespace>
     </packageVersions>
 </ApexPage>
