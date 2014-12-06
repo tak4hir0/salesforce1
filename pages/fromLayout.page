@@ -1,0 +1,63 @@
+<apex:page standardController="Account"> 
+     <apex:form >
+        <apex:pageblock >
+            <apex:pageBlockSection title="新規セクション" columns="2">
+                <apex:inputField value="{!Account.hogehoge__c}"/>
+                <apex:inputField value="{!Account.Field1__c}"/>
+                <apex:inputField value="{!Account.Jigsaw}"/>
+                <apex:inputField value="{!Account.Field2__c}"/>
+                <apex:inputField value="{!Account.DefaultValue__c}"/>
+                <apex:outputLabel >ISNULL__c</apex:outputLabel>
+                <apex:inputField value="{!Account.Merchandise__c}"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Account Information" columns="2">
+                <apex:inputField value="{!Account.OwnerId}"/>
+                <apex:inputField required="true" value="{!Account.Name}"/>
+                <apex:inputField value="{!Account.ParentId}"/>
+                <apex:inputField value="{!Account.AccountNumber}"/>
+                <apex:inputField value="{!Account.Site}"/>
+                <apex:inputField value="{!Account.Type}"/>
+                <apex:inputField value="{!Account.Industry}"/>
+                <apex:inputField value="{!Account.AnnualRevenue}"/>
+                <apex:inputField required="true" value="{!Account.CurrencyIsoCode}"/>
+                <apex:inputField value="{!Account.Rating}"/>
+                <apex:inputField value="{!Account.Phone}"/>
+                <apex:inputField value="{!Account.Fax}"/>
+                <apex:inputField value="{!Account.Website}"/>
+                <apex:inputField value="{!Account.TickerSymbol}"/>
+                <apex:inputField value="{!Account.Ownership}"/>
+                <apex:inputField value="{!Account.NumberOfEmployees}"/>
+                <apex:inputField value="{!Account.Sic}"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Address Information" columns="2">
+                <apex:inputField value="{!Account.BillingStreet}"/>
+                <apex:inputField value="{!Account.BillingCity}"/>
+                <apex:inputField value="{!Account.BillingPostalCode}"/>
+                <apex:inputField value="{!Account.BillingState}"/>
+                <apex:inputField value="{!Account.ShippingStreet}"/>
+                <apex:inputField value="{!Account.ShippingCity}"/>
+                <apex:inputField value="{!Account.ShippingPostalCode}"/>
+                <apex:inputField value="{!Account.ShippingState}"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Additional Information" columns="2">
+                <apex:inputField value="{!Account.SLAExpirationDate__c}"/>
+                <apex:inputField value="{!Account.NumberofLocations__c}"/>
+                <apex:inputField value="{!Account.SLA__c}"/>
+                <apex:inputField value="{!Account.SLASerialNumber__c}"/>
+                <apex:inputField value="{!Account.UpsellOpportunity__c}"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="System Information" columns="2">
+                <apex:outputLabel >CreatedById</apex:outputLabel>
+                <apex:outputLabel >LastModifiedById</apex:outputLabel>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Description Information" columns="1">
+                <apex:inputField value="{!Account.Description}"/>
+                <apex:inputField value="{!Account.Field3Rich__c}"/>
+                <apex:inputField value="{!Account.NoNewLine__c}"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="カスタムリンク" columns="3">
+            </apex:pageBlockSection>
+            
+        </apex:pageblock> 
+    </apex:form> 
+</apex:page>

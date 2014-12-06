@@ -1,0 +1,10 @@
+<apex:page showheader="false" sidebar="false" applyBodyTag="false">
+    <html>
+    <head>
+    <meta http-equiv="refresh" content="0; URL=googledrive://"></meta>
+    </head>
+    <body>
+    <center><h1>Launching Meeting Assistant for Salesforce</h1></center>
+    </body>
+    </html>
+</apex:page>

@@ -1,0 +1,44 @@
+<apex:page docType="html-5.0" showHeader="false" sidebar="false" standardStylesheets="false" standardController="Event">
+    <meta charset="UTF-8" />
+    <apex:includeScript value="/canvas/sdk/js/publisher.js" />
+    <script> 
+        function changeOn() {
+            Sfdc.canvas.publisher.publish({ name : "publisher.setValidForSubmit", payload:"true"});
+        }
+        
+        function changeOff() {
+            Sfdc.canvas.publisher.publish({ name : "publisher.setValidForSubmit", payload:"false"});
+        }
+        
+        function closeAction() {
+            Sfdc.canvas.publisher.publish({ name : "publisher.close", payload : { refresh:"true" }});
+        }
+        
+        function refreshFeed() {
+            Sfdc.canvas.publisher.publish({ name : "publisher.refresh", payload : { feed:true }});
+        }
+        
+        Sfdc.canvas.publisher.subscribe(
+             { name : "publisher.post", onData:function(e) { alert('Fire Post'); } }
+        );
+ 
+        Sfdc.canvas.publisher.subscribe(
+             { name : "publisher.setupPanel", onData:function(e) { alert('Fire SetupPanel'); }}
+        );
+        
+        Sfdc.canvas.publisher.subscribe(
+             { name : "publisher.showPanel", onData:function(e) { alert('Fire ShowPanel'); }}
+        );
+ 
+        Sfdc.canvas.publisher.subscribe(
+             { name : "publisher.clearPanelState", onData:function(e) { alert('Fire ClearPanelState'); }}
+        );
+        
+    </script>
+ 
+    <h1>Sample Page</h1>
+    <button onclick="changeOn()">On</button>
+    <button onclick="changeOff()">Off</button>
+    <button onclick="closeAction()">Close Action</button>
+    <button onclick="refreshFeed()">Refresh Feed</button>
+</apex:page>

@@ -1,0 +1,7 @@
+<apex:page contenttype="application/vnd.ms-excel;charset=Windows-31J#test1.xls">
+  <table>
+    <tr><td colspan="2">タイトル</td></tr>
+    <tr><td>列1</td><td>列2</td></tr>
+<apex:image value="https://pbs.twimg.com/profile_images/378800000381123578/aaa557c7eb7216b93186c2127c320e89.jpeg"/>
+  </table>
+</apex:page>

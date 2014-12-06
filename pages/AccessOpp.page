@@ -1,0 +1,13 @@
+<apex:page controller="AccessOpp">
+    商談<br/>
+    <apex:repeat value="{!opps}" var="opp">
+        {!opp.Id}<br/>
+        {!opp.Name}<br/>
+    </apex:repeat>
+    <br/>商談の関連オブジェクト<br/>
+    <apex:repeat value="{!accs}" var="acc">
+        {!acc.Id}<br/>
+        {!acc.Opp__r.Name}<br/>
+        {!acc.OppName__c}<br/>
+    </apex:repeat>
+</apex:page>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Field1__c</fullName>
+        <label>テキストエリア</label>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Field2__c</fullName>
+        <formula>YEAR(DATEVALUE(CreatedDate)) + MONTH(DATEVALUE(CreatedDate)) + DAY(DATEVALUE(CreatedDate))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>活動数値</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+</CustomObject>

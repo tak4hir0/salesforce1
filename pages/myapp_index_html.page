@@ -1,0 +1,53 @@
+<apex:page showHeader="false" sidebar="false" standardStylesheets="false"  applyBodyTag="false" applyHtmlTag="false">
+  <html>
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"></meta>
+    <title></title>
+    <link href="{!URLFOR($Resource.ioniclib, 'css/ionic.css')}" rel="stylesheet" />
+    
+    <!-- Remote Objects definition to set accessible sObjects and fields -->
+    <apex:remoteObjects >
+      <apex:remoteObjectModel name="Account" jsShorthand="Account" fields="Name, Id" />
+    </apex:remoteObjects>
+
+
+
+    <!-- RemoteTK Component -->
+    <apex:includeScript value="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" />
+    <c:RemoteTK />
+
+
+    <!-- ionic, angular, everything -->
+    <script src="{!URLFOR($Resource.ioniclib, 'js/ionic.bundle.js')}" />
+    <!-- your app's js (running on salesforce server) -->
+    <!-- UNCOMMENT BELOW WHEN RUNNING DIRECTLY ON VISUALFORCE -->
+    
+    <script src="{!$Resource.myapp_app_js}"></script>
+    <script src="{!$Resource.myapp_controllers_js}"></script>
+    <script src="{!$Resource.myapp_services_js}"></script>
+    
+    <!-- For Local  Development (serving files from localhost) -->
+    <!-- COMMENT BELOW WHEN RUNNING DIRECTLY ON VISUALFORCE -->
+<!--     <script src="https://localhost:3000/staticresources/myapp_app_js.resource"></script>
+    <script src="https://localhost:3000/staticresources/myapp_controllers_js.resource"></script>
+    <script src="https://localhost:3000/staticresources/myapp_services_js.resource"></script> -->
+  </head>
+    <body ng-app="starter" animation="slide-left-right-ios7">
+    <!--
+    The nav bar that will be updated as we navigate between views.
+    -->
+    <ion-nav-bar class="bar-stable nav-title-slide-ios7">
+    <ion-nav-back-button class="button button-clear button-positive">
+    Back
+    </ion-nav-back-button>
+    </ion-nav-bar>
+    <!--
+    The views will be rendered in the <ion-nav-view> directive below
+    Templates are in the /templates folder (but you could also
+    have templates inline in this html file if you'd like).
+    -->
+    <ion-nav-view></ion-nav-view>
+  </body>
+</html>
+</apex:page>

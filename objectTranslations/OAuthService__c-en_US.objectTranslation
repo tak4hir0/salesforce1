@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <value>OAuth Service</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OAuth Services</value>
+    </caseValues>
+    <fields>
+        <label><!-- Access Token URL --></label>
+        <name>Access_Token_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorization Type --></label>
+        <name>Authorization_Type__c</name>
+        <picklistValues>
+            <masterLabel>Request Header (Authorization: Bearer)</masterLabel>
+            <translation><!-- Request Header (Authorization: Bearer) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request Header (Authorization: OAuth)</masterLabel>
+            <translation><!-- Request Header (Authorization: OAuth) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>URI Query Parameter</masterLabel>
+            <translation><!-- URI Query Parameter --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Authorization URL --></label>
+        <name>Authorization_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Key --></label>
+        <name>Consumer_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Secret --></label>
+        <name>Consumer_Secret__c</name>
+    </fields>
+    <fields>
+        <label><!-- Redirect URL --></label>
+        <name>Redirect_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Token URL --></label>
+        <name>Request_Token_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Type --></label>
+        <name>Response_Type__c</name>
+        <picklistValues>
+            <masterLabel>code</masterLabel>
+            <translation><!-- code --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>token</masterLabel>
+            <translation><!-- token --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Scope --></label>
+        <name>Scope__c</name>
+    </fields>
+    <layouts>
+        <layout>OAuth Service Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>OAuth2 Service Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- OAuth1 --></label>
+        <name>OAuth1</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- OAuth2 --></label>
+        <name>OAuth2</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- レコードタイプが OAuth1 です。 --></errorMessage>
+        <name>RecordClassifiedByType</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Authorizaion --></label>
+        <name>Authorizaion</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </webLinks>
+</CustomObjectTranslation>

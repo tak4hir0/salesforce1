@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <value>Site Metric Settings</value>
+    </caseValues>
+    <fields>
+        <help><!-- Select if you want to track average time spent on the site per visit. --></help>
+        <label><!-- Track Average Time on Site --></label>
+        <name>Average_Time_on_Site__c</name>
+    </fields>
+    <fields>
+        <help><!-- Email username for Google Analytics --></help>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- Password for Google Analytics account --></help>
+        <label><!-- Password --></label>
+        <name>Password__c</name>
+    </fields>
+    <fields>
+        <help><!-- Google Table Id for Site, ie. ga:123456 --></help>
+        <label><!-- Table Id --></label>
+        <name>Table_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select if you want to track percentage of new visits. --></help>
+        <label><!-- Track New Visits % --></label>
+        <name>Track_New_Visits__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select if you want to track page views per visit. --></help>
+        <label><!-- Track Page Views Per Visit --></label>
+        <name>Track_Page_Views_Per_Visit__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select if you want to track visit bounce rate. --></help>
+        <label><!-- Track Visit Bounce Rate --></label>
+        <name>Track_Visit_Bounce_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select if you want to track visitors to your site. --></help>
+        <label><!-- Track Visitors --></label>
+        <name>Track_Visitors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking Average Time on Site --></label>
+        <name>Tracking_Average_Time_on_Site__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking New Visits % --></label>
+        <name>Tracking_New_Visits__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking Page Views Per Visit --></label>
+        <name>Tracking_Page_Views_Per_Visit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking Visit Bounce Rate --></label>
+        <name>Tracking_Visit_Bounce_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking Visitors --></label>
+        <name>Tracking_Visitors__c</name>
+    </fields>
+</CustomObjectTranslation>

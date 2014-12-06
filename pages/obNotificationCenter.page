@@ -1,0 +1,16 @@
+<apex:page >
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<apex:includeScript value="{!URLFOR($Resource.obNotificationCenter, 'obNotificationCenter-master/js/obNotificationCenter.min.js')}"/>
+<apex:stylesheet value="{!URLFOR($Resource.obNotificationCenter, 'obNotificationCenter-master/css/obNotificationCenter.min.css')}"/>
+<button id="mySelector">Show the notification center</button>
+<script>
+    $("#myContainer").obNotificationCenter({
+        trigger: "click",
+        selectors: "#mySelector",
+        content: "<div>My html content</div>",
+        beforeCloseItem: function (item) {
+            console.log(item);
+        }
+    });
+</script>
+</apex:page>

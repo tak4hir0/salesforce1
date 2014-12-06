@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <value>意識調査質問</value>
+    </caseValues>
+    <fields>
+        <label><!-- 無効化の理由 --></label>
+        <name>Deactivation_Reason__c</name>
+        <picklistValues>
+            <masterLabel>まだ聞くには早すぎた</masterLabel>
+            <translation><!-- まだ聞くには早すぎた --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>会社からの削除命令</masterLabel>
+            <translation><!-- 会社からの削除命令 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>質問が不明瞭</masterLabel>
+            <translation><!-- 質問が不明瞭 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>関係の無い質問</masterLabel>
+            <translation><!-- 関係の無い質問 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 有効 --></label>
+        <name>Is_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- 意識調査 --></label>
+        <name>Opinion__c</name>
+        <relationshipLabel><!-- 意識調査質問 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 質問 --></label>
+        <name>Question__c</name>
+    </fields>
+    <fields>
+        <help><!-- テキスト = 文字による自由回答
+真偽値 = はい/いいえ
+ラジオボタン = 複数の選択肢から、一つを選択する
+選択リスト = 複数の選択肢から、一つを選択し表示 --></help>
+        <label><!-- 回答タイプ --></label>
+        <name>Response_Type__c</name>
+        <picklistValues>
+            <masterLabel>テキスト</masterLabel>
+            <translation><!-- テキスト --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ラジオボタン</masterLabel>
+            <translation><!-- ラジオボタン --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>真偽値</masterLabel>
+            <translation><!-- 真偽値 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>選択リスト</masterLabel>
+            <translation><!-- 選択リスト --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 状況 --></label>
+        <name>Status__c</name>
+    </fields>
+    <layouts>
+        <layout>意識調査質問レイアウト</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <value>意識調査</value>
+    </caseValues>
+    <fields>
+        <label><!-- 概要 --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- 名前 --></label>
+        <name>Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- 状況 --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>停止</masterLabel>
+            <translation><!-- 停止 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>完了</masterLabel>
+            <translation><!-- 完了 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>実施中</masterLabel>
+            <translation><!-- 実施中 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>延期</masterLabel>
+            <translation><!-- 延期 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- モバイルアプリと同期 --></label>
+        <name>Sync_to_Mobile_App__c</name>
+    </fields>
+    <layouts>
+        <layout>意識調査レイアウト</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

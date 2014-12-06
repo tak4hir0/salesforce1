@@ -1,0 +1,40 @@
+<apex:page controller="List2Con">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.js"></script>
+<script>
+jQuery.noConflict();
+jQuery(document).ready(function($){
+         // MAKE SURE YOUR SELECTOR MATCHES SOMETHING IN YOUR HTML!!!
+     debugger;
+     $('a').each(function() {
+         $(this).qtip({
+            content: {
+                text: function(event, api) {
+                    $.ajax({
+                        url: api.elements.target.attr('href') // Use href attribute as URL
+                    })
+                    .then(function(content) {
+                        // Set the tooltip content upon successful retrieval
+                        api.set('content.text', content);
+                    }, function(xhr, status, error) {
+                        // Upon failure... set the tooltip content to error
+                        api.set('content.text', status + ': ' + error);
+                    });
+        
+                    return 'Loading...'; // Set some initial text
+                }
+            },
+            position: {
+                viewport: $(window)
+            },
+            style: 'qtip-wiki'
+         });
+     });
+});
+</script>
+<apex:pageBlock >
+    <apex:pageBlockTable value="{!accounts}" var="acc">
+        <apex:column ><apex:outputLink value="https://tak4hir0-dev-ed--tak4hir0.na9.visual.force.com/apex/RelatedList?id={!acc.Id}" id="theLink">{!acc.Name}</apex:outputLink></apex:column>
+    </apex:pageBlockTable>
+</apex:pageBlock>
+</apex:page>

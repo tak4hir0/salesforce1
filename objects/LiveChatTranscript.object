@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Email__c</fullName>
+        <label>メールアドレス</label>
+        <type>Email</type>
+    </fields>
+    <fields>
+        <fullName>Flag__c</fullName>
+        <formula>IF( ISPICKVAL(Status, &quot;見逃し&quot;) ,IMAGE(&quot;/img/samples/flag_red.gif&quot;, &quot;&quot;),&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>アイコン</label>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Icon__c</fullName>
+        <formula>IMAGE(&quot;https://c.na9.content.force.com/profilephoto/729E00000001ICG/T&quot;, &quot;hoge&quot;,50,50)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>https://c.na9.content.force.com/profilephoto/729E00000001ICG/T</inlineHelpText>
+        <label>担当者</label>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>OrcerNumber__c</fullName>
+        <label>注文番号</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ReservationNumber__c</fullName>
+        <label>予約番号</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>StatusPlus__c</fullName>
+        <formula>TEXT(Status) &amp;  Flag__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>状況</label>
+        <type>Text</type>
+    </fields>
+</CustomObject>

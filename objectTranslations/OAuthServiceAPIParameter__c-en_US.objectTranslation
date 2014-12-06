@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <value>OAuth Service API Parameter</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OAuth Service API Parameters</value>
+    </caseValues>
+    <fields>
+        <label><!-- OAuth Service API --></label>
+        <name>OAuth_Service_API__c</name>
+        <relationshipLabel><!-- OAuth Service API Parameters --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Read Only --></label>
+        <name>Read_Only__c</name>
+    </fields>
+    <fields>
+        <label><!-- Require --></label>
+        <name>Require__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Query String</masterLabel>
+            <translation><!-- Query String --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request Header</masterLabel>
+            <translation><!-- Request Header --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>Value__c</name>
+    </fields>
+    <layouts>
+        <layout>OAuth Service API Parameter Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

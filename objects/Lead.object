@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>CurrentGenerators__c</fullName>
+        <label>Current Generator(s)</label>
+        <length>100</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>NumberofLocations__c</fullName>
+        <label>Number of Locations</label>
+        <precision>3</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Primary__c</fullName>
+        <label>Primary</label>
+        <picklist>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>ProductInterest__c</fullName>
+        <label>Product Interest</label>
+        <picklist>
+            <picklistValues>
+                <fullName>GC1000 series</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>GC5000 series</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>GC3000 series</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>SICCode__c</fullName>
+        <label>SIC Code</label>
+        <length>15</length>
+        <type>Text</type>
+    </fields>
+    <validationRules>
+        <fullName>Position</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISBLANK(Title)</errorConditionFormula>
+        <errorMessage>役職は必須入力です。</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>SDOC__Email_Docs</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Email S-Docs</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>/apex/SDOC__SDEmail?id={!Lead.Id}&amp;Object=Lead</url>
+    </webLinks>
+    <webLinks>
+        <fullName>SDOC__S_Docs</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>S-Docs</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>/apex/SDOC__SDCreate1?id={!Lead.Id}&amp;Object=Lead</url>
+    </webLinks>
+    <webLinks>
+        <fullName>TIMBASURVEYS__Send_Survey_Lead_Detail</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Send Survey Lead Detail</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>var email_field = &apos;{!JSENCODE(Lead.Email)}&apos;; 
+if(!email_field){
+alert(&apos;The email address for this Lead has not yet been set.&apos;); 
+}else{ 
+window.location = &quot;/apex/timbasurveys__collectionhub?lIds={!URLENCODE(Lead.Id)}&amp;retURL=&quot; + encodeURIComponent(window.location);
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>TIMBASURVEYS__Send_Survey_To_Selected</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Send Survey To Selected</masterLabel>
+        <openType>sidebar</openType>
+        <page>TIMBASURVEYS__SendToLeadList</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>TIMBASURVEYS__Send_Survey_to_Leads</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Send Survey</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/15.0/connection.js&quot;)}
+
+var currentlocation = (window.location.pathname).toString() ;
+var Lead= {!GETRECORDIDS( $ObjectType.Lead)};
+
+if(Lead.length &gt; 0 ){ 
+if(currentlocation.indexOf(&apos;apex&apos;) &gt; -1){ 
+if(window.parent != null ){ 
+if(window.parent.Lead!=undefined){ 
+window.parent.Lead=Lead; 
+} 
+} 
+} else { 
+if(Lead.length &lt;= 50){ 
+if(window.parent != null ) { 
+if(window.parent.Lead!=undefined){ 
+window.parent.Lead=Lead; 
+} else 
+window.location = &quot;/apex/timbasurveys__collectionhub?lIds={!URLENCODE(Lead.Id)}&amp;retURL=&quot; + encodeURIComponent(window.location);
+} 
+} else { 
+alert(&apos;Only 50 invitations can be sent from standard Lead list&apos;); 
+} 
+} 
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>et4ae5__ExactTarget_Resubscribe</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>ExactTarget Resubscribe</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/19.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/15.0/apex.js&quot;)}
+var didResub;
+try
+{
+didResub=sforce.apex.execute(&quot;et4ae5/jsButtonMethods&quot;,&quot;performResub&quot;, {subscriberKey:&quot;{!CASESAFEID(Lead.Id)}&quot;,objectType:&quot;lead&quot;});
+}
+catch (e)
+{
+didResub=sforce.apex.execute(&quot;jsButtonMethods&quot;,&quot;performResub&quot;, {subscriberKey:&quot;{!CASESAFEID(Lead.Id)}&quot;,objectType:&quot;lead&quot;});
+}
+if (didResub==&quot;connection error&quot;)
+{
+	alert(&quot;{!$Label.et4ae5__msg0047}&quot;);
+}
+else if (didResub==&quot;not found&quot;)
+{
+	alert(&quot;{!$Label.et4ae5__msg0085}&quot;);
+}
+else if (didResub==&quot;other error&quot;)
+{
+	alert(&quot;{!$Label.et4ae5__msg0086}&quot;);
+}
+else if (didResub==&quot;not integrated&quot;)
+{
+	alert(&quot;{!$Label.et4ae5__msg0087}&quot;);
+}
+else if (didResub==&quot;success&quot;)
+{
+	alert(&quot;{!Lead.Name} {!$Label.et4ae5__wasResub}&quot;);
+}
+else
+{
+alert(didResub);
+}
+var theUrl=&quot;/{!Lead.Id}&quot;;
+parent.location.href=theUrl;</url>
+    </webLinks>
+    <webLinks>
+        <fullName>et4ae5__ExactTarget_Unsubscribe</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>ExactTarget Unsubscribe</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/19.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/15.0/apex.js&quot;)}
+var didUnsub;
+try
+{
+didUnsub=sforce.apex.execute(&quot;et4ae5/jsButtonMethods&quot;,&quot;performUnsub&quot;, {subscriberKey:&quot;{!CASESAFEID(Lead.Id)}&quot;,objectType:&quot;lead&quot;});
+}
+catch (e)
+{
+didUnsub=sforce.apex.execute(&quot;jsButtonMethods&quot;,&quot;performUnsub&quot;, {subscriberKey:&quot;{!CASESAFEID(Lead.Id)}&quot;,objectType:&quot;lead&quot;});
+}
+if (didUnsub==&quot;connection error&quot;)
+{
+        alert(&quot;{!$Label.et4ae5__msg0047}&quot;); 
+}
+else if (didUnsub==&quot;not found&quot;)
+{
+        alert(&quot;{!$Label.et4ae5__msg0085}&quot;); 
+}
+else if (didUnsub==&quot;other error&quot;)
+{
+        alert(&quot;{!$Label.et4ae5__msg0086}&quot;); 
+}
+else if (didUnsub==&quot;not integrated&quot;)
+{
+        alert(&quot;{!$Label.et4ae5__msg0087}&quot;); 
+}
+else if (didUnsub==&quot;success&quot;)
+{
+        alert(&quot;{!Lead.Name} {!$Label.et4ae5__wasUnsub}&quot;);
+} 
+else
+{
+alert(didUnsub);
+}
+var theUrl=&quot;/{!Lead.Id}&quot;;
+parent.location.href=theUrl;</url>
+    </webLinks>
+    <webLinks>
+        <fullName>et4ae5__Send_ExactTarget_Email</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Send ExactTarget Email</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/19.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/15.0/apex.js&quot;)}
+if ({!Lead.HasOptedOutOfEmail})
+{
+alert(&quot;{!$Label.et4ae5__ldOptedOut}&quot;);
+}
+else
+{
+try
+{
+var urlPrefix = sforce.apex.execute(&quot;et4ae5/jsButtonMethods&quot;,&quot;namespace&quot;, {});
+var theUrl = &quot;https://&quot;+urlPrefix+&quot;/apex/singleSendETEmail?leadId={!CASESAFEID( Lead.Id )}&quot;;
+parent.location.href = theUrl;
+}
+catch (e)
+{
+var theUrl = &quot;/apex/singleSendETEmail?leadId={!CASESAFEID( Lead.Id )}&quot;;
+parent.location.href = theUrl;
+}
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>et4ae5__View_ExactTarget_Analytics</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>View ExactTarget Analytics</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/19.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/15.0/apex.js&quot;)}
+try
+{
+var urlPrefix = sforce.apex.execute(&quot;et4ae5/jsButtonMethods&quot;,&quot;namespace&quot;, {});
+var theUrl = &quot;https://&quot;+urlPrefix+&quot;/apex/SubscriberAnalytics?id={!CASESAFEID( Lead.Id )}&amp;obj=lead&quot;;
+parent.location.href = theUrl;
+}
+catch (e)
+{
+var theUrl = &quot;/apex/SubscriberAnalytics?id={!CASESAFEID( Lead.Id )}&amp;obj=lead&quot;;
+parent.location.href = theUrl;
+}</url>
+    </webLinks>
+</CustomObject>

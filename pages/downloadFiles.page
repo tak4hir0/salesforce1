@@ -1,0 +1,5 @@
+<!--apex:page controller="DownloadFiles"-->
+<apex:page >
+<!--img src="/sfc/servlet.shepherd/version/renditionDownload?rendition=THUMB720BY480&versionId={!file.ContentDocument.LatestPublishedVersionId}" alt="Click to preview" class="contentThumbnail" title="Click to preview" id="ext-gen7"/-->
+<a target="_blank" href="https://tak4hir0-dev-ed.my.salesforce.com/sfc/p/E0000000bqhV/a/E0000000GxCv/G7QNjDRHIieDThrJ0D263kNTQwIooLxN_2IaG59CC7Q=">download</a>
+</apex:page>

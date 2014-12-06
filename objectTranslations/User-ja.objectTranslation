@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Access Level --></label>
+        <name>Litmos__Access_Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed Percentage --></label>
+        <name>Litmos__Completed_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Courses Assigned --></label>
+        <name>Litmos__Courses_Assigned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Courses Completed --></label>
+        <name>Litmos__Courses_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Id --></label>
+        <name>Litmos__User_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default ET Page --></label>
+        <name>et4ae5__Default_ET_Page__c</name>
+    </fields>
+    <fields>
+        <label><!-- ExactTarget for AppExchange Admin --></label>
+        <name>et4ae5__ExactTargetForAppExchangeAdmin__c</name>
+    </fields>
+    <fields>
+        <label><!-- ExactTarget for AppExchange User --></label>
+        <name>et4ae5__ExactTargetForAppExchangeUser__c</name>
+    </fields>
+    <fields>
+        <label><!-- ExactTarget Username --></label>
+        <name>et4ae5__ExactTargetUsername__c</name>
+    </fields>
+    <fields>
+        <label><!-- ExactTarget OAuth Token --></label>
+        <name>et4ae5__ExactTarget_OAuth_Token__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valid ExactTarget Admin --></label>
+        <name>et4ae5__ValidExactTargetAdmin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valid ExactTarget User --></label>
+        <name>et4ae5__ValidExactTargetUser__c</name>
+    </fields>
+    <layouts>
+        <layout>User Layout</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

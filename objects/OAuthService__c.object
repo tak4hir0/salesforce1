@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <fields>
+        <fullName>Access_Token_URL__c</fullName>
+        <label>Access Token URL</label>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Authorization_Type__c</fullName>
+        <label>Authorization Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Request Header (Authorization: Bearer)</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Request Header (Authorization: OAuth)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>URI Query Parameter</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Authorization_URL__c</fullName>
+        <label>Authorization URL</label>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Consumer_Key__c</fullName>
+        <label>Consumer Key</label>
+        <length>255</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Consumer_Secret__c</fullName>
+        <label>Consumer Secret</label>
+        <length>255</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Redirect_URL__c</fullName>
+        <label>Redirect URL</label>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Request_Token_URL__c</fullName>
+        <label>Request Token URL</label>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Response_Type__c</fullName>
+        <label>Response Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>code</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>token</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Scope__c</fullName>
+        <label>Scope</label>
+        <length>255</length>
+        <type>Text</type>
+    </fields>
+    <label>OAuth Service</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>RECORDTYPE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Service Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>OAuth Services</pluralLabel>
+    <recordTypes>
+        <fullName>OAuth1</fullName>
+        <active>true</active>
+        <description>OAuth 1.0 Service</description>
+        <label>OAuth1</label>
+        <picklistValues>
+            <picklist>Authorization_Type__c</picklist>
+            <values>
+                <fullName>Request Header %28Authorization%3A Bearer%29</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Request Header %28Authorization%3A OAuth%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>URI Query Parameter</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Response_Type__c</picklist>
+            <values>
+                <fullName>code</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>token</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>OAuth2</fullName>
+        <active>true</active>
+        <description>OAuth 2.0 Service</description>
+        <label>OAuth2</label>
+        <picklistValues>
+            <picklist>Authorization_Type__c</picklist>
+            <values>
+                <fullName>Request Header %28Authorization%3A Bearer%29</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Request Header %28Authorization%3A OAuth%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>URI Query Parameter</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Response_Type__c</picklist>
+            <values>
+                <fullName>code</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>token</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>RecordClassifiedByType</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF (RecordType.DeveloperName=&quot;OAuth1&quot;,
+  true,
+  false
+)</errorConditionFormula>
+        <errorMessage>レコードタイプが OAuth1 です。</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Authorizaion</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <hasScrollbars>true</hasScrollbars>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Authorizaion</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <url>/apex/OAuthAuthorize?id={!OAuthService__c.Id}&amp;state={!OAuthService__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>NewLead</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>url</linkType>
+        <masterLabel>新規リード</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>{!URLFOR($Action.Lead.New, null, [name_lastlea2=&quot;Test&quot;, lea3= OAuthService__c.Name ])}</url>
+    </webLinks>
+</CustomObject>

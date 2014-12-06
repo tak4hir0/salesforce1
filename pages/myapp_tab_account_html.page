@@ -1,0 +1,17 @@
+<apex:page showHeader="false" sidebar="false" standardStylesheets="false"  applyBodyTag="false" applyHtmlTag="false">
+     
+<ion-view title="Accounts">
+   <ion-nav-buttons side="right">
+      <a class="button button-clear button-positive" href="#/tab/new/account">
+       New
+      </a>
+    </ion-nav-buttons>
+  <ion-content class="has-header">
+    <ion-list>
+      <ion-item ng-repeat="account in accounts" type="item-text-wrap" href="#/tab/accounts/{{account.Id}}">
+        {{account.Name}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
+</apex:page>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Defines a set of tests to be run with results sent via email</description>
+    <fields>
+        <fullName>Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <label>Active</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Emails__c</fullName>
+        <description>Emails where results will be sent</description>
+        <inlineHelpText>Comma-separated email addresses</inlineHelpText>
+        <label>Emails</label>
+        <required>true</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Excluded_Classes__c</fullName>
+        <inlineHelpText>Comma-delimited list of classes to exclude from testing</inlineHelpText>
+        <label>Excluded Classes</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Query__c</fullName>
+        <defaultValue>&quot;%Test&quot;</defaultValue>
+        <description>Class name like query</description>
+        <inlineHelpText>Query to match test class names, ie. Test% or %_Test (case insensitive)</inlineHelpText>
+        <label>Query</label>
+        <length>80</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <label>Automated Test Run</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Automated Test Run Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Automated Test Runs</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Active__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Emails__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Excluded_Classes__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Query__c</customTabListAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <startsWith>Vowel</startsWith>
+</CustomObject>

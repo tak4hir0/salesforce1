@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <value>Account</value>
+    </caseValues>
+    <fields>
+        <label><!-- Byte Length --></label>
+        <name>ByteLength__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calculated --></label>
+        <name>Calculated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Sensitive --></label>
+        <name>CaseSensitive__c</name>
+    </fields>
+    <fields>
+        <label><!-- 取引先責任者 --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Account --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Controller Name --></label>
+        <name>ControllerName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Createable --></label>
+        <name>Createable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom --></label>
+        <name>Custom__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Value Formula --></label>
+        <name>DefaultValueFormula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Defaulted On Create --></label>
+        <name>DefaultedOnCreate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dependent Picklist --></label>
+        <name>DependentPicklist__c</name>
+    </fields>
+    <fields>
+        <label><!-- Digits --></label>
+        <name>Digits__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>ExternalID__c</name>
+    </fields>
+    <fields>
+        <label><!-- 外部キー --></label>
+        <name>ForeignKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- HTML Formatted --></label>
+        <name>HTMLFormatted__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID Lookup --></label>
+        <name>IDLookup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inline Help Text --></label>
+        <name>InlineHelpText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label --></label>
+        <name>Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- リード --></label>
+        <name>Lead__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Length --></label>
+        <name>Length__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name Field --></label>
+        <name>NameField__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name Pointing --></label>
+        <name>NamePointing__c</name>
+    </fields>
+    <fields>
+        <label>なまえ</label>
+        <name>Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nillable --></label>
+        <name>Nillable__c</name>
+    </fields>
+    <fields>
+        <label><!-- 商談名 --></label>
+        <name>OppName__c</name>
+    </fields>
+    <fields>
+        <label><!-- 商談 --></label>
+        <name>Opp__c</name>
+        <relationshipLabel><!-- Account --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Picklist Values --></label>
+        <name>PicklistValues__c</name>
+    </fields>
+    <fields>
+        <label><!-- Precision --></label>
+        <name>Precision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference To --></label>
+        <name>ReferenceTo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relationship Name --></label>
+        <name>RelationshipName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Restricted Picklist --></label>
+        <name>RestrictedPicklist__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scale --></label>
+        <name>Scale__c</name>
+    </fields>
+    <fields>
+        <label><!-- Soap Type --></label>
+        <name>SoapType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sortable --></label>
+        <name>Sortable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique --></label>
+        <name>Unique__c</name>
+    </fields>
+    <fields>
+        <label><!-- Updateable --></label>
+        <name>Updateable__c</name>
+    </fields>
+    <fields>
+        <label><!-- newField2 --></label>
+        <name>newField2__c</name>
+    </fields>
+    <fields>
+        <label><!-- newField --></label>
+        <name>newField__c</name>
+    </fields>
+</CustomObjectTranslation>

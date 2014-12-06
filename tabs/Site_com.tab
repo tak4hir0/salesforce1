@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <frameHeight>600</frameHeight>
+    <label>Site.com</label>
+    <mobileReady>false</mobileReady>
+    <motif>Custom56: Bottle</motif>
+    <url>https://tak4hir02-developer-edition.na9.force.com/hoge/s</url>
+    <urlEncodingKey>UTF-8</urlEncodingKey>
+</CustomTab>

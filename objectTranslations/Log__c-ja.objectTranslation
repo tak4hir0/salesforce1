@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <value>Log</value>
+    </caseValues>
+    <fields>
+        <label><!-- 締日 --></label>
+        <name>Field1__c</name>
+    </fields>
+    <fields>
+        <label><!-- リッチテキスト --></label>
+        <name>Field2__c</name>
+    </fields>
+    <fields>
+        <label><!-- 複数 --></label>
+        <name>Field3__c</name>
+        <picklistValues>
+            <masterLabel>いいえ</masterLabel>
+            <translation><!-- いいえ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>はい</masterLabel>
+            <translation><!-- はい --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Response --></label>
+        <name>Response__c</name>
+    </fields>
+</CustomObjectTranslation>

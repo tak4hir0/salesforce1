@@ -1,0 +1,72 @@
+<apex:page standardController="User" recordSetVar="users" tabstyle="account">
+<apex:outputLink value="/001E000000uUwkD">TEST 2nd</apex:outputLink>
+   <apex:form > 
+   <apex:pageBlock mode="edit">    
+   <apex:pageMessages />
+    <apex:pageBlockButtons >
+      <apex:commandButton value="保存" action="{!quicksave}" />
+    </apex:pageBlockButtons>
+   
+   
+    <apex:pageBlockSection title="ユーザ情報一覧" id="user_info_updater" columns="1" rendered="{!NOT(ISNULL(users))}">
+
+      <apex:selectList value="{!filterId}" size="1">
+            <apex:actionSupport event="onchange" rerender="list"/>
+            ビューを選択してください <apex:selectOptions value="{!listviewoptions}"/>
+      </apex:selectList><P/>
+
+   <apex:dataTable var="u" value="{!users}" id="list">
+      <apex:column headerValue="有効">
+          <apex:inputField value="{!u.isactive}"/>
+      </apex:column>
+         
+      <apex:column headerValue="性">
+         <apex:inputField value="{!u.lastname}"/>
+      </apex:column>
+            
+      <apex:column headerValue="名">
+         <apex:inputField value="{!u.firstname}"/>
+      </apex:column>
+            
+      <apex:column headerValue="ユーザ ID">
+         <apex:inputField value="{!u.username}"/>
+      </apex:column>
+
+      <!--apex:column headerValue="従業員番号">
+         <apex:inputField value="{!u.EmployeeNumber}"/>
+      </apex:column>
+      
+      <apex:column headerValue="役職">
+         <apex:inputField value="{!u.title}"/>
+      </apex:column>
+
+      <apex:column headerValue="部・課">
+         <apex:inputField value="{!u.Department}"/>
+      </apex:column-->
+             
+      <apex:column headerValue="電子メール">
+         <apex:inputField value="{!u.email}"/>
+      </apex:column>
+
+      <!--apex:column headerValue="携帯">
+         <apex:inputField value="{!u.mobilephone}"/>
+      </apex:column-->
+   
+      <apex:column headerValue="ロール">
+         <apex:inputField value="{!u.UserRoleId}"/>
+      </apex:column>
+   
+      <apex:column headerValue="プロファイル">
+         <apex:inputField value="{!u.Profileid}"/>
+      </apex:column>
+
+      <!--apex:column headerValue="代理承認者">
+         <apex:inputField value="{!u.DelegatedApproverid}"/>
+      </apex:column--> 
+
+      </apex:dataTable>
+    </apex:pageBlockSection>  
+  </apex:pageBlock>
+ </apex:form>
+
+</apex:page>

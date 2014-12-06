@@ -1,0 +1,24 @@
+<apex:page controller="ViewImage" cache="true">
+<script src="https://tak4hir0-dev-ed.my.salesforce.com/resource/1349866230000/jQuery"></script>
+<script src="https://tak4hir0-dev-ed.my.salesforce.com/resource/1399632353000/jsZIP"></script>
+<script src="https://tak4hir0-dev-ed.my.salesforce.com/resource/1399634490000/FileSaver"></script>
+<script>    
+function download(){
+    var zip = new JSZip();
+    
+    zip.file("Hello.txt", "From　Visualforce\n");
+
+    var img = zip.folder("images");
+    var data = "{!image}";
+    img.file("test.png", data, {base64: true});
+
+    var content = zip.generate({type:"blob"});
+    
+    // see FileSaver.js
+    saveAs(content, "example1.zip");
+}
+
+
+</script>
+<input type="button" value="Download" onClick="download();" />
+</apex:page>
