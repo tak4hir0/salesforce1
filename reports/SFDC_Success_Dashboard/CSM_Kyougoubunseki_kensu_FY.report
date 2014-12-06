@@ -4,14 +4,32 @@
         <backgroundColor1>#FFFFFF</backgroundColor1>
         <backgroundColor2>#FFFFFF</backgroundColor2>
         <backgroundFadeDir>Diagonal</backgroundFadeDir>
+<<<<<<< HEAD
         <chartType>Donut</chartType>
+=======
+        <chartSummaries>
+            <axisBinding>y</axisBinding>
+            <column>RowCount</column>
+        </chartSummaries>
+        <chartType>Donut</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>false</expandOthers>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <groupingColumn>Opportunity.SFDC_Kyogo__c</groupingColumn>
         <legendPosition>Bottom</legendPosition>
         <location>CHART_BOTTOM</location>
         <showAxisLabels>true</showAxisLabels>
+<<<<<<< HEAD
         <size>Large</size>
         <summaryAxisRange>Auto</summaryAxisRange>
         <summaryColumn>RowCount</summaryColumn>
+=======
+        <showPercentage>true</showPercentage>
+        <showTotal>true</showTotal>
+        <showValues>true</showValues>
+        <size>Large</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <textColor>#000000</textColor>
         <textSize>14</textSize>
         <titleColor>#000000</titleColor>

@@ -5,6 +5,10 @@
         <datatype>number</datatype>
         <developerName>FORMULA1</developerName>
         <isActive>true</isActive>
+<<<<<<< HEAD
+=======
+        <isCrossBlock>false</isCrossBlock>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <masterLabel>ポテンシャル</masterLabel>
         <scale>2</scale>
     </aggregates>
@@ -12,6 +16,7 @@
         <backgroundColor1>#FFFFFF</backgroundColor1>
         <backgroundColor2>#FFFFFF</backgroundColor2>
         <backgroundFadeDir>Diagonal</backgroundFadeDir>
+<<<<<<< HEAD
         <chartType>Line</chartType>
         <groupingColumn>ACCOUNT.NAME</groupingColumn>
         <location>CHART_TOP</location>
@@ -19,6 +24,27 @@
         <size>Medium</size>
         <summaryAxisRange>Auto</summaryAxisRange>
         <summaryColumn>RowCount</summaryColumn>
+=======
+        <chartSummaries>
+            <axisBinding>x</axisBinding>
+            <column>FORMULA1</column>
+        </chartSummaries>
+        <chartSummaries>
+            <axisBinding>y</axisBinding>
+            <column>RowCount</column>
+        </chartSummaries>
+        <chartType>Scatter</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>ACCOUNT.NAME</groupingColumn>
+        <location>CHART_TOP</location>
+        <showAxisLabels>true</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <textColor>#000000</textColor>
         <textSize>12</textSize>
         <titleColor>#000000</titleColor>

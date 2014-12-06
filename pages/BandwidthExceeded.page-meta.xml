@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ApexPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>25.0</apiVersion>
+<<<<<<< HEAD
+=======
+    <availableInTouch>false</availableInTouch>
+    <confirmationTokenRequired>false</confirmationTokenRequired>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     <description>Force.com デフォルトページ - 制限を超えています</description>
     <label>BandwidthExceeded</label>
 </ApexPage>

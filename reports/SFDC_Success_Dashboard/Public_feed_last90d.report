@@ -4,6 +4,7 @@
         <backgroundColor1>#FFFFFF</backgroundColor1>
         <backgroundColor2>#FFFFFF</backgroundColor2>
         <backgroundFadeDir>Diagonal</backgroundFadeDir>
+<<<<<<< HEAD
         <chartType>Line</chartType>
         <groupingColumn>User.FeedItems$CreatedDate</groupingColumn>
         <legendPosition>Right</legendPosition>
@@ -12,6 +13,23 @@
         <size>Medium</size>
         <summaryAxisRange>Auto</summaryAxisRange>
         <summaryColumn>RowCount</summaryColumn>
+=======
+        <chartSummaries>
+            <axisBinding>y</axisBinding>
+            <column>RowCount</column>
+        </chartSummaries>
+        <chartType>Line</chartType>
+        <enableHoverLabels>true</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>User.FeedItems$CreatedDate</groupingColumn>
+        <location>CHART_TOP</location>
+        <showAxisLabels>true</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>true</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <textColor>#000000</textColor>
         <textSize>12</textSize>
         <titleColor>#000000</titleColor>
@@ -159,6 +177,10 @@
             <operator>notEqual</operator>
             <value>https://ap.salesforce.com/_ui/core/clients/ChatterDesktopDownload</value>
         </criteriaItems>
+<<<<<<< HEAD
+=======
+        <language>ja</language>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     </filter>
     <format>Matrix</format>
     <groupingsAcross>

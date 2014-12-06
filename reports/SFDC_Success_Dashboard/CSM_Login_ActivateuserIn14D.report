@@ -4,6 +4,7 @@
         <backgroundColor1>#FFFFFF</backgroundColor1>
         <backgroundColor2>#FFFFFF</backgroundColor2>
         <backgroundFadeDir>Diagonal</backgroundFadeDir>
+<<<<<<< HEAD
         <chartType>HorizontalBar</chartType>
         <groupingColumn>ROLE</groupingColumn>
         <legendPosition>Right</legendPosition>
@@ -13,6 +14,24 @@
         <summaryAggregate>Sum</summaryAggregate>
         <summaryAxisRange>Auto</summaryAxisRange>
         <summaryColumn>ACTIVE</summaryColumn>
+=======
+        <chartSummaries>
+            <aggregate>Sum</aggregate>
+            <axisBinding>y</axisBinding>
+            <column>ACTIVE</column>
+        </chartSummaries>
+        <chartType>HorizontalBar</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>ROLE</groupingColumn>
+        <location>CHART_BOTTOM</location>
+        <showAxisLabels>true</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <textColor>#000000</textColor>
         <textSize>12</textSize>
         <titleColor>#000000</titleColor>
@@ -55,6 +74,10 @@ Chatter Free除く</description>
             <operator>notContain</operator>
             <value>Chatter Free User,Chatter External User</value>
         </criteriaItems>
+<<<<<<< HEAD
+=======
+        <language>ja</language>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     </filter>
     <format>Summary</format>
     <groupingsDown>

@@ -3,6 +3,11 @@
     <headers>PersonalTagging</headers>
     <headers>PublicTagging</headers>
     <layoutSections>
+<<<<<<< HEAD
+=======
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <editHeading>true</editHeading>
         <label>Solution Information</label>
         <layoutColumns>
@@ -31,6 +36,12 @@
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>
+<<<<<<< HEAD
+=======
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+        <editHeading>false</editHeading>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <label>System Information</label>
         <layoutColumns>
             <layoutItems>
@@ -47,6 +58,12 @@
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
     <layoutSections>
+<<<<<<< HEAD
+=======
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+        <editHeading>false</editHeading>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <label>Detail Information</label>
         <layoutColumns>
             <layoutItems>
@@ -61,6 +78,12 @@
         <style>OneColumn</style>
     </layoutSections>
     <layoutSections>
+<<<<<<< HEAD
+=======
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+        <editHeading>false</editHeading>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
@@ -79,4 +102,11 @@
     <relatedLists>
         <relatedList>RelatedEntityHistoryList</relatedList>
     </relatedLists>
+<<<<<<< HEAD
+=======
+    <showEmailCheckbox>false</showEmailCheckbox>
+    <showHighlightsPanel>true</showHighlightsPanel>
+    <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
+    <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
 </Layout>

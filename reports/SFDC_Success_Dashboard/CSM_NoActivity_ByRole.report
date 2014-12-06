@@ -4,6 +4,7 @@
         <backgroundColor1>#FFFFFF</backgroundColor1>
         <backgroundColor2>#FFFFFF</backgroundColor2>
         <backgroundFadeDir>Diagonal</backgroundFadeDir>
+<<<<<<< HEAD
         <chartType>HorizontalBar</chartType>
         <groupingColumn>ROLLUP_DESCRIPTION</groupingColumn>
         <legendPosition>Right</legendPosition>
@@ -12,6 +13,23 @@
         <size>Medium</size>
         <summaryAxisRange>Auto</summaryAxisRange>
         <summaryColumn>RowCount</summaryColumn>
+=======
+        <chartSummaries>
+            <axisBinding>y</axisBinding>
+            <column>RowCount</column>
+        </chartSummaries>
+        <chartType>HorizontalBar</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>ROLLUP_DESCRIPTION</groupingColumn>
+        <location>CHART_TOP</location>
+        <showAxisLabels>true</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>true</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <textColor>#000000</textColor>
         <textSize>12</textSize>
         <titleColor>#000000</titleColor>
@@ -43,7 +61,13 @@
         <criteriaItems>
             <column>DUE_DATE</column>
             <operator>equals</operator>
+<<<<<<< HEAD
         </criteriaItems>
+=======
+            <value></value>
+        </criteriaItems>
+        <language>ja</language>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     </filter>
     <format>Summary</format>
     <groupingsDown>

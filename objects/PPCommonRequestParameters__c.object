@@ -1,18 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+<<<<<<< HEAD
     <deploymentStatus>Deployed</deploymentStatus>
     <fields>
         <fullName>ApplicationName__c</fullName>
         <description>Your Application&apos;s Identification, such as the name of your application.</description>
+=======
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <fields>
+        <fullName>ApplicationName__c</fullName>
+        <description>Your Application&apos;s Identification, such as the name of your application.</description>
+        <externalId>false</externalId>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <inlineHelpText>Your Application&apos;s Identification, such as the name of your application.</inlineHelpText>
         <label>ApplicationName</label>
         <length>255</length>
         <required>true</required>
+<<<<<<< HEAD
         <type>Text</type>
+=======
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     </fields>
     <fields>
         <fullName>CurrencyCode__c</fullName>
         <description>The currency code</description>
+<<<<<<< HEAD
+=======
+        <externalId>false</externalId>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <inlineHelpText>The currency code</inlineHelpText>
         <label>CurrencyCode</label>
         <picklist>
@@ -102,11 +169,19 @@
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
+<<<<<<< HEAD
+=======
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>Picklist</type>
     </fields>
     <fields>
         <fullName>DetailLevel__c</fullName>
         <description>The level of detail required by the client application for component such as Item, Transaction.</description>
+<<<<<<< HEAD
+=======
+        <externalId>false</externalId>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <inlineHelpText>The level of detail required by the client application for component such as Item, Transaction.</inlineHelpText>
         <label>DetailLevel</label>
         <picklist>
@@ -116,11 +191,19 @@
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
+<<<<<<< HEAD
+=======
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>Picklist</type>
     </fields>
     <fields>
         <fullName>FeePayer__c</fullName>
         <description>The payer of PayPal fees</description>
+<<<<<<< HEAD
+=======
+        <externalId>false</externalId>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <inlineHelpText>The payer of PayPal fees</inlineHelpText>
         <label>FeePayer</label>
         <picklist>
@@ -142,10 +225,18 @@
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
+<<<<<<< HEAD
+=======
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>Picklist</type>
     </fields>
     <fields>
         <fullName>Language__c</fullName>
+<<<<<<< HEAD
+=======
+        <externalId>false</externalId>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <label>Language</label>
         <picklist>
             <picklistValues>
@@ -154,6 +245,10 @@
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
+<<<<<<< HEAD
+=======
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>Picklist</type>
     </fields>
     <label>PayPal Common Request Parameters</label>

@@ -3,26 +3,71 @@
     <backgroundEndColor>#FFFFFF</backgroundEndColor>
     <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
     <backgroundStartColor>#FFFFFF</backgroundStartColor>
+<<<<<<< HEAD
     <leftSection>
         <columnSize>Wide</columnSize>
         <components>
             <chartAxisRange>Auto</chartAxisRange>
             <componentType>Line</componentType>
             <displayUnits>Auto</displayUnits>
+=======
+    <dashboardType>SpecifiedUser</dashboardType>
+    <leftSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Line</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <footer>ログインしたユニークユーザー数の週次合計数</footer>
             <header>利用概況</header>
             <legendPosition>Bottom</legendPosition>
             <report>SFDC_Success_Dashboard/login_trend</report>
+<<<<<<< HEAD
             <sortBy>RowLabelAscending</sortBy>
             <title>ログイン数（過去90日間）</title>
         </components>
         <components>
             <componentType>Table</componentType>
             <displayUnits>Auto</displayUnits>
+=======
+            <showPercentage>false</showPercentage>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>ログイン数（過去90日間）</title>
+            <useReportChart>true</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardTableColumn>
+                <column>User.CollaborationGroup$CreatedById$Name</column>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
+                <column>FORMULA2</column>
+                <showTotal>true</showTotal>
+                <sortBy>RowValueDescending</sortBy>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
+                <column>User.CollaborationGroup$CreatedById$LastFeedModifiedDate</column>
+                <showTotal>false</showTotal>
+            </dashboardTableColumn>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <indicatorHighColor>#54C254</indicatorHighColor>
             <indicatorLowColor>#C25454</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <report>SFDC_Success_Dashboard/Report58</report>
+<<<<<<< HEAD
             <sortBy>RowValueDescending</sortBy>
             <title>グループ別概況（全期間）</title>
         </components>
@@ -43,11 +88,65 @@
             <report>SFDC_Success_Dashboard/Comment_by_G_l90d</report>
             <sortBy>RowLabelAscending</sortBy>
             <title>グループ別コメント数　累積推移（過去90日間）</title>
+=======
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <title>グループ別概況（全期間）</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <chartSummary>
+                <axisBinding>y</axisBinding>
+                <column>RowCount</column>
+            </chartSummary>
+            <componentType>LineGroupedCumulative</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingColumn>User.CollaborationGroup$OwnerId.FeedItems$CreatedDate</groupingColumn>
+            <groupingColumn>User.CollaborationGroup$OwnerId$Name</groupingColumn>
+            <legendPosition>Bottom</legendPosition>
+            <report>SFDC_Success_Dashboard/group_post_l90d</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>グループ別投稿数　累積推移（過去90日間）</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <chartSummary>
+                <axisBinding>y</axisBinding>
+                <column>RowCount</column>
+            </chartSummary>
+            <componentType>LineGroupedCumulative</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingColumn>User.CollaborationGroup$OwnerId.FeedItems.Comments$CreatedDate</groupingColumn>
+            <groupingColumn>User.CollaborationGroup$OwnerId$Name</groupingColumn>
+            <legendPosition>Bottom</legendPosition>
+            <report>SFDC_Success_Dashboard/Comment_by_G_l90d</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>グループ別コメント数　累積推移（過去90日間）</title>
+            <useReportChart>false</useReportChart>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         </components>
     </leftSection>
     <middleSection>
         <columnSize>Wide</columnSize>
         <components>
+<<<<<<< HEAD
+=======
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <componentType>Metric</componentType>
             <displayUnits>Integer</displayUnits>
             <header>グループ内投稿</header>
@@ -58,6 +157,7 @@
             <report>SFDC_Success_Dashboard/TOP5_Feed_Group_All</report>
         </components>
         <components>
+<<<<<<< HEAD
             <chartAxisRange>Auto</chartAxisRange>
             <componentType>Line</componentType>
             <displayUnits>Auto</displayUnits>
@@ -69,26 +169,70 @@
         <components>
             <componentType>Table</componentType>
             <displayUnits>Auto</displayUnits>
+=======
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Line</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <legendPosition>Bottom</legendPosition>
+            <report>SFDC_Success_Dashboard/group_post_l90d</report>
+            <showPercentage>false</showPercentage>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>投稿数　推移（過去90日間）</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <indicatorHighColor>#54C254</indicatorHighColor>
             <indicatorLowColor>#C25454</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <maxValuesDisplayed>5</maxValuesDisplayed>
             <report>SFDC_Success_Dashboard/Group_Post_lw</report>
+<<<<<<< HEAD
+=======
+            <showPicturesOnTables>true</showPicturesOnTables>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <sortBy>RowValueDescending</sortBy>
             <title>ユーザー別投稿数TOP5（先週）</title>
         </components>
         <components>
+<<<<<<< HEAD
             <componentType>Table</componentType>
             <displayUnits>Integer</displayUnits>
+=======
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <indicatorHighColor>#54C254</indicatorHighColor>
             <indicatorLowColor>#C25454</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <maxValuesDisplayed>5</maxValuesDisplayed>
             <report>SFDC_Success_Dashboard/TOP5_Feed_Group_All</report>
+<<<<<<< HEAD
+=======
+            <showPicturesOnTables>true</showPicturesOnTables>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <sortBy>RowValueDescending</sortBy>
             <title>ユーザー別投稿数TOP5（全期間）</title>
         </components>
         <components>
+<<<<<<< HEAD
+=======
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <componentType>Metric</componentType>
             <displayUnits>Integer</displayUnits>
             <header>グループ内コメント</header>
@@ -99,6 +243,7 @@
             <report>SFDC_Success_Dashboard/TOP5_Comment_Group_all</report>
         </components>
         <components>
+<<<<<<< HEAD
             <chartAxisRange>Auto</chartAxisRange>
             <componentType>Line</componentType>
             <displayUnits>Auto</displayUnits>
@@ -110,22 +255,62 @@
         <components>
             <componentType>Table</componentType>
             <displayUnits>Auto</displayUnits>
+=======
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Line</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <legendPosition>Bottom</legendPosition>
+            <report>SFDC_Success_Dashboard/Comment_by_G_l90d</report>
+            <showPercentage>false</showPercentage>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>コメント数　推移（過去90日間）</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <indicatorHighColor>#54C254</indicatorHighColor>
             <indicatorLowColor>#C25454</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <maxValuesDisplayed>5</maxValuesDisplayed>
             <report>SFDC_Success_Dashboard/g_com_lw</report>
+<<<<<<< HEAD
+=======
+            <showPicturesOnTables>true</showPicturesOnTables>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <sortBy>RowValueDescending</sortBy>
             <title>ユーザー別コメント数TOP5（先週）</title>
         </components>
         <components>
+<<<<<<< HEAD
             <componentType>Table</componentType>
             <displayUnits>Auto</displayUnits>
+=======
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <indicatorHighColor>#54C254</indicatorHighColor>
             <indicatorLowColor>#C25454</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <maxValuesDisplayed>5</maxValuesDisplayed>
             <report>SFDC_Success_Dashboard/TOP5_Comment_Group_all</report>
+<<<<<<< HEAD
+=======
+            <showPicturesOnTables>true</showPicturesOnTables>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <sortBy>RowValueDescending</sortBy>
             <title>ユーザー別コメント数TOP5（全期間）</title>
         </components>
@@ -133,6 +318,10 @@
     <rightSection>
         <columnSize>Wide</columnSize>
         <components>
+<<<<<<< HEAD
+=======
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <componentType>Metric</componentType>
             <displayUnits>Integer</displayUnits>
             <header>グループ外投稿</header>
@@ -143,6 +332,7 @@
             <report>SFDC_Success_Dashboard/Feed_Public_All</report>
         </components>
         <components>
+<<<<<<< HEAD
             <chartAxisRange>Auto</chartAxisRange>
             <componentType>Line</componentType>
             <displayUnits>Auto</displayUnits>
@@ -154,26 +344,70 @@
         <components>
             <componentType>Table</componentType>
             <displayUnits>Auto</displayUnits>
+=======
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Line</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <legendPosition>Bottom</legendPosition>
+            <report>SFDC_Success_Dashboard/Public_feed_last90d</report>
+            <showPercentage>false</showPercentage>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>投稿数　推移（過去90日間）</title>
+            <useReportChart>true</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <indicatorHighColor>#54C254</indicatorHighColor>
             <indicatorLowColor>#C25454</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <maxValuesDisplayed>5</maxValuesDisplayed>
             <report>SFDC_Success_Dashboard/Feed_Public_LW</report>
+<<<<<<< HEAD
+=======
+            <showPicturesOnTables>true</showPicturesOnTables>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <sortBy>RowValueDescending</sortBy>
             <title>ユーザー別投稿数TOP5（先週）</title>
         </components>
         <components>
+<<<<<<< HEAD
             <componentType>Table</componentType>
             <displayUnits>Auto</displayUnits>
+=======
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <indicatorHighColor>#54C254</indicatorHighColor>
             <indicatorLowColor>#C25454</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <maxValuesDisplayed>5</maxValuesDisplayed>
             <report>SFDC_Success_Dashboard/Feed_Public_All</report>
+<<<<<<< HEAD
+=======
+            <showPicturesOnTables>true</showPicturesOnTables>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <sortBy>RowValueDescending</sortBy>
             <title>ユーザー別投稿数TOP5（全期間）</title>
         </components>
         <components>
+<<<<<<< HEAD
+=======
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <componentType>Metric</componentType>
             <displayUnits>Integer</displayUnits>
             <header>グループ外コメント</header>
@@ -184,6 +418,7 @@
             <report>SFDC_Success_Dashboard/Comment_Public_All</report>
         </components>
         <components>
+<<<<<<< HEAD
             <chartAxisRange>Auto</chartAxisRange>
             <componentType>Line</componentType>
             <displayUnits>Auto</displayUnits>
@@ -195,22 +430,62 @@
         <components>
             <componentType>Table</componentType>
             <displayUnits>Auto</displayUnits>
+=======
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Line</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <legendPosition>Bottom</legendPosition>
+            <report>SFDC_Success_Dashboard/Public_comment_last90d</report>
+            <showPercentage>false</showPercentage>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>コメント数　推移（過去90日間）</title>
+            <useReportChart>true</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <indicatorHighColor>#54C254</indicatorHighColor>
             <indicatorLowColor>#C25454</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <maxValuesDisplayed>5</maxValuesDisplayed>
             <report>SFDC_Success_Dashboard/Comment_Public_LW</report>
+<<<<<<< HEAD
+=======
+            <showPicturesOnTables>true</showPicturesOnTables>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <sortBy>RowValueDescending</sortBy>
             <title>ユーザー別コメント数TOP5（先週）</title>
         </components>
         <components>
+<<<<<<< HEAD
             <componentType>Table</componentType>
             <displayUnits>Auto</displayUnits>
+=======
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <indicatorHighColor>#54C254</indicatorHighColor>
             <indicatorLowColor>#C25454</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <maxValuesDisplayed>5</maxValuesDisplayed>
             <report>SFDC_Success_Dashboard/Comment_Public_All</report>
+<<<<<<< HEAD
+=======
+            <showPicturesOnTables>true</showPicturesOnTables>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <sortBy>RowValueDescending</sortBy>
             <title>ユーザー別コメント数TOP5（全期間）</title>
         </components>

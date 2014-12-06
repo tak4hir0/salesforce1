@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
+<<<<<<< HEAD
     <headers>PersonalTagging</headers>
     <headers>PublicTagging</headers>
     <layoutSections>
+=======
+    <emailDefault>false</emailDefault>
+    <headers>PersonalTagging</headers>
+    <headers>PublicTagging</headers>
+    <layoutSections>
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <editHeading>true</editHeading>
         <label>Contract Information</label>
         <layoutColumns>
@@ -68,6 +77,11 @@
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>
+<<<<<<< HEAD
+=======
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <editHeading>true</editHeading>
         <label>Address Information</label>
         <layoutColumns>
@@ -80,6 +94,11 @@
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>
+<<<<<<< HEAD
+=======
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <editHeading>true</editHeading>
         <label>System Information</label>
         <layoutColumns>
@@ -105,6 +124,11 @@
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>
+<<<<<<< HEAD
+=======
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <editHeading>true</editHeading>
         <label>Description Information</label>
         <layoutColumns>
@@ -120,12 +144,28 @@
         <style>OneColumn</style>
     </layoutSections>
     <layoutSections>
+<<<<<<< HEAD
+=======
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <editHeading>true</editHeading>
         <layoutColumns/>
         <layoutColumns/>
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
+<<<<<<< HEAD
+=======
+    <relatedContent>
+        <relatedContentItems>
+            <layoutItem>
+                <behavior>Readonly</behavior>
+                <field>AccountId</field>
+            </layoutItem>
+        </relatedContentItems>
+    </relatedContent>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     <relatedLists>
         <relatedList>RelatedApprovalList</relatedList>
     </relatedLists>
@@ -155,6 +195,15 @@
         <relatedList>RelatedNoteList</relatedList>
     </relatedLists>
     <relatedObjects>AccountId</relatedObjects>
+<<<<<<< HEAD
     <showEmailCheckbox>true</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>true</showRunAssignmentRulesCheckbox>
+=======
+    <runAssignmentRulesDefault>false</runAssignmentRulesDefault>
+    <showEmailCheckbox>true</showEmailCheckbox>
+    <showHighlightsPanel>true</showHighlightsPanel>
+    <showInteractionLogPanel>true</showInteractionLogPanel>
+    <showRunAssignmentRulesCheckbox>true</showRunAssignmentRulesCheckbox>
+    <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
 </Layout>

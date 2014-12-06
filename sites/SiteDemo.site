@@ -2,11 +2,22 @@
 <CustomSite xmlns="http://soap.sforce.com/2006/04/metadata">
     <active>true</active>
     <allowHomePage>false</allowHomePage>
+<<<<<<< HEAD
     <allowStandardIdeasPages>false</allowStandardIdeasPages>
     <allowStandardLookups>false</allowStandardLookups>
     <allowStandardSearch>false</allowStandardSearch>
     <authorizationRequiredPage>Unauthorized</authorizationRequiredPage>
     <bandwidthExceededPage>BandwidthExceeded</bandwidthExceededPage>
+=======
+    <allowStandardAnswersPages>false</allowStandardAnswersPages>
+    <allowStandardIdeasPages>false</allowStandardIdeasPages>
+    <allowStandardLookups>false</allowStandardLookups>
+    <allowStandardSearch>false</allowStandardSearch>
+    <analyticsTrackingCode>UA-44237235-1</analyticsTrackingCode>
+    <authorizationRequiredPage>Unauthorized</authorizationRequiredPage>
+    <bandwidthExceededPage>BandwidthExceeded</bandwidthExceededPage>
+    <clickjackProtectionLevel>AllowAllFraming</clickjackProtectionLevel>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     <fileNotFoundPage>FileNotFound</fileNotFoundPage>
     <genericErrorPage>Exception</genericErrorPage>
     <inMaintenancePage>InMaintenance</inMaintenancePage>
@@ -15,5 +26,9 @@
     <requireInsecurePortalAccess>false</requireInsecurePortalAccess>
     <siteAdmin>tak4hir0@sf.dev</siteAdmin>
     <siteTemplate>SiteTemplate</siteTemplate>
+<<<<<<< HEAD
+=======
+    <siteType>Visualforce</siteType>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     <subdomain>tak4hir0-developer-edition</subdomain>
 </CustomSite>

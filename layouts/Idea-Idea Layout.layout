@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
     <layoutSections>
+<<<<<<< HEAD
+=======
+        <customLabel>false</customLabel>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
         <label>Additional Information</label>
@@ -8,7 +12,19 @@
         <style>OneColumn</style>
     </layoutSections>
     <layoutSections>
+<<<<<<< HEAD
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
+=======
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+        <editHeading>false</editHeading>
+        <layoutColumns/>
+        <style>CustomLinks</style>
+    </layoutSections>
+    <showEmailCheckbox>false</showEmailCheckbox>
+    <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
+    <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
 </Layout>

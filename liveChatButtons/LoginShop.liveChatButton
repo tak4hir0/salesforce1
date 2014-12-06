@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LiveChatButton xmlns="http://soap.sforce.com/2006/04/metadata">
+    <chatPage>Pre_chat_Form</chatPage>
+    <deployments/>
+    <enableQueue>true</enableQueue>
+    <isActive>true</isActive>
+    <label>ログイン＋ショップ</label>
+    <optionsCustomRoutingIsEnabled>false</optionsCustomRoutingIsEnabled>
+    <optionsHasInviteAfterAccept>false</optionsHasInviteAfterAccept>
+    <optionsHasInviteAfterReject>false</optionsHasInviteAfterReject>
+    <optionsHasRerouteDeclinedRequest>false</optionsHasRerouteDeclinedRequest>
+    <optionsIsAutoAccept>false</optionsIsAutoAccept>
+    <optionsIsInviteAutoRemove>false</optionsIsInviteAutoRemove>
+    <overallQueueLength>1</overallQueueLength>
+    <pushTimeOut>10</pushTimeOut>
+    <routingType>LeastActive</routingType>
+    <site>SiteDemo</site>
+    <skills>
+        <skill>Shop</skill>
+        <skill>Login</skill>
+        <skill>Reservation</skill>
+    </skills>
+    <type>Standard</type>
+    <windowLanguage>ja</windowLanguage>
+</LiveChatButton>

@@ -4,14 +4,32 @@
         <backgroundColor1>#FFFFFF</backgroundColor1>
         <backgroundColor2>#FFFFFF</backgroundColor2>
         <backgroundFadeDir>Diagonal</backgroundFadeDir>
+<<<<<<< HEAD
         <chartType>Donut</chartType>
+=======
+        <chartSummaries>
+            <axisBinding>y</axisBinding>
+            <column>RowCount</column>
+        </chartSummaries>
+        <chartType>Donut</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>false</expandOthers>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <groupingColumn>FULL_NAME</groupingColumn>
         <legendPosition>Right</legendPosition>
         <location>CHART_BOTTOM</location>
         <showAxisLabels>true</showAxisLabels>
+<<<<<<< HEAD
         <size>Medium</size>
         <summaryAxisRange>Auto</summaryAxisRange>
         <summaryColumn>RowCount</summaryColumn>
+=======
+        <showPercentage>false</showPercentage>
+        <showTotal>true</showTotal>
+        <showValues>true</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <textColor>#000000</textColor>
         <textSize>12</textSize>
         <titleColor>#000000</titleColor>
@@ -65,6 +83,10 @@
             <operator>lessThan</operator>
             <value>TODAY</value>
         </criteriaItems>
+<<<<<<< HEAD
+=======
+        <language>ja</language>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     </filter>
     <format>Summary</format>
     <groupingsDown>

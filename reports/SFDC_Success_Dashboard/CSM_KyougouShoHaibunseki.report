@@ -4,14 +4,33 @@
         <backgroundColor1>#FFFFFF</backgroundColor1>
         <backgroundColor2>#FFFFFF</backgroundColor2>
         <backgroundFadeDir>Diagonal</backgroundFadeDir>
+<<<<<<< HEAD
         <chartType>HorizontalBarStackedTo100</chartType>
+=======
+        <chartSummaries>
+            <axisBinding>y</axisBinding>
+            <column>RowCount</column>
+        </chartSummaries>
+        <chartType>HorizontalBarStackedTo100</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <groupingColumn>Opportunity.SFDC_Kyogo__c</groupingColumn>
         <legendPosition>Right</legendPosition>
         <location>CHART_BOTTOM</location>
         <secondaryGroupingColumn>Opportunity.SFDC_ShouhaiGenin__c</secondaryGroupingColumn>
+<<<<<<< HEAD
         <size>Medium</size>
         <summaryAxisRange>Auto</summaryAxisRange>
         <summaryColumn>RowCount</summaryColumn>
+=======
+        <showAxisLabels>false</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <textColor>#000000</textColor>
         <textSize>12</textSize>
         <titleColor>#000000</titleColor>
@@ -67,12 +86,20 @@
         <criteriaItems>
             <column>Opportunity.SFDC_ShouhaiGenin__c</column>
             <operator>notEqual</operator>
+<<<<<<< HEAD
+=======
+            <value></value>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         </criteriaItems>
         <criteriaItems>
             <column>WON</column>
             <operator>equals</operator>
             <value>1</value>
         </criteriaItems>
+<<<<<<< HEAD
+=======
+        <language>ja</language>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     </filter>
     <format>Matrix</format>
     <groupingsAcross>

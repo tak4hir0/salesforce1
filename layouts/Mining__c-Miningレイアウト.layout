@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
     <layoutSections>
+<<<<<<< HEAD
+=======
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <editHeading>true</editHeading>
         <label>Information</label>
         <layoutColumns>
@@ -30,6 +35,11 @@
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>
+<<<<<<< HEAD
+=======
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <editHeading>true</editHeading>
         <label>System Information</label>
         <layoutColumns>
@@ -47,6 +57,11 @@
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>
+<<<<<<< HEAD
+=======
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <editHeading>true</editHeading>
         <layoutColumns/>
         <layoutColumns/>
@@ -57,4 +72,12 @@
         <fields>NAME</fields>
         <relatedList>WordList__c.Mining__c</relatedList>
     </relatedLists>
+<<<<<<< HEAD
+=======
+    <showEmailCheckbox>false</showEmailCheckbox>
+    <showHighlightsPanel>true</showHighlightsPanel>
+    <showInteractionLogPanel>true</showInteractionLogPanel>
+    <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
+    <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
 </Layout>

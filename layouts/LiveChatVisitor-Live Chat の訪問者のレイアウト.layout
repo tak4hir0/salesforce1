@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
+<<<<<<< HEAD
     <layoutSections>
         <customLabel>true</customLabel>
+=======
+    <customConsoleComponents>
+        <primaryTabComponents>
+            <containers>
+                <region>Right</region>
+                <sidebarComponents>
+                    <height>100</height>
+                    <page>SiteTemplate</page>
+                    <unit>Percentage</unit>
+                </sidebarComponents>
+                <style>Stack</style>
+                <unit>Pixel</unit>
+                <width>200</width>
+            </containers>
+        </primaryTabComponents>
+        <subtabComponents>
+            <containers>
+                <region>Right</region>
+                <sidebarComponents>
+                    <height>100</height>
+                    <page>About_PayPal_Adaptive_Toolkit</page>
+                    <unit>Percentage</unit>
+                </sidebarComponents>
+                <style>Stack</style>
+                <unit>Pixel</unit>
+                <width>200</width>
+            </containers>
+        </subtabComponents>
+    </customConsoleComponents>
+    <layoutSections>
+        <customLabel>true</customLabel>
+        <detailHeading>false</detailHeading>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <editHeading>true</editHeading>
         <label>項目</label>
         <layoutColumns>
@@ -27,6 +61,12 @@
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>
+<<<<<<< HEAD
+=======
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+        <editHeading>false</editHeading>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <label>Custom Links</label>
         <layoutColumns/>
         <layoutColumns/>
@@ -46,4 +86,16 @@
         <sortField>EndTime</sortField>
         <sortOrder>Desc</sortOrder>
     </relatedLists>
+<<<<<<< HEAD
+=======
+    <showEmailCheckbox>false</showEmailCheckbox>
+    <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
+    <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
+    <summaryLayout>
+        <masterLabel>00hE0000000faCW</masterLabel>
+        <sizeX>4</sizeX>
+        <sizeY>0</sizeY>
+        <summaryLayoutStyle>Default</summaryLayoutStyle>
+    </summaryLayout>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
 </Layout>

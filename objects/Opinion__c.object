@@ -1,26 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+<<<<<<< HEAD
+=======
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     <deploymentStatus>Deployed</deploymentStatus>
     <description>すべての質問はOpinion_Question__c(意識調査質問)に格納されます。
 
 質問のタイプによっては、回答の選択肢がOpinion_response__c(意識調査回答選択値)から利用されます。
 すべての回答はOpinion_answers__c(意識調査回答)に格納されます。</description>
+<<<<<<< HEAD
     <fields>
         <fullName>Description__c</fullName>
         <description>意識調査に関する短い概要</description>
         <label>概要</label>
         <length>32768</length>
+=======
+    <enableActivities>false</enableActivities>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <fields>
+        <fullName>Description__c</fullName>
+        <description>意識調査に関する短い概要</description>
+        <externalId>false</externalId>
+        <label>概要</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>LongTextArea</type>
         <visibleLines>3</visibleLines>
     </fields>
     <fields>
         <fullName>Name__c</fullName>
+<<<<<<< HEAD
         <label>名前</label>
         <length>100</length>
         <type>Text</type>
     </fields>
     <fields>
         <fullName>Status__c</fullName>
+=======
+        <externalId>false</externalId>
+        <label>名前</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <label>状況</label>
         <picklist>
             <picklistValues>
@@ -41,13 +119,25 @@
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
+<<<<<<< HEAD
+=======
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>Picklist</type>
     </fields>
     <fields>
         <fullName>Sync_to_Mobile_App__c</fullName>
         <defaultValue>false</defaultValue>
         <description>モバイルアプリケーション上で表示を行うかどうか</description>
+<<<<<<< HEAD
         <label>モバイルアプリと同期</label>
+=======
+        <externalId>false</externalId>
+        <label>モバイルアプリと同期</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>Checkbox</type>
     </fields>
     <label>意識調査</label>
@@ -66,6 +156,10 @@
     <nameField>
         <displayFormat>OP-{0000}</displayFormat>
         <label>意識調査番号</label>
+<<<<<<< HEAD
+=======
+        <trackFeedHistory>false</trackFeedHistory>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>AutoNumber</type>
     </nameField>
     <searchLayouts>

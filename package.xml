@@ -127,6 +127,10 @@
         <members>Product2</members>
         <members>Question</members>
         <members>QuickText</members>
+<<<<<<< HEAD
+=======
+        <members>QuickTextAction</members>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <members>Reply</members>
         <members>Site</members>
         <members>SocialPersona</members>
@@ -152,6 +156,11 @@
         <name>CustomTab</name>
     </types>
     <types>
+<<<<<<< HEAD
+=======
+        <members>Folder04t100000008oVG</members>
+        <members>Folder04t100000008oVG/Dashboard04t100000008oVG</members>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <members>ROI</members>
         <members>ROI/ROI_SFDC</members>
         <members>SFDC_Success_Dashboard</members>
@@ -170,6 +179,11 @@
         <members>SFDC_Success_Dashboard/new_dashboard_test</members>
         <members>Site_Analytics</members>
         <members>Site_Analytics/Site_Analytics</members>
+<<<<<<< HEAD
+=======
+        <members>sfdcjtimecard</members>
+        <members>sfdcjtimecard/Dashboard</members>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <name>Dashboard</name>
     </types>
     <types>
@@ -177,6 +191,11 @@
         <name>DataCategoryGroup</name>
     </types>
     <types>
+<<<<<<< HEAD
+=======
+        <members>Folder</members>
+        <members>Folder/Appforcelogogif.gif</members>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <members>Graphics_Pack_for_Formulas</members>
         <members>Graphics_Pack_for_Formulas/Butterfly_16x16_png.png</members>
         <members>Graphics_Pack_for_Formulas/Dolphin_16x16_png.png</members>
@@ -1808,8 +1827,11 @@
         <members>SharedDocuments/OAuth_Logo.png</members>
         <members>ViewAttachments</members>
         <members>ViewAttachments/Instructions.doc</members>
+<<<<<<< HEAD
         <members>et4ae5__ExactTargetDocuments</members>
         <members>et4ae5__ExactTargetDocuments/CABEBBAJAada92b3e65144a02891b3180f36e1a4e.txt</members>
+=======
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <name>Document</name>
     </types>
     <types>
@@ -1949,6 +1971,21 @@
         <name>RemoteSiteSetting</name>
     </types>
     <types>
+<<<<<<< HEAD
+=======
+        <members>Folder04t100000008oVG</members>
+        <members>Folder04t100000008oVG/PM04t100000008oVG</members>
+        <members>Folder04t100000008oVG/PM_d_204t100000008oVG</members>
+        <members>Folder04t100000008oVG/Report04t100000008oVG</members>
+        <members>Folder04t100000008oVG/Report_d_204t100000008oVG</members>
+        <members>Folder04t100000008oVG/Report_d_304t100000008oVG</members>
+        <members>Folder04t100000008oVG/Report_d_404t100000008oVG</members>
+        <members>Folder04t100000008oVG/Report_d_504t100000008oVG</members>
+        <members>Folder04t100000008oVG/Report_d_604t100000008oVG</members>
+        <members>Folder04t100000008oVG/Report_d_704t100000008oVG</members>
+        <members>Folder04t100000008oVG/Report_d_804t100000008oVG</members>
+        <members>Folder04t100000008oVG/Report_d_904t100000008oVG</members>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <members>ROI_folder</members>
         <members>ROI_folder/ROIRevenuetrend</members>
         <members>ROI_folder/ROI_accountnumber</members>
@@ -2098,9 +2135,26 @@
         <members>Site_Analytics/Page_Views_per_Visit</members>
         <members>Site_Analytics/Visit_Bounce_Rate</members>
         <members>Site_Analytics/Visitors</members>
+<<<<<<< HEAD
         <members>et4ae5__ExactTarget_Admin</members>
         <members>et4ae5__ExactTarget_Admin/ETMC</members>
         <members>et4ae5__ExactTarget_Admin/ETMC_2</members>
+=======
+        <members>sfdcjtimecard</members>
+        <members>sfdcjtimecard/Report</members>
+        <members>sfdcjtimecard/Report_d_2</members>
+        <members>sfdcjtimecard/Report_d_3</members>
+        <members>sfdcjtimecard/Report_d_4</members>
+        <members>sfdcjtimecard/Report_d_8</members>
+        <members>sfdcjtimecard/Report_d_9</members>
+        <members>sfdcjtimecarddashboard</members>
+        <members>sfdcjtimecarddashboard/Report_d_10</members>
+        <members>sfdcjtimecarddashboard/Report_d_11</members>
+        <members>sfdcjtimecarddashboard/Report_d_12</members>
+        <members>sfdcjtimecarddashboard/Report_d_5</members>
+        <members>sfdcjtimecarddashboard/Report_d_6</members>
+        <members>sfdcjtimecarddashboard/Report_d_7</members>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <members>unfiled$public</members>
         <members>unfiled$public/Answers</members>
         <members>unfiled$public/Forecast</members>
@@ -2158,5 +2212,9 @@
         <members>*</members>
         <name>Settings</name>
     </types>
+<<<<<<< HEAD
     <version>15.0</version>
+=======
+    <version>30.0</version>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
 </Package>

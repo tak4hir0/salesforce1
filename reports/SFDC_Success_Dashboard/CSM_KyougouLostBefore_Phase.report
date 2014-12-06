@@ -4,15 +4,34 @@
         <backgroundColor1>#FFFFFF</backgroundColor1>
         <backgroundColor2>#FFFFFF</backgroundColor2>
         <backgroundFadeDir>Diagonal</backgroundFadeDir>
+<<<<<<< HEAD
         <chartType>Funnel</chartType>
+=======
+        <chartSummaries>
+            <aggregate>Sum</aggregate>
+            <axisBinding>y</axisBinding>
+            <column>AMOUNT</column>
+        </chartSummaries>
+        <chartType>Funnel</chartType>
+        <enableHoverLabels>true</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <groupingColumn>FROM_OPPORTUNITY_STAGE_NAME</groupingColumn>
         <legendPosition>Bottom</legendPosition>
         <location>CHART_BOTTOM</location>
         <showAxisLabels>true</showAxisLabels>
+<<<<<<< HEAD
         <size>Medium</size>
         <summaryAggregate>Sum</summaryAggregate>
         <summaryAxisRange>Auto</summaryAxisRange>
         <summaryColumn>AMOUNT</summaryColumn>
+=======
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>true</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <textColor>#000000</textColor>
         <textSize>12</textSize>
         <titleColor>#000000</titleColor>
@@ -53,6 +72,10 @@
             <operator>equals</operator>
             <value>0</value>
         </criteriaItems>
+<<<<<<< HEAD
+=======
+        <language>ja</language>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     </filter>
     <format>Summary</format>
     <groupingsDown>

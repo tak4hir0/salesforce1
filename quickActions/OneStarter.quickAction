@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>検証中</description>
+    <height>600</height>
+    <label>OneStarter</label>
+    <page>OneStarter</page>
+    <type>VisualforcePage</type>
+    <width>-100</width>
+</QuickAction>

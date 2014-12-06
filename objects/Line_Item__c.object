@@ -1,33 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+<<<<<<< HEAD
     <deploymentStatus>Deployed</deploymentStatus>
     <fields>
         <fullName>Date__c</fullName>
         <label>Date</label>
+=======
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <fields>
+        <fullName>Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>Date</type>
     </fields>
     <fields>
         <fullName>Field1__c</fullName>
+<<<<<<< HEAD
+=======
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <label>コンベア</label>
         <referenceTo>Merchandise__c</referenceTo>
         <relationshipLabel>Line Items (コンベア)</relationshipLabel>
         <relationshipName>Line_Items1</relationshipName>
+<<<<<<< HEAD
+=======
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Invoice_Statement__c</fullName>
+<<<<<<< HEAD
+=======
+        <externalId>false</externalId>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <label>Invoice Statement</label>
         <referenceTo>Invoice_Statement__c</referenceTo>
         <relationshipName>Line_Items</relationshipName>
         <relationshipOrder>1</relationshipOrder>
+<<<<<<< HEAD
         <type>MasterDetail</type>
     </fields>
     <fields>
         <fullName>Merchandise__c</fullName>
+=======
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Merchandise__c</fullName>
+        <externalId>false</externalId>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <label>Merchandise</label>
         <referenceTo>Merchandise__c</referenceTo>
         <relationshipName>Line_Items</relationshipName>
         <relationshipOrder>0</relationshipOrder>
+<<<<<<< HEAD
         <type>MasterDetail</type>
     </fields>
     <fields>
@@ -35,14 +120,40 @@
         <label>Unit Price</label>
         <precision>18</precision>
         <scale>2</scale>
+=======
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Unit_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Unit Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>Currency</type>
     </fields>
     <fields>
         <fullName>Units_Sold__c</fullName>
+<<<<<<< HEAD
         <label>Units Sold</label>
         <precision>18</precision>
         <scale>0</scale>
         <type>Number</type>
+=======
+        <externalId>false</externalId>
+        <label>Units Sold</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     </fields>
     <label>プーリー</label>
     <nameField>

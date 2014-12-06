@@ -29,6 +29,7 @@
         <name>PayPal_Adaptive_Toolkit</name>
     </customApplications>
     <customApplications>
+<<<<<<< HEAD
         <label><!-- Super ListView Viewer --></label>
         <name>SuperListViewViewer</name>
     </customApplications>
@@ -37,6 +38,8 @@
         <name>Volunteering</name>
     </customApplications>
     <customApplications>
+=======
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <label><!-- Warehouse --></label>
         <name>Warehouse</name>
     </customApplications>
@@ -3536,6 +3539,7 @@
         <label><!-- taxonomy load noitems msg --></label>
         <name>cms__taxonomy_load_noitems_msg</name>
     </customLabels>
+<<<<<<< HEAD
     <customLabels>
         <label><!-- AB_Test_From_Name_A --></label>
         <name>et4ae5__AB_Test_From_Name_A</name>
@@ -5608,6 +5612,8 @@
         <label><!-- yearly --></label>
         <name>et4ae5__yearly</name>
     </customLabels>
+=======
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     <customPageWebLinks>
         <label><!-- Full Editor --></label>
         <name>Full_Editor</name>
@@ -5641,10 +5647,13 @@
         <name>ExecutePaymentTest</name>
     </customTabs>
     <customTabs>
+<<<<<<< HEAD
         <label><!-- Facebook --></label>
         <name>Facebook</name>
     </customTabs>
     <customTabs>
+=======
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <label><!-- Conway&apos;s Game of Life --></label>
         <name>GameOfLife</name>
     </customTabs>
@@ -5693,10 +5702,13 @@
         <name>Site_com</name>
     </customTabs>
     <customTabs>
+<<<<<<< HEAD
         <label><!-- Super ListView Viewer --></label>
         <name>SuperListViewViewer</name>
     </customTabs>
     <customTabs>
+=======
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <label><!-- ToDo --></label>
         <name>ToDo</name>
     </customTabs>
@@ -5709,10 +5721,13 @@
         <name>UserInfoUpdater</name>
     </customTabs>
     <customTabs>
+<<<<<<< HEAD
         <label><!-- chart --></label>
         <name>chart</name>
     </customTabs>
     <customTabs>
+=======
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <label><!-- d3-cloud --></label>
         <name>d3_cloud</name>
     </customTabs>
@@ -5724,6 +5739,61 @@
         <label><!-- Timeline --></label>
         <name>verite</name>
     </customTabs>
+<<<<<<< HEAD
+=======
+    <quickActions>
+        <label><!-- Google Drive --></label>
+        <name>GoogleDrive</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- OneStarter --></label>
+        <name>OneStarter</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Signature --></label>
+        <name>Signature</name>
+    </quickActions>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     <reportTypes>
         <description><!-- Chatter --></description>
         <label><!-- Chatter --></label>

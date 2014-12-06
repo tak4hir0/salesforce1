@@ -3,6 +3,7 @@
     <backgroundEndColor>#FFFFFF</backgroundEndColor>
     <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
     <backgroundStartColor>#FFFFFF</backgroundStartColor>
+<<<<<<< HEAD
     <leftSection>
         <columnSize>Medium</columnSize>
         <components>
@@ -23,11 +24,51 @@
             <report>Site_Analytics/New_Visits</report>
             <sortBy>RowLabelAscending</sortBy>
             <title>New Visits %</title>
+=======
+    <dashboardType>SpecifiedUser</dashboardType>
+    <leftSection>
+        <columnSize>Medium</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Line</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <legendPosition>Bottom</legendPosition>
+            <maxValuesDisplayed>32</maxValuesDisplayed>
+            <report>Site_Analytics/Visitors</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Visitors</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Line</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <legendPosition>Bottom</legendPosition>
+            <report>Site_Analytics/New_Visits</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>New Visits %</title>
+            <useReportChart>false</useReportChart>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         </components>
     </leftSection>
     <middleSection>
         <columnSize>Medium</columnSize>
         <components>
+<<<<<<< HEAD
             <chartAxisRange>Auto</chartAxisRange>
             <componentType>Line</componentType>
             <displayUnits>Auto</displayUnits>
@@ -44,11 +85,46 @@
             <report>Site_Analytics/Visit_Bounce_Rate</report>
             <sortBy>RowLabelAscending</sortBy>
             <title>Visit Bounce Rate (%)</title>
+=======
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Line</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <legendPosition>Bottom</legendPosition>
+            <report>Site_Analytics/Page_Views_per_Visit</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Page Views per Visit</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Line</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <legendPosition>Bottom</legendPosition>
+            <report>Site_Analytics/Visit_Bounce_Rate</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Visit Bounce Rate (%)</title>
+            <useReportChart>false</useReportChart>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         </components>
     </middleSection>
     <rightSection>
         <columnSize>Medium</columnSize>
         <components>
+<<<<<<< HEAD
             <chartAxisRange>Auto</chartAxisRange>
             <componentType>Line</componentType>
             <displayUnits>Auto</displayUnits>
@@ -56,6 +132,23 @@
             <report>Site_Analytics/Average_Time_on_Site</report>
             <sortBy>RowLabelAscending</sortBy>
             <title>Average Time on Site</title>
+=======
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Line</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <legendPosition>Bottom</legendPosition>
+            <report>Site_Analytics/Average_Time_on_Site</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Average Time on Site</title>
+            <useReportChart>false</useReportChart>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         </components>
     </rightSection>
     <runningUser>tak4hir0@sf.dev</runningUser>

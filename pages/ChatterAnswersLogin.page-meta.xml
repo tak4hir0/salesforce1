@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ApexPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>29.0</apiVersion>
+<<<<<<< HEAD
     <description>デフォルトの Chatter アンサーのログインページ</description>
     <label>ChatterAnswersLogin</label>
+=======
+    <availableInTouch>false</availableInTouch>
+    <confirmationTokenRequired>false</confirmationTokenRequired>
+    <description>デフォルトの Chatter アンサーのログインページ</description>
+    <label>ChatterAnswersLogin</label>
+    <packageVersions>
+        <majorNumber>1</majorNumber>
+        <minorNumber>812</minorNumber>
+        <namespace>SDOC</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>7</majorNumber>
+        <minorNumber>60</minorNumber>
+        <namespace>TIMBASURVEYS</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>1</majorNumber>
+        <minorNumber>0</minorNumber>
+        <namespace>cloudconverter</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>2</majorNumber>
+        <minorNumber>0</minorNumber>
+        <namespace>cloudsync</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>5</majorNumber>
+        <minorNumber>155</minorNumber>
+        <namespace>cms</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>1</majorNumber>
+        <minorNumber>6</minorNumber>
+        <namespace>sf_chttr_apps</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>1</majorNumber>
+        <minorNumber>5</minorNumber>
+        <namespace>sf_com_apps</namespace>
+    </packageVersions>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
 </ApexPage>

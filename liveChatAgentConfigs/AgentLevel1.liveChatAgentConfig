@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LiveChatAgentConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <profiles>
+            <profile>Live Agent ユーザ</profile>
+            <profile>システム管理者%EF%BC%88カスタム%EF%BC%89</profile>
+        </profiles>
+        <users>
+            <user>tak4hir0@sf.dev</user>
+        </users>
+    </assignments>
+    <autoGreeting>Live Agent Demo へようこそ。</autoGreeting>
+    <capacity>3</capacity>
+    <enableAgentSneakPeek>false</enableAgentSneakPeek>
+    <enableAutoAwayOnDecline>false</enableAutoAwayOnDecline>
+    <enableChatMonitoring>true</enableChatMonitoring>
+    <enableLogoutSound>true</enableLogoutSound>
+    <enableNotifications>true</enableNotifications>
+    <enableRequestSound>true</enableRequestSound>
+    <enableSneakPeek>true</enableSneakPeek>
+    <enableWhisperMessage>true</enableWhisperMessage>
+    <label>Agent Level 1</label>
+</LiveChatAgentConfig>

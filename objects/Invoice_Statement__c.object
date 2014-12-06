@@ -1,26 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+<<<<<<< HEAD
     <deploymentStatus>Deployed</deploymentStatus>
     <fields>
         <fullName>Date2__c</fullName>
         <label>Date2</label>
+=======
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <fields>
+        <fullName>Date2__c</fullName>
+        <externalId>false</externalId>
+        <label>Date2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>Date</type>
     </fields>
     <fields>
         <fullName>Date3__c</fullName>
+<<<<<<< HEAD
+=======
+        <externalId>false</externalId>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <formula>IF(Date2__c &lt;= TODAY(), &quot;今日以下&quot;, &quot;明日&quot;)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <inlineHelpText>Date2__c - TODAY()</inlineHelpText>
         <label>Date3</label>
+<<<<<<< HEAD
         <type>Text</type>
     </fields>
     <fields>
         <fullName>Description__c</fullName>
         <label>Description</label>
+=======
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>TextArea</type>
     </fields>
     <fields>
         <fullName>Status__c</fullName>
+<<<<<<< HEAD
+=======
+        <externalId>false</externalId>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <label>Status</label>
         <picklist>
             <picklistValues>
@@ -41,6 +122,10 @@
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
+<<<<<<< HEAD
+=======
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>Picklist</type>
     </fields>
     <label>Invoice Statement</label>
@@ -62,6 +147,10 @@
         <fullName>Clone</fullName>
         <availability>online</availability>
         <displayType>button</displayType>
+<<<<<<< HEAD
+=======
+        <encodingKey>UTF-8</encodingKey>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <linkType>url</linkType>
         <masterLabel>Clone</masterLabel>
         <openType>replace</openType>

@@ -1,19 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+<<<<<<< HEAD
     <deploymentStatus>Deployed</deploymentStatus>
     <description>Analytics event on a Force.com site (ie click, download)</description>
+=======
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Analytics event on a Force.com site (ie click, download)</description>
+    <enableActivities>false</enableActivities>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     <fields>
         <fullName>Action__c</fullName>
         <externalId>true</externalId>
         <label>Action</label>
         <length>100</length>
+<<<<<<< HEAD
         <type>Text</type>
+=======
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     </fields>
     <fields>
         <fullName>Category__c</fullName>
         <externalId>true</externalId>
         <label>Category</label>
         <length>100</length>
+<<<<<<< HEAD
         <type>Text</type>
     </fields>
     <fields>
@@ -26,10 +88,35 @@
     <fields>
         <fullName>Date__c</fullName>
         <label>Date</label>
+=======
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Count__c</fullName>
+        <externalId>false</externalId>
+        <label>Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>Date</type>
     </fields>
     <fields>
         <fullName>Media_Code__c</fullName>
+<<<<<<< HEAD
         <label>Media Code</label>
         <length>100</length>
         <type>Text</type>
@@ -39,6 +126,25 @@
         <label>User</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Site_Events</relationshipName>
+=======
+        <externalId>false</externalId>
+        <label>Media Code</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Site_Events</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>Lookup</type>
     </fields>
     <label>Site Event</label>
@@ -53,6 +159,10 @@
         <columns>User__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
+<<<<<<< HEAD
+=======
+        <language>en_US</language>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     </listViews>
     <listViews>
         <fullName>All1</fullName>

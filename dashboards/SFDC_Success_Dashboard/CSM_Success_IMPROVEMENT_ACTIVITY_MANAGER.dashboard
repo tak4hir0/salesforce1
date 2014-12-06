@@ -3,10 +3,18 @@
     <backgroundEndColor>#FFFFFF</backgroundEndColor>
     <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
     <backgroundStartColor>#FFFFFF</backgroundStartColor>
+<<<<<<< HEAD
+=======
+    <dashboardType>SpecifiedUser</dashboardType>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     <description>【要ダッシュボード修正】 左上と真ん中上のゲージの目標値をそれぞれダッシュボードの編集モードで変更して下さい。</description>
     <leftSection>
         <columnSize>Medium</columnSize>
         <components>
+<<<<<<< HEAD
+=======
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <componentType>Gauge</componentType>
             <displayUnits>Integer</displayUnits>
             <footer>～目標値を手動で変更してください～</footer>
@@ -19,6 +27,7 @@
             <indicatorLowColor>#C25454</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <report>SFDC_Success_Dashboard/csmimprovementactivitymanager1</report>
+<<<<<<< HEAD
             <title>活動予定＋完了活動</title>
         </components>
         <components>
@@ -40,11 +49,69 @@
             <report>SFDC_Success_Dashboard/CSM_ThisFY_Visit</report>
             <sortBy>RowLabelAscending</sortBy>
             <title>活動予定＋完了活動</title>
+=======
+            <showPercentage>true</showPercentage>
+            <showTotal>true</showTotal>
+            <showValues>false</showValues>
+            <title>活動予定＋完了活動</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <chartSummary>
+                <axisBinding>y</axisBinding>
+                <column>RowCount</column>
+            </chartSummary>
+            <componentType>ColumnStacked</componentType>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingColumn>ASSIGNED</groupingColumn>
+            <groupingColumn>CLOSED</groupingColumn>
+            <header>今月の担当者別活動件数</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>SFDC_Success_Dashboard/csmimprovementactivitymanager1</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <title>活動予定＋完了活動</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <chartSummary>
+                <axisBinding>y</axisBinding>
+                <column>RowCount</column>
+            </chartSummary>
+            <componentType>ColumnStacked</componentType>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingColumn>ASSIGNED</groupingColumn>
+            <groupingColumn>DUE_DATE</groupingColumn>
+            <header>今期の担当者別活動件数</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>SFDC_Success_Dashboard/CSM_ThisFY_Visit</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>活動予定＋完了活動</title>
+            <useReportChart>false</useReportChart>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         </components>
     </leftSection>
     <middleSection>
         <columnSize>Medium</columnSize>
         <components>
+<<<<<<< HEAD
+=======
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <componentType>Gauge</componentType>
             <displayUnits>Integer</displayUnits>
             <footer>～目標値を手動で変更してください～</footer>
@@ -57,6 +124,7 @@
             <indicatorLowColor>#C25454</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <report>SFDC_Success_Dashboard/csmimprovementactivitymanager2</report>
+<<<<<<< HEAD
             <title>完了活動</title>
         </components>
         <components>
@@ -78,13 +146,83 @@
             <report>SFDC_Success_Dashboard/CSM_ThisYearEndActivity</report>
             <sortBy>RowLabelAscending</sortBy>
             <title>完了活動</title>
+=======
+            <showPercentage>true</showPercentage>
+            <showTotal>true</showTotal>
+            <showValues>false</showValues>
+            <title>完了活動</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <chartSummary>
+                <axisBinding>y</axisBinding>
+                <column>RowCount</column>
+            </chartSummary>
+            <componentType>Column</componentType>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingColumn>ASSIGNED</groupingColumn>
+            <header>今月の担当者別完了活動件数</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>SFDC_Success_Dashboard/csmimprovementactivitymanager2</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <title>完了活動</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <chartSummary>
+                <axisBinding>y</axisBinding>
+                <column>RowCount</column>
+            </chartSummary>
+            <componentType>ColumnStacked</componentType>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingColumn>ASSIGNED</groupingColumn>
+            <groupingColumn>DUE_DATE</groupingColumn>
+            <header>今期の担当者別完了活動件数</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>SFDC_Success_Dashboard/CSM_ThisYearEndActivity</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>完了活動</title>
+            <useReportChart>false</useReportChart>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         </components>
     </middleSection>
     <rightSection>
         <columnSize>Medium</columnSize>
         <components>
+<<<<<<< HEAD
             <componentType>Table</componentType>
             <displayUnits>Integer</displayUnits>
+=======
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardTableColumn>
+                <column>ACCOUNT.NAME</column>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
+                <column>RowCount</column>
+                <showTotal>true</showTotal>
+                <sortBy>RowValueDescending</sortBy>
+            </dashboardTableColumn>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <footer>顧客別活動件数に偏りはないか</footer>
             <header>活動分析</header>
             <indicatorHighColor>#54C254</indicatorHighColor>
@@ -92,6 +230,7 @@
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <maxValuesDisplayed>10</maxValuesDisplayed>
             <report>SFDC_Success_Dashboard/csmimprovementactivitymanager3</report>
+<<<<<<< HEAD
             <sortBy>RowValueDescending</sortBy>
             <title>今月の顧客別活動数TOP10</title>
         </components>
@@ -118,11 +257,73 @@
             <chartAxisRange>Auto</chartAxisRange>
             <componentType>ColumnStacked100</componentType>
             <displayUnits>Integer</displayUnits>
+=======
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <title>今月の顧客別活動数TOP10</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <chartSummary>
+                <axisBinding>y</axisBinding>
+                <column>RowCount</column>
+            </chartSummary>
+            <componentType>Bar</componentType>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>訪問が出来ていない顧客件数（所有者ロール別）</footer>
+            <groupingColumn>ROLLUP_DESCRIPTION</groupingColumn>
+            <legendPosition>Bottom</legendPosition>
+            <report>SFDC_Success_Dashboard/CSM_NoActivity_ByRole</report>
+            <showPercentage>false</showPercentage>
+            <showPicturesOnCharts>false</showPicturesOnCharts>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>未活動顧客件数</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Column</componentType>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <header>今月の担当者別活動時間</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>SFDC_Success_Dashboard/csmimprovementactivitymanager5</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <useReportChart>true</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>ColumnStacked100</componentType>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <footer>活動時間の配分は適切か</footer>
             <header>今会計年度担当者別活動時間</header>
             <legendPosition>Bottom</legendPosition>
             <report>SFDC_Success_Dashboard/csmimprovementactivitymanager6</report>
+<<<<<<< HEAD
             <sortBy>RowLabelAscending</sortBy>
+=======
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <useReportChart>true</useReportChart>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         </components>
     </rightSection>
     <runningUser>tak4hir0@sf.dev</runningUser>

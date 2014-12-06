@@ -1,20 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+<<<<<<< HEAD
     <deploymentStatus>Deployed</deploymentStatus>
     <fields>
         <fullName>Field1__c</fullName>
         <label>締日</label>
+=======
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <fields>
+        <fullName>Field1__c</fullName>
+        <externalId>false</externalId>
+        <label>締日</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>Date</type>
     </fields>
     <fields>
         <fullName>Field2__c</fullName>
+<<<<<<< HEAD
         <label>リッチテキスト</label>
         <length>32768</length>
+=======
+        <externalId>false</externalId>
+        <label>リッチテキスト</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>Html</type>
         <visibleLines>25</visibleLines>
     </fields>
     <fields>
         <fullName>Field3__c</fullName>
+<<<<<<< HEAD
+=======
+        <externalId>false</externalId>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <label>複数</label>
         <picklist>
             <picklistValues>
@@ -27,12 +99,25 @@
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
+<<<<<<< HEAD
+=======
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>Picklist</type>
     </fields>
     <fields>
         <fullName>Response__c</fullName>
+<<<<<<< HEAD
         <label>Response</label>
         <length>32768</length>
+=======
+        <externalId>false</externalId>
+        <label>Response</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>LongTextArea</type>
         <visibleLines>3</visibleLines>
     </fields>
@@ -47,6 +132,10 @@
     <nameField>
         <displayFormat>A-{0000}</displayFormat>
         <label>Log名</label>
+<<<<<<< HEAD
+=======
+        <trackFeedHistory>true</trackFeedHistory>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>AutoNumber</type>
     </nameField>
     <searchLayouts/>

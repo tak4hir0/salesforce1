@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <apex:page docType="html-5.0" showHeader="false" standardStylesheets="true" StandardController="Event" sidebar="false" id="thePage">
 <head>
      <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1, maximum-scale=1, user-scalable=no"/> 
@@ -15,6 +16,22 @@
     left: 0;
     width: 100% !important;
     height: 100% !important;
+=======
+<apex:page showHeader="false" sidebar="false">
+<style>
+.google-maps {
+position: relative;
+padding-bottom: 75%; // これが縦横比
+height: 0;
+overflow: hidden;
+}
+.google-maps iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100% !important;
+height: 100% !important;
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
 }
 </style>
 

@@ -3,11 +3,19 @@
     <backgroundEndColor>#FFFFFF</backgroundEndColor>
     <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
     <backgroundStartColor>#FFFFFF</backgroundStartColor>
+<<<<<<< HEAD
+=======
+    <dashboardType>SpecifiedUser</dashboardType>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     <description>【要ダッシュボード修正】 左上と真ん中上、右上のゲージの目標値をそれぞれダッシュボードの編集モードで変更して下さい。
 Chatterテスト</description>
     <leftSection>
         <columnSize>Medium</columnSize>
         <components>
+<<<<<<< HEAD
+=======
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <componentType>Gauge</componentType>
             <displayUnits>Integer</displayUnits>
             <footer>～目標値を手動で変更してください～</footer>
@@ -20,6 +28,7 @@ Chatterテスト</description>
             <indicatorLowColor>#C25454</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <report>SFDC_Success_Dashboard/csmimprovementmarketingmanagerpe1</report>
+<<<<<<< HEAD
             <title>今月のリード登録件数</title>
         </components>
         <components>
@@ -44,6 +53,63 @@ Chatterテスト</description>
         <components>
             <componentType>Table</componentType>
             <displayUnits>Auto</displayUnits>
+=======
+            <showPercentage>true</showPercentage>
+            <showTotal>true</showTotal>
+            <showValues>false</showValues>
+            <title>今月のリード登録件数</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Line</componentType>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <legendPosition>Bottom</legendPosition>
+            <report>SFDC_Success_Dashboard/csmimprovementmarketingmanagerpe3</report>
+            <showPercentage>false</showPercentage>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>リード作成件数推移（今年度）</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>LineGrouped</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <header>リードソース分析</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>SFDC_Success_Dashboard/csmimprovementmarketingmanagerpe6</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>リードソース別リード件数推移（今年度）</title>
+            <useReportChart>true</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardTableColumn>
+                <column>CAMPAIGN_NAME</column>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
+                <column>RowCount</column>
+                <showTotal>true</showTotal>
+                <sortBy>RowValueDescending</sortBy>
+            </dashboardTableColumn>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <footer>リード獲得数の多いキャンペーンは何か</footer>
             <header>キャンペーン毎のリード獲得数TOP10</header>
             <indicatorHighColor>#54C254</indicatorHighColor>
@@ -51,12 +117,20 @@ Chatterテスト</description>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <maxValuesDisplayed>10</maxValuesDisplayed>
             <report>SFDC_Success_Dashboard/csmimprovementmarketingmanager1</report>
+<<<<<<< HEAD
             <sortBy>RowValueDescending</sortBy>
+=======
+            <showPicturesOnTables>true</showPicturesOnTables>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         </components>
     </leftSection>
     <middleSection>
         <columnSize>Medium</columnSize>
         <components>
+<<<<<<< HEAD
+=======
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <componentType>Gauge</componentType>
             <displayUnits>Auto</displayUnits>
             <footer>～目標値を手動で変更してください～</footer>
@@ -69,6 +143,7 @@ Chatterテスト</description>
             <indicatorLowColor>#C25454</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <report>SFDC_Success_Dashboard/csmqualityquantitymarketing1</report>
+<<<<<<< HEAD
             <title>今月の商談数（リードから作成された商談数）</title>
         </components>
         <components>
@@ -93,6 +168,68 @@ Chatterテスト</description>
         <components>
             <componentType>Table</componentType>
             <displayUnits>Auto</displayUnits>
+=======
+            <showPercentage>true</showPercentage>
+            <showTotal>true</showTotal>
+            <showValues>false</showValues>
+            <title>今月の商談数（リードから作成された商談数）</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Line</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <legendPosition>Bottom</legendPosition>
+            <report>SFDC_Success_Dashboard/csmimprovementmarketingmanagerpe4</report>
+            <showPercentage>false</showPercentage>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>商談化件数推移(今年度）</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>LineGrouped</componentType>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <header>商談リードソース分析（件数推移）</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>SFDC_Success_Dashboard/csmimprovementmarketingmanagerpe7</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelDescending</sortBy>
+            <title>リードソース別商談化件数（今年度）</title>
+            <useReportChart>true</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardTableColumn>
+                <column>CAMPAIGN_NAME</column>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
+                <column>CAMPAIGN_STARTDATE</column>
+                <showTotal>false</showTotal>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
+                <column>RowCount</column>
+                <showTotal>true</showTotal>
+                <sortBy>RowValueDescending</sortBy>
+            </dashboardTableColumn>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <footer>今年度商談作成数に一番貢献しているキャンペーンは何か</footer>
             <header>キャンペーンから発生した商談件数TOP10</header>
             <indicatorHighColor>#54C254</indicatorHighColor>
@@ -100,12 +237,20 @@ Chatterテスト</description>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <maxValuesDisplayed>10</maxValuesDisplayed>
             <report>SFDC_Success_Dashboard/Project_Suii</report>
+<<<<<<< HEAD
             <sortBy>RowValueDescending</sortBy>
+=======
+            <showPicturesOnTables>true</showPicturesOnTables>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         </components>
     </middleSection>
     <rightSection>
         <columnSize>Medium</columnSize>
         <components>
+<<<<<<< HEAD
+=======
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <componentType>Gauge</componentType>
             <displayUnits>Integer</displayUnits>
             <footer>～目標金額を手動で変更してください～</footer>
@@ -118,6 +263,7 @@ Chatterテスト</description>
             <indicatorLowColor>#C25454</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <report>SFDC_Success_Dashboard/csmimprovementmarketingmanagerpe2</report>
+<<<<<<< HEAD
             <title>今月の商談金額（リードから作成された商談金額）</title>
         </components>
         <components>
@@ -142,6 +288,69 @@ Chatterテスト</description>
         <components>
             <componentType>Table</componentType>
             <displayUnits>Millions</displayUnits>
+=======
+            <showPercentage>true</showPercentage>
+            <showTotal>true</showTotal>
+            <showValues>false</showValues>
+            <title>今月の商談金額（リードから作成された商談金額）</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Column</componentType>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <legendPosition>Bottom</legendPosition>
+            <report>SFDC_Success_Dashboard/csmimprovementmarketingmanagerpe5</report>
+            <showPercentage>false</showPercentage>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>商談化金額推移（今年度）</title>
+            <useReportChart>true</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>ColumnStacked</componentType>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <header>商談リードソース分析（金額推移）</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>SFDC_Success_Dashboard/csmimprovementmarketingmanagerpe8</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <title>リードソース別商談化金額（今年度）</title>
+            <useReportChart>true</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardTableColumn>
+                <column>CAMPAIGN_NAME</column>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
+                <column>CAMPAIGN_STARTDATE</column>
+                <showTotal>false</showTotal>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <aggregateType>Sum</aggregateType>
+                <calculatePercent>false</calculatePercent>
+                <column>AMOUNT</column>
+                <showTotal>true</showTotal>
+                <sortBy>RowValueDescending</sortBy>
+            </dashboardTableColumn>
+            <displayUnits>Millions</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <footer>今年度商談作成金額に一番貢献しているキャンペーンは何か</footer>
             <header>キャンペーンから発生した商談金額TOP10</header>
             <indicatorHighColor>#54C254</indicatorHighColor>
@@ -149,7 +358,11 @@ Chatterテスト</description>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <maxValuesDisplayed>10</maxValuesDisplayed>
             <report>SFDC_Success_Dashboard/csmimprovementmarketingmanager3</report>
+<<<<<<< HEAD
             <sortBy>RowValueDescending</sortBy>
+=======
+            <showPicturesOnTables>true</showPicturesOnTables>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         </components>
     </rightSection>
     <runningUser>tak4hir0@sf.dev</runningUser>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
+<<<<<<< HEAD
+=======
+        <plural>false</plural>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <value>Account</value>
     </caseValues>
     <fields>
@@ -53,10 +57,13 @@
         <name>ExternalID__c</name>
     </fields>
     <fields>
+<<<<<<< HEAD
         <label><!-- 外部キー --></label>
         <name>ForeignKey__c</name>
     </fields>
     <fields>
+=======
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <label><!-- HTML Formatted --></label>
         <name>HTMLFormatted__c</name>
     </fields>
@@ -98,6 +105,7 @@
         <name>Nillable__c</name>
     </fields>
     <fields>
+<<<<<<< HEAD
         <label><!-- 商談名 --></label>
         <name>OppName__c</name>
     </fields>
@@ -107,6 +115,8 @@
         <relationshipLabel><!-- Account --></relationshipLabel>
     </fields>
     <fields>
+=======
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <label><!-- Picklist Values --></label>
         <name>PicklistValues__c</name>
     </fields>

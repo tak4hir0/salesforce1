@@ -31,7 +31,13 @@
         <criteriaItems>
             <column>User.CollaborationGroup$OwnerId.FeedItems.Comments$Id</column>
             <operator>notEqual</operator>
+<<<<<<< HEAD
         </criteriaItems>
+=======
+            <value></value>
+        </criteriaItems>
+        <language>ja</language>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     </filter>
     <format>Summary</format>
     <groupingsDown>

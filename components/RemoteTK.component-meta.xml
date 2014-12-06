@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ApexComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+<<<<<<< HEAD
+=======
+    <apiVersion>29.0</apiVersion>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     <label>RemoteTK</label>
 </ApexComponent>

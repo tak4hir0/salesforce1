@@ -1,13 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+<<<<<<< HEAD
     <deploymentStatus>Deployed</deploymentStatus>
     <fields>
         <fullName>Access_Token_URL__c</fullName>
         <label>Access Token URL</label>
+=======
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <fields>
+        <fullName>Access_Token_URL__c</fullName>
+        <externalId>false</externalId>
+        <label>Access Token URL</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>Url</type>
     </fields>
     <fields>
         <fullName>Authorization_Type__c</fullName>
+<<<<<<< HEAD
+=======
+        <externalId>false</externalId>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <label>Authorization Type</label>
         <picklist>
             <picklistValues>
@@ -24,15 +87,27 @@
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
+<<<<<<< HEAD
+=======
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>Picklist</type>
     </fields>
     <fields>
         <fullName>Authorization_URL__c</fullName>
+<<<<<<< HEAD
         <label>Authorization URL</label>
+=======
+        <externalId>false</externalId>
+        <label>Authorization URL</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>Url</type>
     </fields>
     <fields>
         <fullName>Consumer_Key__c</fullName>
+<<<<<<< HEAD
         <label>Consumer Key</label>
         <length>255</length>
         <type>Text</type>
@@ -46,15 +121,52 @@
     <fields>
         <fullName>Redirect_URL__c</fullName>
         <label>Redirect URL</label>
+=======
+        <externalId>false</externalId>
+        <label>Consumer Key</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Consumer_Secret__c</fullName>
+        <externalId>false</externalId>
+        <label>Consumer Secret</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Redirect_URL__c</fullName>
+        <externalId>false</externalId>
+        <label>Redirect URL</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>Url</type>
     </fields>
     <fields>
         <fullName>Request_Token_URL__c</fullName>
+<<<<<<< HEAD
         <label>Request Token URL</label>
+=======
+        <externalId>false</externalId>
+        <label>Request Token URL</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>Url</type>
     </fields>
     <fields>
         <fullName>Response_Type__c</fullName>
+<<<<<<< HEAD
+=======
+        <externalId>false</externalId>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <label>Response Type</label>
         <picklist>
             <picklistValues>
@@ -67,13 +179,27 @@
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
+<<<<<<< HEAD
+=======
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>Picklist</type>
     </fields>
     <fields>
         <fullName>Scope__c</fullName>
+<<<<<<< HEAD
         <label>Scope</label>
         <length>255</length>
         <type>Text</type>
+=======
+        <externalId>false</externalId>
+        <label>Scope</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     </fields>
     <label>OAuth Service</label>
     <listViews>
@@ -167,7 +293,14 @@
         <fullName>Authorizaion</fullName>
         <availability>online</availability>
         <displayType>button</displayType>
+<<<<<<< HEAD
         <hasScrollbars>true</hasScrollbars>
+=======
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <height>600</height>
         <isResizable>true</isResizable>
         <linkType>url</linkType>
@@ -175,12 +308,21 @@
         <openType>newWindow</openType>
         <position>none</position>
         <protected>false</protected>
+<<<<<<< HEAD
+=======
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <url>/apex/OAuthAuthorize?id={!OAuthService__c.Id}&amp;state={!OAuthService__c.Id}</url>
     </webLinks>
     <webLinks>
         <fullName>NewLead</fullName>
         <availability>online</availability>
         <displayType>button</displayType>
+<<<<<<< HEAD
+=======
+        <encodingKey>UTF-8</encodingKey>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <linkType>url</linkType>
         <masterLabel>新規リード</masterLabel>
         <openType>replace</openType>

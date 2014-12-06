@@ -3,11 +3,19 @@
     <backgroundEndColor>#FFFFFF</backgroundEndColor>
     <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
     <backgroundStartColor>#FFFFFF</backgroundStartColor>
+<<<<<<< HEAD
+=======
+    <dashboardType>SpecifiedUser</dashboardType>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     <description>【要ダッシュボード修正】 左上と真ん中上、右上のゲージの目標値をそれぞれダッシュボードの編集モードで変更して下さい。
 【要レポート修正】 全社の列に関しては修正は不要ですが、真ん中列、右列の縦列すべてのレポート条件を変更して下さい。</description>
     <leftSection>
         <columnSize>Medium</columnSize>
         <components>
+<<<<<<< HEAD
+=======
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <componentType>Gauge</componentType>
             <displayUnits>Integer</displayUnits>
             <footer>～目標値を手動で変更してください～</footer>
@@ -20,6 +28,7 @@
             <indicatorLowColor>#C25454</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <report>SFDC_Success_Dashboard/csmimprovementkpiseniormanager1</report>
+<<<<<<< HEAD
             <title>今四半期の達成度</title>
         </components>
         <components>
@@ -34,43 +43,159 @@
         <components>
             <componentType>Table</componentType>
             <displayUnits>Integer</displayUnits>
+=======
+            <showPercentage>true</showPercentage>
+            <showTotal>true</showTotal>
+            <showValues>false</showValues>
+            <title>今四半期の達成度</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Bar</componentType>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>true</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <legendPosition>Bottom</legendPosition>
+            <report>SFDC_Success_Dashboard/csmimprovementkpiseniormanager2</report>
+            <showPercentage>false</showPercentage>
+            <showPicturesOnCharts>false</showPicturesOnCharts>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>今四半期商談</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardTableColumn>
+                <column>STAGE_NAME</column>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
+                <column>OPPORTUNITY_NAME</column>
+                <showTotal>false</showTotal>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <aggregateType>Sum</aggregateType>
+                <calculatePercent>false</calculatePercent>
+                <column>AMOUNT</column>
+                <showTotal>true</showTotal>
+                <sortBy>RowValueDescending</sortBy>
+            </dashboardTableColumn>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <indicatorHighColor>#54C254</indicatorHighColor>
             <indicatorLowColor>#C25454</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <maxValuesDisplayed>5</maxValuesDisplayed>
             <report>SFDC_Success_Dashboard/csmimprovementkpiseniormanager3</report>
+<<<<<<< HEAD
             <sortBy>RowValueDescending</sortBy>
             <title>今翌四半期進行中商談金額TOP5</title>
         </components>
         <components>
             <componentType>Table</componentType>
             <displayUnits>Integer</displayUnits>
+=======
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <title>今翌四半期進行中商談金額TOP5</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardTableColumn>
+                <column>FULL_NAME</column>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
+                <column>OPPORTUNITY_NAME</column>
+                <showTotal>false</showTotal>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <aggregateType>Sum</aggregateType>
+                <calculatePercent>false</calculatePercent>
+                <column>AMOUNT</column>
+                <showTotal>true</showTotal>
+                <sortBy>RowValueDescending</sortBy>
+            </dashboardTableColumn>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <indicatorHighColor>#54C254</indicatorHighColor>
             <indicatorLowColor>#C25454</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <maxValuesDisplayed>5</maxValuesDisplayed>
             <report>SFDC_Success_Dashboard/csmimprovementkpiseniormanager1</report>
+<<<<<<< HEAD
             <sortBy>RowValueDescending</sortBy>
             <title>今四半期で受注した商談TOP5</title>
         </components>
         <components>
             <componentType>Table</componentType>
             <displayUnits>Integer</displayUnits>
+=======
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <title>今四半期で受注した商談TOP5</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardTableColumn>
+                <column>STAGE_NAME</column>
+                <sortBy>RowLabelDescending</sortBy>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
+                <column>OPPORTUNITY_NAME</column>
+                <showTotal>false</showTotal>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <aggregateType>Sum</aggregateType>
+                <calculatePercent>false</calculatePercent>
+                <column>AMOUNT</column>
+                <showTotal>true</showTotal>
+            </dashboardTableColumn>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <indicatorHighColor>#54C254</indicatorHighColor>
             <indicatorLowColor>#C25454</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <maxValuesDisplayed>5</maxValuesDisplayed>
             <report>SFDC_Success_Dashboard/csmimprovementkpiseniormanager4</report>
+<<<<<<< HEAD
             <sortBy>RowLabelDescending</sortBy>
             <title>翌７日間完了予定商談金額TOP5</title>
         </components>
         <components>
             <componentType>Table</componentType>
             <displayUnits>Integer</displayUnits>
+=======
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <title>翌７日間完了予定商談金額TOP5</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <indicatorHighColor>#54C254</indicatorHighColor>
             <indicatorLowColor>#C25454</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <report>SFDC_Success_Dashboard/csmimprovementkpiseniormanager_LOST</report>
+<<<<<<< HEAD
+=======
+            <showPicturesOnTables>true</showPicturesOnTables>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <sortBy>RowValueDescending</sortBy>
             <title>過去7日間に失注した商談一覧</title>
         </components>
@@ -78,6 +203,10 @@
     <middleSection>
         <columnSize>Medium</columnSize>
         <components>
+<<<<<<< HEAD
+=======
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <componentType>Gauge</componentType>
             <displayUnits>Integer</displayUnits>
             <footer>～目標値を手動で変更してください、該当部門をレポートで定義してください～</footer>
@@ -90,6 +219,7 @@
             <indicatorLowColor>#C25454</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <report>SFDC_Success_Dashboard/csmimprovementkpiseniormanager6</report>
+<<<<<<< HEAD
             <title>今四半期の達成度</title>
         </components>
         <components>
@@ -104,43 +234,159 @@
         <components>
             <componentType>Table</componentType>
             <displayUnits>Integer</displayUnits>
+=======
+            <showPercentage>true</showPercentage>
+            <showTotal>true</showTotal>
+            <showValues>false</showValues>
+            <title>今四半期の達成度</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Bar</componentType>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>true</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <legendPosition>Bottom</legendPosition>
+            <report>SFDC_Success_Dashboard/csmimprovementkpiseniormanager8</report>
+            <showPercentage>false</showPercentage>
+            <showPicturesOnCharts>false</showPicturesOnCharts>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>今四半期商談</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardTableColumn>
+                <column>STAGE_NAME</column>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
+                <column>OPPORTUNITY_NAME</column>
+                <showTotal>false</showTotal>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <aggregateType>Sum</aggregateType>
+                <calculatePercent>false</calculatePercent>
+                <column>AMOUNT</column>
+                <showTotal>true</showTotal>
+                <sortBy>RowValueDescending</sortBy>
+            </dashboardTableColumn>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <indicatorHighColor>#54C254</indicatorHighColor>
             <indicatorLowColor>#C25454</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <maxValuesDisplayed>5</maxValuesDisplayed>
             <report>SFDC_Success_Dashboard/csmimprovementkpiseniormanager10</report>
+<<<<<<< HEAD
             <sortBy>RowValueDescending</sortBy>
             <title>今翌四半期進行中商談金額TOP5</title>
         </components>
         <components>
             <componentType>Table</componentType>
             <displayUnits>Integer</displayUnits>
+=======
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <title>今翌四半期進行中商談金額TOP5</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardTableColumn>
+                <column>FULL_NAME</column>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
+                <column>OPPORTUNITY_NAME</column>
+                <showTotal>false</showTotal>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <aggregateType>Sum</aggregateType>
+                <calculatePercent>false</calculatePercent>
+                <column>AMOUNT</column>
+                <showTotal>true</showTotal>
+                <sortBy>RowValueDescending</sortBy>
+            </dashboardTableColumn>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <indicatorHighColor>#54C254</indicatorHighColor>
             <indicatorLowColor>#C25454</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <maxValuesDisplayed>5</maxValuesDisplayed>
             <report>SFDC_Success_Dashboard/csmimprovementkpiseniormanager6</report>
+<<<<<<< HEAD
             <sortBy>RowValueDescending</sortBy>
             <title>今四半期で受注した商談TOP5</title>
         </components>
         <components>
             <componentType>Table</componentType>
             <displayUnits>Integer</displayUnits>
+=======
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <title>今四半期で受注した商談TOP5</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardTableColumn>
+                <column>STAGE_NAME</column>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
+                <column>OPPORTUNITY_NAME</column>
+                <showTotal>false</showTotal>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <aggregateType>Sum</aggregateType>
+                <calculatePercent>false</calculatePercent>
+                <column>AMOUNT</column>
+                <showTotal>true</showTotal>
+                <sortBy>RowValueDescending</sortBy>
+            </dashboardTableColumn>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <indicatorHighColor>#54C254</indicatorHighColor>
             <indicatorLowColor>#C25454</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <maxValuesDisplayed>5</maxValuesDisplayed>
             <report>SFDC_Success_Dashboard/csmimprovementkpiseniormanager14</report>
+<<<<<<< HEAD
             <sortBy>RowValueDescending</sortBy>
             <title>翌７日間完了予定商談金額TOP5</title>
         </components>
         <components>
             <componentType>Table</componentType>
             <displayUnits>Integer</displayUnits>
+=======
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <title>翌７日間完了予定商談金額TOP5</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <indicatorHighColor>#54C254</indicatorHighColor>
             <indicatorLowColor>#C25454</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <report>SFDC_Success_Dashboard/csmimprovementkpiseniormanager_LOST2</report>
+<<<<<<< HEAD
+=======
+            <showPicturesOnTables>true</showPicturesOnTables>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <sortBy>RowValueDescending</sortBy>
             <title>過去7日間に失注した商談一覧</title>
         </components>
@@ -148,6 +394,10 @@
     <rightSection>
         <columnSize>Medium</columnSize>
         <components>
+<<<<<<< HEAD
+=======
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <componentType>Gauge</componentType>
             <displayUnits>Integer</displayUnits>
             <footer>～目標値を手動で変更してください、該当部門をレポートで定義してください～</footer>
@@ -160,6 +410,7 @@
             <indicatorLowColor>#C25454</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <report>SFDC_Success_Dashboard/csmimprovementkpiseniormanager7</report>
+<<<<<<< HEAD
             <title>今四半期の達成度</title>
         </components>
         <components>
@@ -174,43 +425,159 @@
         <components>
             <componentType>Table</componentType>
             <displayUnits>Integer</displayUnits>
+=======
+            <showPercentage>true</showPercentage>
+            <showTotal>true</showTotal>
+            <showValues>false</showValues>
+            <title>今四半期の達成度</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Bar</componentType>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>true</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <legendPosition>Bottom</legendPosition>
+            <report>SFDC_Success_Dashboard/csmimprovementkpiseniormanager9</report>
+            <showPercentage>false</showPercentage>
+            <showPicturesOnCharts>false</showPicturesOnCharts>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>今四半期商談</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardTableColumn>
+                <column>STAGE_NAME</column>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
+                <column>OPPORTUNITY_NAME</column>
+                <showTotal>false</showTotal>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <aggregateType>Sum</aggregateType>
+                <calculatePercent>false</calculatePercent>
+                <column>AMOUNT</column>
+                <showTotal>true</showTotal>
+                <sortBy>RowValueDescending</sortBy>
+            </dashboardTableColumn>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <indicatorHighColor>#54C254</indicatorHighColor>
             <indicatorLowColor>#C25454</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <maxValuesDisplayed>5</maxValuesDisplayed>
             <report>SFDC_Success_Dashboard/csmimprovementkpiseniormanager11</report>
+<<<<<<< HEAD
             <sortBy>RowValueDescending</sortBy>
             <title>今翌四半期進行中商談金額TOP5</title>
         </components>
         <components>
             <componentType>Table</componentType>
             <displayUnits>Integer</displayUnits>
+=======
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <title>今翌四半期進行中商談金額TOP5</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardTableColumn>
+                <column>FULL_NAME</column>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
+                <column>OPPORTUNITY_NAME</column>
+                <showTotal>false</showTotal>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <aggregateType>Sum</aggregateType>
+                <calculatePercent>false</calculatePercent>
+                <column>AMOUNT</column>
+                <showTotal>true</showTotal>
+                <sortBy>RowValueDescending</sortBy>
+            </dashboardTableColumn>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <indicatorHighColor>#54C254</indicatorHighColor>
             <indicatorLowColor>#C25454</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <maxValuesDisplayed>5</maxValuesDisplayed>
             <report>SFDC_Success_Dashboard/csmimprovementkpiseniormanager7</report>
+<<<<<<< HEAD
             <sortBy>RowValueDescending</sortBy>
             <title>今四半期で受注した商談TOP5</title>
         </components>
         <components>
             <componentType>Table</componentType>
             <displayUnits>Integer</displayUnits>
+=======
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <title>今四半期で受注した商談TOP5</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardTableColumn>
+                <column>STAGE_NAME</column>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
+                <column>OPPORTUNITY_NAME</column>
+                <showTotal>false</showTotal>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <aggregateType>Sum</aggregateType>
+                <calculatePercent>false</calculatePercent>
+                <column>AMOUNT</column>
+                <showTotal>true</showTotal>
+                <sortBy>RowValueDescending</sortBy>
+            </dashboardTableColumn>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <indicatorHighColor>#54C254</indicatorHighColor>
             <indicatorLowColor>#C25454</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <maxValuesDisplayed>5</maxValuesDisplayed>
             <report>SFDC_Success_Dashboard/csmimprovementkpiseniormanager15</report>
+<<<<<<< HEAD
             <sortBy>RowValueDescending</sortBy>
             <title>翌７日間完了予定商談金額TOP5</title>
         </components>
         <components>
             <componentType>Table</componentType>
             <displayUnits>Integer</displayUnits>
+=======
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <title>翌７日間完了予定商談金額TOP5</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <indicatorHighColor>#54C254</indicatorHighColor>
             <indicatorLowColor>#C25454</indicatorLowColor>
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <report>SFDC_Success_Dashboard/csmimprovementkpiseniormanager_LOST3</report>
+<<<<<<< HEAD
+=======
+            <showPicturesOnTables>true</showPicturesOnTables>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
             <sortBy>RowValueDescending</sortBy>
             <title>過去7日間に失注した商談一覧</title>
         </components>

@@ -4,6 +4,7 @@
         <backgroundColor1>#FFFFFF</backgroundColor1>
         <backgroundColor2>#FFFFFF</backgroundColor2>
         <backgroundFadeDir>Diagonal</backgroundFadeDir>
+<<<<<<< HEAD
         <chartType>Line</chartType>
         <groupingColumn>Site_Metric_Date__c$Start_Date__c</groupingColumn>
         <legendPosition>Right</legendPosition>
@@ -13,6 +14,24 @@
         <summaryAggregate>Sum</summaryAggregate>
         <summaryAxisRange>Auto</summaryAxisRange>
         <summaryColumn>Site_Metric_Date__c.Site_Metrics__r$Value__c</summaryColumn>
+=======
+        <chartSummaries>
+            <aggregate>Sum</aggregate>
+            <axisBinding>y</axisBinding>
+            <column>Site_Metric_Date__c.Site_Metrics__r$Value__c</column>
+        </chartSummaries>
+        <chartType>Line</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>Site_Metric_Date__c$Start_Date__c</groupingColumn>
+        <location>CHART_TOP</location>
+        <showAxisLabels>true</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <textColor>#000000</textColor>
         <textSize>12</textSize>
         <title>Page Views per Visit</title>
@@ -29,6 +48,10 @@
             <operator>equals</operator>
             <value>ga:pageviewsPerVisit</value>
         </criteriaItems>
+<<<<<<< HEAD
+=======
+        <language>ja</language>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     </filter>
     <format>Summary</format>
     <groupingsDown>

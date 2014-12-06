@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+<<<<<<< HEAD
     <deploymentStatus>Deployed</deploymentStatus>
     <fields>
         <fullName>Access_Token__c</fullName>
@@ -11,10 +12,80 @@
         <fullName>Expires_Date__c</fullName>
         <formula>IF(ISBLANK(Expires_In__c), null, LastModifiedDate +  Expires_In__c / (60 * 60 * 24))</formula>
         <label>Expires_Date</label>
+=======
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <fields>
+        <fullName>Access_Token__c</fullName>
+        <externalId>false</externalId>
+        <label>Access Token</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Expires_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(Expires_In__c), null, LastModifiedDate +  Expires_In__c / (60 * 60 * 24))</formula>
+        <label>Expires_Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>DateTime</type>
     </fields>
     <fields>
         <fullName>Expires_In__c</fullName>
+<<<<<<< HEAD
         <label>Expires In</label>
         <precision>18</precision>
         <scale>0</scale>
@@ -22,11 +93,26 @@
     </fields>
     <fields>
         <fullName>OAuth_Service__c</fullName>
+=======
+        <externalId>false</externalId>
+        <label>Expires In</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OAuth_Service__c</fullName>
+        <externalId>false</externalId>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <label>OAuth Service</label>
         <referenceTo>OAuthService__c</referenceTo>
         <relationshipLabel>OAuth2 Tokens</relationshipLabel>
         <relationshipName>OAuth2_Tokens</relationshipName>
         <relationshipOrder>0</relationshipOrder>
+<<<<<<< HEAD
         <type>MasterDetail</type>
     </fields>
     <fields>
@@ -34,10 +120,27 @@
         <label>Owner</label>
         <referenceTo>User</referenceTo>
         <relationshipName>OAuth2_Tokens</relationshipName>
+=======
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>OAuth2_Tokens</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Refresh_Token__c</fullName>
+<<<<<<< HEAD
         <label>Refresh Token</label>
         <length>255</length>
         <type>Text</type>
@@ -53,6 +156,35 @@
         <label>Token Type</label>
         <length>255</length>
         <type>Text</type>
+=======
+        <externalId>false</externalId>
+        <label>Refresh Token</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Scope__c</fullName>
+        <externalId>false</externalId>
+        <label>Scope</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Token_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Token Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     </fields>
     <label>OAuth2 Token</label>
     <nameField>

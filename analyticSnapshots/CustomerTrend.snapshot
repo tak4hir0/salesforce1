@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnalyticSnapshot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <groupColumn>USERS.NAME</groupColumn>
+    <mappings>
+        <sourceField>JobName</sourceField>
+        <sourceType>snapshot</sourceType>
+        <targetField>CustomerTrend__c.Name</targetField>
+    </mappings>
+    <mappings>
+        <sourceField>RowCount</sourceField>
+        <sourceType>summary</sourceType>
+        <targetField>CustomerTrend__c.Field2__c</targetField>
+    </mappings>
+    <mappings>
+        <sourceField>ExecutionTime</sourceField>
+        <sourceType>snapshot</sourceType>
+        <targetField>CustomerTrend__c.date__c</targetField>
+    </mappings>
+    <name>顧客数変遷</name>
+    <runningUser>tak4hir0@sf.dev</runningUser>
+    <sourceReport>ROI_folder/ROI_accountnumber</sourceReport>
+    <targetObject>CustomerTrend__c</targetObject>
+</AnalyticSnapshot>

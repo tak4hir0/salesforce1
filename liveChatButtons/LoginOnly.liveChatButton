@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LiveChatButton xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deployments/>
+    <enableQueue>false</enableQueue>
+    <isActive>true</isActive>
+    <label>ログインだけ</label>
+    <offlineImage>LiveAgentOffline</offlineImage>
+    <onlineImage>LiveAgentOnline</onlineImage>
+    <optionsCustomRoutingIsEnabled>false</optionsCustomRoutingIsEnabled>
+    <optionsHasInviteAfterAccept>false</optionsHasInviteAfterAccept>
+    <optionsHasInviteAfterReject>false</optionsHasInviteAfterReject>
+    <optionsHasRerouteDeclinedRequest>false</optionsHasRerouteDeclinedRequest>
+    <optionsIsAutoAccept>false</optionsIsAutoAccept>
+    <optionsIsInviteAutoRemove>false</optionsIsInviteAutoRemove>
+    <pushTimeOut>30</pushTimeOut>
+    <routingType>LeastActive</routingType>
+    <site>SiteDemo</site>
+    <skills>
+        <skill>Login</skill>
+    </skills>
+    <type>Standard</type>
+    <windowLanguage>ja</windowLanguage>
+</LiveChatButton>

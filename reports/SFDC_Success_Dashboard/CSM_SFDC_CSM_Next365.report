@@ -4,16 +4,39 @@
         <backgroundColor1>#000000</backgroundColor1>
         <backgroundColor2>#000064</backgroundColor2>
         <backgroundFadeDir>Diagonal</backgroundFadeDir>
+<<<<<<< HEAD
         <chartType>VerticalColumnStackedLine</chartType>
+=======
+        <chartSummaries>
+            <aggregate>Sum</aggregate>
+            <axisBinding>y</axisBinding>
+            <column>AMOUNT</column>
+        </chartSummaries>
+        <chartSummaries>
+            <axisBinding>y2</axisBinding>
+            <column>RowCount</column>
+        </chartSummaries>
+        <chartType>VerticalColumnStackedLine</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <groupingColumn>CLOSE_MONTH</groupingColumn>
         <legendPosition>Bottom</legendPosition>
         <location>CHART_TOP</location>
         <secondaryGroupingColumn>STAGE_NAME</secondaryGroupingColumn>
         <showAxisLabels>true</showAxisLabels>
+<<<<<<< HEAD
         <size>Large</size>
         <summaryAggregate>Sum</summaryAggregate>
         <summaryAxisRange>Auto</summaryAxisRange>
         <summaryColumn>AMOUNT</summaryColumn>
+=======
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Large</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <textColor>#000000</textColor>
         <textSize>14</textSize>
         <titleColor>#FFFFFF</titleColor>
@@ -62,6 +85,10 @@
             <operator>equals</operator>
             <value>NEXT_N_DAYS:365</value>
         </criteriaItems>
+<<<<<<< HEAD
+=======
+        <language>ja</language>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     </filter>
     <format>Summary</format>
     <groupingsDown>

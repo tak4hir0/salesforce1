@@ -1,4 +1,9 @@
 <apex:page >
+<<<<<<< HEAD
     <!--input type="text" x-webkit-speech-->
     <iframe src='https://embed.verite.co/timeline/?source=0Agvp138KtwVGdDl5VkEzQUgxYXZFY0xWb3c1SlM1bGc&font=Bevan-PotanoSans&maptype=toner&lang=en&height=650' width='100%' height='650' frameborder='0'></iframe>
+=======
+    <input type="text" x-webkit-speech>
+    <iframe src='http://embed.verite.co/timeline/?source=0Agvp138KtwVGdDl5VkEzQUgxYXZFY0xWb3c1SlM1bGc&font=Bevan-PotanoSans&maptype=toner&lang=en&height=650' width='100%' height='650' frameborder='0'></iframe>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
 </apex:page>

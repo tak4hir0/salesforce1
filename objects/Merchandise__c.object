@@ -1,19 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+<<<<<<< HEAD
     <deploymentStatus>Deployed</deploymentStatus>
     <fields>
         <fullName>Date__c</fullName>
         <label>日付</label>
+=======
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <fields>
+        <fullName>Date__c</fullName>
+        <externalId>false</externalId>
+        <label>日付</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>Date</type>
     </fields>
     <fields>
         <fullName>Description__c</fullName>
+<<<<<<< HEAD
         <label>備考</label>
         <required>true</required>
+=======
+        <externalId>false</externalId>
+        <label>備考</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>TextArea</type>
     </fields>
     <fields>
         <fullName>Field1__c</fullName>
+<<<<<<< HEAD
+=======
+        <externalId>false</externalId>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <label>複数選択リスト</label>
         <picklist>
             <picklistValues>
@@ -38,11 +108,16 @@
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
+<<<<<<< HEAD
+=======
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>MultiselectPicklist</type>
         <visibleLines>4</visibleLines>
     </fields>
     <fields>
         <fullName>Field2__c</fullName>
+<<<<<<< HEAD
         <formula>IF(INCLUDES(Field1__c, &quot;A&quot;), &quot;A&quot;, &quot;&quot;) &amp; IF(INCLUDES(Field1__c, &quot;B&quot;), &quot;B&quot;, &quot;&quot;) &amp; IF(INCLUDES(Field1__c, &quot;C&quot;), &quot;C&quot;, &quot;&quot;) &amp; IF(INCLUDES(Field1__c, &quot;D&quot;), &quot;D&quot;, &quot;&quot;) &amp; IF(INCLUDES(Field1__c, &quot;E&quot;), &quot;E&quot;, &quot;&quot;)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>複数選択リストをテキスト</label>
@@ -50,6 +125,20 @@
     </fields>
     <fields>
         <fullName>Field3__c</fullName>
+=======
+        <externalId>false</externalId>
+        <formula>IF(INCLUDES(Field1__c, &quot;A&quot;), &quot;A&quot;, &quot;&quot;) &amp; IF(INCLUDES(Field1__c, &quot;B&quot;), &quot;B&quot;, &quot;&quot;) &amp; IF(INCLUDES(Field1__c, &quot;C&quot;), &quot;C&quot;, &quot;&quot;) &amp; IF(INCLUDES(Field1__c, &quot;D&quot;), &quot;D&quot;, &quot;&quot;) &amp; IF(INCLUDES(Field1__c, &quot;E&quot;), &quot;E&quot;, &quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>複数選択リストをテキスト</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Field3__c</fullName>
+        <externalId>false</externalId>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <label>選択リスト</label>
         <picklist>
             <picklistValues>
@@ -74,10 +163,15 @@
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
+<<<<<<< HEAD
+=======
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>Picklist</type>
     </fields>
     <fields>
         <fullName>Field4__c</fullName>
+<<<<<<< HEAD
         <formula>IF(CONTAINS(Field2__c ,  TEXT(Field3__c)),&quot;ある&quot;, &quot;ない&quot;)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>複数選択リストに値があるか？</label>
@@ -88,10 +182,31 @@
         <label>取引先</label>
         <referenceTo>Account</referenceTo>
         <relationshipName>Merchandise</relationshipName>
+=======
+        <externalId>false</externalId>
+        <formula>IF(CONTAINS(Field2__c ,  TEXT(Field3__c)),&quot;ある&quot;, &quot;ない&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>複数選択リストに値があるか？</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Field5__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>取引先</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipName>Merchandise</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Past__c</fullName>
+<<<<<<< HEAD
         <formula>IF(Date__c &lt;  TODAY(), &quot;過去&quot;, &quot;未来&quot;)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>過去</label>
@@ -99,19 +214,47 @@
     </fields>
     <fields>
         <fullName>Price__c</fullName>
+=======
+        <externalId>false</externalId>
+        <formula>IF(Date__c &lt;  TODAY(), &quot;過去&quot;, &quot;未来&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>過去</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Price__c</fullName>
+        <externalId>false</externalId>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <label>Price</label>
         <precision>18</precision>
         <required>true</required>
         <scale>2</scale>
+<<<<<<< HEAD
+=======
+        <trackTrending>false</trackTrending>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <type>Currency</type>
     </fields>
     <fields>
         <fullName>Total_Inventory__c</fullName>
+<<<<<<< HEAD
+=======
+        <externalId>false</externalId>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <label>Total Inventory</label>
         <precision>18</precision>
         <required>true</required>
         <scale>0</scale>
+<<<<<<< HEAD
         <type>Number</type>
+=======
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     </fields>
     <label>コンベア</label>
     <listViews>

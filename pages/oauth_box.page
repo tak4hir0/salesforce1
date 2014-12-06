@@ -1,5 +1,9 @@
 <apex:page controller="OauthBox_con"  action="{!checkAuthorization}" title="Authorization Page">
+<<<<<<< HEAD
     <apex:stylesheet value="{!URLFOR($Resource.jquery, 'css/ui-lightness/jquery-ui-1.8.16.custom.css')}" />
+=======
+    <apex:stylesheet value="{!URLFOR($Resource.jQuery, 'css/ui-lightness/jquery-ui-1.8.16.custom.css')}" />
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     <style>
         .btn{width:130px;height:30px}
     </style> 

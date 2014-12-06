@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <apex:page controller="OAuthApiTestController" showHeader="false" sidebar="false">
+=======
+<apex:page controller="OAuthApiTestController">
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
     <style>
         .RequestForm input[type=text]:disabled,
         .RequestForm textarea:disabled {

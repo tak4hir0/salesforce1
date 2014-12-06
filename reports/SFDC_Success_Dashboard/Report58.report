@@ -5,6 +5,10 @@
         <datatype>number</datatype>
         <developerName>FORMULA2</developerName>
         <isActive>true</isActive>
+<<<<<<< HEAD
+=======
+        <isCrossBlock>false</isCrossBlock>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <masterLabel>メンバー数</masterLabel>
         <scale>0</scale>
     </aggregates>
@@ -13,6 +17,10 @@
         <datatype>number</datatype>
         <developerName>FORMULA3</developerName>
         <isActive>false</isActive>
+<<<<<<< HEAD
+=======
+        <isCrossBlock>false</isCrossBlock>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <masterLabel>投稿数</masterLabel>
         <scale>0</scale>
     </aggregates>
@@ -21,6 +29,10 @@
         <datatype>number</datatype>
         <developerName>FORMULA4</developerName>
         <isActive>false</isActive>
+<<<<<<< HEAD
+=======
+        <isCrossBlock>false</isCrossBlock>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <masterLabel>コメント数</masterLabel>
         <scale>0</scale>
     </aggregates>
@@ -29,6 +41,10 @@
         <datatype>number</datatype>
         <developerName>FORMULA5</developerName>
         <isActive>true</isActive>
+<<<<<<< HEAD
+=======
+        <isCrossBlock>false</isCrossBlock>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <masterLabel>投稿＆コメント＆いいね数</masterLabel>
         <scale>0</scale>
     </aggregates>
@@ -36,15 +52,33 @@
         <backgroundColor1>#FFFFFF</backgroundColor1>
         <backgroundColor2>#FFFFFF</backgroundColor2>
         <backgroundFadeDir>Diagonal</backgroundFadeDir>
+<<<<<<< HEAD
         <chartType>HorizontalBarGrouped</chartType>
+=======
+        <chartSummaries>
+            <axisBinding>y</axisBinding>
+            <column>FORMULA2</column>
+        </chartSummaries>
+        <chartType>HorizontalBarGrouped</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <groupingColumn>User.CollaborationGroup$CreatedById$Name</groupingColumn>
         <legendPosition>Right</legendPosition>
         <location>CHART_BOTTOM</location>
         <secondaryGroupingColumn>User.CollaborationGroup$CreatedById$LastFeedModifiedDate</secondaryGroupingColumn>
         <showAxisLabels>true</showAxisLabels>
+<<<<<<< HEAD
         <size>Medium</size>
         <summaryAxisRange>Auto</summaryAxisRange>
         <summaryColumn>FORMULA2</summaryColumn>
+=======
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+>>>>>>> d86af2223b9040b6337f5479af3c67fa3e9917be
         <textColor>#000000</textColor>
         <textSize>12</textSize>
         <titleColor>#000000</titleColor>
